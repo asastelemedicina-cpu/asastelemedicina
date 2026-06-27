@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import heroDoctor from "@/assets/hero-doctor.jpg";
+import asasLogo from "@/assets/asas-logo.asset.json";
 import {
   Brain,
   Stethoscope,
@@ -10,7 +11,6 @@ import {
   FileText,
   ShieldCheck,
   Clock,
-  Video,
   MessageCircle,
   Check,
 } from "lucide-react";
@@ -97,9 +97,11 @@ function Index() {
       <header className="absolute top-0 left-0 right-0 z-20">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-6">
           <a href="#top" className="flex items-center gap-2">
-            <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-azure-deep text-primary-foreground">
-              <Video className="h-4 w-4" />
-            </span>
+            <img
+              src={asasLogo.url}
+              alt="Asas Telemedicina"
+              className="h-11 w-11 rounded-full object-cover ring-1 ring-border"
+            />
             <span className="font-display text-lg font-semibold tracking-tight">
               Clínica Popular <span className="text-lilac">Asas Telemedicina</span>
             </span>
@@ -169,6 +171,9 @@ function Index() {
               height={1536}
               className="relative aspect-square w-full rounded-3xl object-cover shadow-2xl shadow-azure-deep/10"
             />
+            <div className="absolute -top-5 -right-5 hidden h-24 w-24 items-center justify-center rounded-2xl border border-border bg-card p-2 shadow-xl md:flex">
+              <img src={asasLogo.url} alt="Logo Asas Telemedicina" className="h-full w-full object-contain" />
+            </div>
             <div className="absolute -bottom-6 -left-6 hidden rounded-2xl border border-border bg-card p-4 shadow-xl md:block">
               <p className="text-xs uppercase tracking-widest text-muted-foreground">Consultas a partir de</p>
               <p className="font-display text-3xl font-semibold text-azure-deep">R$ 120,00</p>
@@ -356,11 +361,20 @@ function Index() {
 
       {/* FOOTER */}
       <footer className="border-t border-border bg-background py-10">
-        <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 text-sm text-muted-foreground md:flex-row">
-          <p>© {new Date().getFullYear()} Clínica Popular Asas Telemedicina. Todos os direitos reservados.</p>
-          <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="hover:text-foreground">
-            WhatsApp: (45) 92001-8284
-          </a>
+        <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-6 px-6 text-sm text-muted-foreground md:flex-row">
+          <div className="flex items-center gap-3">
+            <img src={asasLogo.url} alt="Asas Telemedicina" className="h-12 w-12 rounded-full object-cover ring-1 ring-border" />
+            <div>
+              <p className="font-display text-base text-foreground">Clínica Popular Asas Telemedicina</p>
+              <p className="text-xs">A medicina que te dá liberdade</p>
+            </div>
+          </div>
+          <div className="flex flex-col items-center gap-1 md:items-end">
+            <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="hover:text-foreground">
+              WhatsApp: (45) 92001-8284
+            </a>
+            <p className="text-xs">© {new Date().getFullYear()} Todos os direitos reservados.</p>
+          </div>
         </div>
       </footer>
 
