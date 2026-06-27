@@ -24,17 +24,17 @@ import {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Clínica Popular Asas Telemedicina — Teleconsulta a partir de R$ 90" },
+      { title: "Clínica Popular Asas Telemedicina — Teleconsulta a partir de R$ 120" },
       {
         name: "description",
         content:
-          "Teleconsulta com psiquiatria, clínica geral, ginecologia, pediatria, emagrecimento e mais. Atestados, afastamentos, laudos e relatórios médicos. A partir de R$ 90.",
+          "Teleconsulta com psiquiatria, clínica geral, ginecologia, pediatria, emagrecimento e mais. Atestados, afastamentos, laudos e relatórios médicos. A partir de R$ 120.",
       },
       { property: "og:title", content: "Clínica Popular Asas Telemedicina — Cuidado médico online" },
       {
         property: "og:description",
         content:
-          "Consultas online com médicos especialistas. Atestados, laudos e relatórios. A partir de R$ 90.",
+          "Consultas online com médicos especialistas. Atestados, laudos e relatórios. A partir de R$ 120.",
       },
     ],
   }),
@@ -78,7 +78,7 @@ const faqs = [
   },
   {
     q: "Quanto custa a consulta?",
-    a: "As consultas começam a partir de R$ 90,00. O valor pode variar conforme a especialidade — a equipe informa todos os detalhes no WhatsApp antes do agendamento.",
+    a: "As consultas começam a partir de R$ 120,00. O valor pode variar conforme a especialidade — a equipe informa todos os detalhes no WhatsApp antes do agendamento.",
   },
   {
     q: "Do que eu preciso para a consulta?",
@@ -135,7 +135,7 @@ function Index() {
             </h1>
             <p className="mt-6 max-w-lg text-lg text-muted-foreground">
               Atendimento por vídeo com profissionais de diversas especialidades. Consultas
-              <span className="font-medium text-foreground"> a partir de R$ 90,00</span> — com
+              <span className="font-medium text-foreground"> a partir de R$ 120,00</span> — com
               atestados, laudos e relatórios médicos emitidos online.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
@@ -171,7 +171,7 @@ function Index() {
             />
             <div className="absolute -bottom-6 -left-6 hidden rounded-2xl border border-border bg-card p-4 shadow-xl md:block">
               <p className="text-xs uppercase tracking-widest text-muted-foreground">Consultas a partir de</p>
-              <p className="font-display text-3xl font-semibold text-azure-deep">R$ 90,00</p>
+              <p className="font-display text-3xl font-semibold text-azure-deep">R$ 120,00</p>
             </div>
           </div>
         </div>
@@ -292,7 +292,7 @@ function Index() {
           <div className="rounded-3xl border border-background/10 bg-background/5 p-10 backdrop-blur">
             <p className="text-xs uppercase tracking-[0.2em] text-lilac">Consultas</p>
             <p className="mt-4 font-display text-6xl text-background">
-              R$ 90<span className="text-2xl text-background/60">,00</span>
+              R$ 120<span className="text-2xl text-background/60">,00</span>
             </p>
             <p className="mt-2 text-sm text-background/60">valor inicial por consulta</p>
             <div className="my-8 h-px bg-background/15" />
