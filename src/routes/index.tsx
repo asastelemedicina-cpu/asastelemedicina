@@ -14,6 +14,12 @@ import {
   MessageCircle,
   Check,
 } from "lucide-react";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -51,6 +57,37 @@ const documents = [
   { icon: FileText, label: "Afastamento" },
   { icon: FileText, label: "Relatórios médicos" },
   { icon: FileText, label: "Laudos" },
+];
+
+const faqs = [
+  {
+    q: "O que é teleconsulta?",
+    a: "É uma consulta médica realizada totalmente por vídeo chamada, com a mesma validade de uma consulta presencial. Você conversa com o médico em tempo real, do conforto da sua casa.",
+  },
+  {
+    q: "A teleconsulta é segura e legalizada?",
+    a: "Sim. A telemedicina é regulamentada pelo Conselho Federal de Medicina (CFM) e todos os nossos profissionais possuem registro ativo, garantindo sigilo e segurança no atendimento.",
+  },
+  {
+    q: "Quais documentos posso receber?",
+    a: "Quando indicado pelo médico, emitimos atestados, afastamentos, relatórios médicos, laudos e receitas digitais, todos com validade legal e enviados por e-mail ou WhatsApp.",
+  },
+  {
+    q: "Como faço para agendar?",
+    a: "Basta enviar uma mensagem no nosso WhatsApp. Nossa equipe te orienta sobre a especialidade, horários disponíveis e forma de pagamento.",
+  },
+  {
+    q: "Quanto custa a consulta?",
+    a: "As consultas começam a partir de R$ 90,00. O valor pode variar conforme a especialidade — a equipe informa todos os detalhes no WhatsApp antes do agendamento.",
+  },
+  {
+    q: "Do que eu preciso para a consulta?",
+    a: "Apenas um celular, tablet ou computador com câmera, microfone e conexão com a internet. Você recebe o link de acesso no horário marcado.",
+  },
+  {
+    q: "A receita digital é aceita em farmácias?",
+    a: "Sim. A receita é assinada digitalmente com certificado válido e aceita em farmácias de todo o Brasil.",
+  },
 ];
 
 function Index() {
@@ -254,6 +291,46 @@ function Index() {
             >
               <MessageCircle className="h-4 w-4" /> Agendar agora
             </a>
+          </div>
+        </div>
+      </section>
+
+      {/* FOOTER */}
+      {/* FAQ */}
+      <section id="faq" className="border-t border-border bg-card/40 py-24">
+        <div className="mx-auto grid max-w-6xl grid-cols-1 gap-12 px-6 md:grid-cols-[1fr_1.4fr]">
+          <div>
+            <p className="text-xs uppercase tracking-[0.2em] text-lilac">FAQ</p>
+            <h2 className="mt-3 font-display text-4xl md:text-5xl">
+              Perguntas <em className="not-italic text-azure-deep">frequentes</em>.
+            </h2>
+            <p className="mt-5 text-muted-foreground">
+              Tudo o que você precisa saber sobre telemedicina e teleconsulta. Caso
+              persista alguma dúvida, todas as informações também são passadas pela
+              nossa equipe no WhatsApp.
+            </p>
+            <a
+              href={WHATSAPP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-8 inline-flex items-center gap-2 rounded-full bg-azure-deep px-6 py-3.5 text-sm font-medium text-primary-foreground shadow-lg shadow-azure-deep/20 transition hover:bg-foreground"
+            >
+              <MessageCircle className="h-4 w-4" /> Tirar dúvidas no WhatsApp
+            </a>
+          </div>
+          <div className="rounded-2xl border border-border bg-background p-2 md:p-4">
+            <Accordion type="single" collapsible className="w-full">
+              {faqs.map((item, i) => (
+                <AccordionItem key={item.q} value={`item-${i}`} className="border-border px-4">
+                  <AccordionTrigger className="font-display text-left text-lg hover:no-underline">
+                    {item.q}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-muted-foreground">
+                    {item.a}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
           </div>
         </div>
       </section>
