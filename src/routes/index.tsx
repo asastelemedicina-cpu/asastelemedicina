@@ -18,13 +18,13 @@ import {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Asas Telemedicina — Teleconsulta a partir de R$ 90" },
+      { title: "Clínica Popular Asas Telemedicina — Teleconsulta a partir de R$ 90" },
       {
         name: "description",
         content:
           "Teleconsulta com psiquiatria, clínica geral, ginecologia, pediatria, emagrecimento e mais. Atestados, afastamentos, laudos e relatórios médicos. A partir de R$ 90.",
       },
-      { property: "og:title", content: "Asas Telemedicina — Cuidado médico online" },
+      { property: "og:title", content: "Clínica Popular Asas Telemedicina — Cuidado médico online" },
       {
         property: "og:description",
         content:
@@ -64,7 +64,7 @@ function Index() {
               <Video className="h-4 w-4" />
             </span>
             <span className="font-display text-lg font-semibold tracking-tight">
-              Asas <span className="text-lilac">Telemedicina</span>
+              Clínica Popular <span className="text-lilac">Asas Telemedicina</span>
             </span>
           </a>
           <nav className="hidden gap-8 text-sm text-muted-foreground md:flex">
@@ -94,7 +94,7 @@ function Index() {
               Teleconsulta 100% online
             </span>
             <h1 className="mt-6 font-display text-5xl leading-[1.05] md:text-6xl">
-              Cuidado médico <em className="not-italic text-lilac">elegante</em>, no conforto da sua casa.
+              Cuidado médico <em className="not-italic text-lilac">acessível</em>, no conforto da sua casa.
             </h1>
             <p className="mt-6 max-w-lg text-lg text-muted-foreground">
               Atendimento por vídeo com profissionais de diversas especialidades. Consultas
@@ -179,7 +179,7 @@ function Index() {
               Simples, humano e<br /> sem sair de casa.
             </h2>
             <p className="mt-5 text-muted-foreground">
-              Todos os atendimentos da Asas Telemedicina são realizados <strong className="text-foreground">100% por teleconsulta</strong>,
+              Todos os atendimentos da Clínica Popular Asas Telemedicina são realizados <strong className="text-foreground">100% por teleconsulta</strong>,
               por vídeo chamada segura. Você fala diretamente com o médico, recebe orientação e, quando necessário,
               seus documentos chegam por e-mail ou WhatsApp.
             </p>
@@ -261,7 +261,7 @@ function Index() {
       {/* FOOTER */}
       <footer className="border-t border-border bg-background py-10">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 text-sm text-muted-foreground md:flex-row">
-          <p>© {new Date().getFullYear()} Asas Telemedicina. Todos os direitos reservados.</p>
+          <p>© {new Date().getFullYear()} Clínica Popular Asas Telemedicina. Todos os direitos reservados.</p>
           <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="hover:text-foreground">
             WhatsApp: (45) 92001-8284
           </a>
