@@ -220,6 +220,24 @@ function Index() {
               por vídeo chamada segura. Você fala diretamente com o médico, recebe orientação e, quando necessário,
               seus documentos chegam por e-mail ou WhatsApp.
             </p>
+            <div className="mt-6 rounded-2xl border border-border bg-card p-5 text-sm text-muted-foreground">
+              <p className="font-medium text-foreground">Como você será atendido</p>
+              <p className="mt-2">
+                A consulta acontece por <strong className="text-foreground">vídeo chamada</strong> em uma sala
+                online segura. Você só precisa de um celular, tablet ou computador com câmera, microfone e
+                internet — não é necessário instalar nenhum aplicativo. No horário marcado, basta clicar no link
+                enviado pelo WhatsApp para entrar na sala e conversar diretamente com o médico, com total
+                privacidade e sigilo.
+              </p>
+              <p className="mt-3 font-medium text-foreground">Como acessar seus documentos</p>
+              <p className="mt-2">
+                Quando o médico indicar, <strong className="text-foreground">atestados, afastamentos, laudos,
+                relatórios e receitas</strong> são emitidos com assinatura digital válida em todo o Brasil e
+                enviados, em poucos minutos após a consulta, em PDF pelo seu <strong className="text-foreground">
+                WhatsApp</strong> e/ou <strong className="text-foreground">e-mail</strong>. Você pode imprimir,
+                encaminhar para a empresa ou apresentar em farmácias normalmente.
+              </p>
+            </div>
             <a
               href={WHATSAPP_URL}
               target="_blank"
@@ -231,10 +249,11 @@ function Index() {
           </div>
           <ol className="space-y-6">
             {[
-              { n: "01", t: "Fale com a equipe", d: "Envie uma mensagem no WhatsApp e escolha a especialidade." },
-              { n: "02", t: "Agende seu horário", d: "Escolha um horário disponível e realize o pagamento online." },
-              { n: "03", t: "Atendimento por vídeo", d: "Conecte-se no horário marcado pelo link enviado." },
-              { n: "04", t: "Receba seus documentos", d: "Atestado, laudo ou relatório enviados de forma digital." },
+              { n: "01", t: "Fale com a equipe no WhatsApp", d: "Envie uma mensagem para a nossa equipe, informe a especialidade desejada e o motivo do atendimento. Tiramos suas dúvidas e mostramos os horários disponíveis." },
+              { n: "02", t: "Agende e faça o pagamento", d: "Escolha o horário que melhor se encaixa na sua rotina e realize o pagamento online por Pix ou cartão. A confirmação é imediata." },
+              { n: "03", t: "Receba o link da sala virtual", d: "Pouco antes da consulta, enviamos pelo WhatsApp o link de acesso à sala de vídeo, junto com orientações simples para entrar." },
+              { n: "04", t: "Consulta por vídeo com o médico", d: "No horário marcado, você entra na sala pelo celular ou computador e conversa por vídeo com o médico, com sigilo e privacidade." },
+              { n: "05", t: "Receba seus documentos", d: "Quando indicado, atestado, afastamento, relatório, laudo ou receita são assinados digitalmente e enviados em PDF pelo seu WhatsApp e e-mail." },
             ].map((s) => (
               <li key={s.n} className="flex gap-5 rounded-2xl border border-border bg-card p-6">
                 <span className="font-display text-3xl text-lilac">{s.n}</span>
