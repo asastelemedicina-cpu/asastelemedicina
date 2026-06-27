@@ -11,7 +11,6 @@ import {
   FileText,
   ShieldCheck,
   Clock,
-  Video,
   MessageCircle,
   Check,
 } from "lucide-react";
