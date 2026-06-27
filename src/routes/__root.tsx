@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "ASAS TELEMEDICINA - CLINICA POPULAR" },
+      { name: "description", content: "CLINICA POPULAR  DE TELEMEDICINA COM CONSULTAS ACESSIVEIS PARA SEU BEM ESTAR E SAÚDE. PSIQUIATRIA, CLINICA GERAL,PEDIATRIA, GINECOLOGIA, ENTRE OUTROS..." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "ASAS TELEMEDICINA - CLINICA POPULAR" },
+      { property: "og:description", content: "CLINICA POPULAR  DE TELEMEDICINA COM CONSULTAS ACESSIVEIS PARA SEU BEM ESTAR E SAÚDE. PSIQUIATRIA, CLINICA GERAL,PEDIATRIA, GINECOLOGIA, ENTRE OUTROS..." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "ASAS TELEMEDICINA - CLINICA POPULAR" },
+      { name: "twitter:description", content: "CLINICA POPULAR  DE TELEMEDICINA COM CONSULTAS ACESSIVEIS PARA SEU BEM ESTAR E SAÚDE. PSIQUIATRIA, CLINICA GERAL,PEDIATRIA, GINECOLOGIA, ENTRE OUTROS..." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/pZ77uOEYelQqYR7Xn5eA0zb8Cjt2/social-images/social-1782550622564-WhatsApp_Image_2026-06-28_at_03.05.04.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/pZ77uOEYelQqYR7Xn5eA0zb8Cjt2/social-images/social-1782550622564-WhatsApp_Image_2026-06-28_at_03.05.04.webp" },
     ],
     links: [
       {
