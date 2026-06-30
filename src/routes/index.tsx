@@ -22,24 +22,31 @@ import {
 } from "@/components/ui/accordion";
 
 export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "Clínica Popular Asas Telemedicina — Teleconsulta a partir de R$ 120" },
-      {
-        name: "description",
-        content:
-          "Teleconsulta com psiquiatria, clínica geral, ginecologia, pediatria, emagrecimento e mais. Atestados, afastamentos, laudos e relatórios médicos. A partir de R$ 120.",
-      },
-      { property: "og:title", content: "Clínica Popular Asas Telemedicina — Cuidado médico online" },
-      {
-        property: "og:description",
-        content:
-          "Consultas online com médicos especialistas. Atestados, laudos e relatórios. A partir de R$ 120.",
-      },
-    ],
-  }),
-  component: Index,
-});
+head: () => ({
+meta: [
+{ title: "Clínica Popular Asas Telemedicina — Teleconsulta a partir de R$ 120" },
+{
+name: "description",
+content:
+"Teleconsulta com psiquiatria, clínica geral, ginecologia, pediatria, emagrecimento e mais. Atestados, afastamentos, laudos e relatórios médicos. A partir de R$ 120.",
+},
+{ property: "og:title", content: "Clínica Popular Asas Telemedicina — Cuidado médico online" },
+{
+property: "og:description",
+content:
+"Consultas online com médicos especialistas. Atestados, laudos e relatórios. A partir de R$ 120.",
+},
+],
+links: [
+{
+rel: "canonical",
+href: "https://www.asastelemedicina.com.br/",
+},
+],
+}),
+component: Index,
+}); 
+
 
 const WHATSAPP_URL = "https://wa.me/5545920018284";
 
