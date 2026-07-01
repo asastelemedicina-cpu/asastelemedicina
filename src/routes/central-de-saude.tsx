@@ -96,7 +96,7 @@ function CentralDeSaude() {
   const [mostrarArtigo, setMostrarArtigo] = useState(false);
 
     if (mostrarArtigo) {
-      return <Article />;
+      return <TeleconsultaArticle />;
     }
   
   return (
@@ -189,13 +189,19 @@ function CentralDeSaude() {
                 Agendar Consulta
               </a>
 
-              <Link
-                to="/central-de-saude/o-que-e-teleconsulta"
-                className="rounded-full border border-border px-8 py-4 font-semibold hover:bg-card transition"
-              >
-                Ler artigo em destaque
-              </Link>
-               
+//              <Link
+//                to="/central-de-saude/o-que-e-teleconsulta"
+//                className="rounded-full border border-border px-8 py-4 font-semibold hover:bg-card transition"
+//              >
+//                Ler artigo em destaque
+//              </Link>
+               <button
+                  type="button"
+                  onClick={() => setMostrarArtigo(true)}
+                  className="font-semibold text-lilac transition group-hover:translate-x-1"
+                >
+                  Ler artigo →
+                </button>
 
             </div>
 
