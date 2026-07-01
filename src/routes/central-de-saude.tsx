@@ -188,18 +188,13 @@ function CentralDeSaude() {
                 Agendar Consulta
               </a>
 
-//              <Link
-//                to="/central-de-saude/o-que-e-teleconsulta"
-//                className="rounded-full border border-border px-8 py-4 font-semibold hover:bg-card transition"
-//              >
-//                Ler artigo em destaque
-//              </Link>
-                  <button
-                    onClick={() => setMostrarArtigo(true)}
-                    className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-azure-deep transition group-hover:gap-3"
-                  >
-                    Ler artigo
-                  </button>
+              <Link
+                to="/central-de-saude/o-que-e-teleconsulta"
+                className="rounded-full border border-border px-8 py-4 font-semibold hover:bg-card transition"
+              >
+                Ler artigo em destaque
+              </Link>
+               
 
             </div>
 
@@ -470,18 +465,13 @@ function CentralDeSaude() {
 
             <div className="mt-10">
 
-//              <Link
-//                to="/central-de-saude/o-que-e-teleconsulta"
- //               className="inline-flex items-center rounded-full bg-lilac px-8 py-4 font-semibold text-white transition hover:scale-105"
-//              >
-//                Ler artigo completo →
-//              </Link>
-                  <button
-                    onClick={() => setMostrarArtigo(true)}
-                    className="..."
-                  >
-                    Ler artigo completo →
-                  </button>
+              <Link
+                to="/central-de-saude/o-que-e-teleconsulta"
+               className="inline-flex items-center rounded-full bg-lilac px-8 py-4 font-semibold text-white transition hover:scale-105"
+              >
+                Ler artigo completo →
+              </Link>
+                  
 
             </div>
 
@@ -585,18 +575,13 @@ function CentralDeSaude() {
 
                   </span>
 
-    //              <Link
-    //                to="/central-de-saude/o-que-e-teleconsulta"
-    //                className="font-semibold text-lilac transition group-hover:translate-x-1"
-    //              >
-     //               Ler artigo →
-    //              </Link>
-                      <button
-                        onClick={() => setMostrarArtigo(true)}
-                        className="..."
-                      >
-                        Ler artigo →
-                      </button>
+                  <Link
+                    to="/central-de-saude/o-que-e-teleconsulta"
+                    className="font-semibold text-lilac transition group-hover:translate-x-1"
+                  >
+                   Ler artigo →
+                  </Link>
+                 
 
                 </div>
 
