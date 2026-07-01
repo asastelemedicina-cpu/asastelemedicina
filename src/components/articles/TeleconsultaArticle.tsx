@@ -1,3 +1,45 @@
+import { Link } from "@tanstack/react-router";
+
+import {
+  ArrowLeft,
+  MessageCircle,
+  Clock,
+  Zap,
+  Home,
+  Wallet,
+  ShieldCheck,
+  Repeat,
+  Check,
+  FileText,
+  Stethoscope,
+  Share2,
+  Facebook,
+  Linkedin,
+  Calendar,
+} from "lucide-react";
+
+import asasLogo from "@/assets/asas-logo.jpeg";
+
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
+
+const WHATSAPP_URL = "https://wa.me/5545920018284";
+const CANONICAL =
+  "https://www.asastelemedicina.com.br/central-de-saude/o-que-e-teleconsulta";
+const PUBLISHED = "2026-06-10";
+const UPDATED = "2026-07-01";
+
+const TITLE =
+  "O que é Teleconsulta? Como Funciona a Consulta Médica Online";
+
+const DESCRIPTION =
+  "Entenda o que é teleconsulta, como funciona a consulta médica online, quando ela é indicada, suas vantagens e quais documentos podem ser emitidos.";
+
+
 export function TeleconsultaArticle() {
   // TODO O JSX do Article
   const shareText = encodeURIComponent(`${TITLE} — Asas Telemedicina`);
