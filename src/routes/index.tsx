@@ -329,12 +329,6 @@ function Index() {
           </div>
         </div>
       </section>
-
-      
-<div className="mt-20">
-  <Article />
-</div>
-
       
       {/* FOOTER */}
       {/* FAQ */}
