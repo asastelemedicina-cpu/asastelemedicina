@@ -155,13 +155,21 @@ function CentralDeSaude() {
 
               <div className="mt-6">
                 {post.published ? (
-                  <Link
-                    to="/central-de-saude/o-que-e-teleconsulta"
-                    className="inline-flex items-center gap-2 text-sm font-medium text-azure-deep transition group-hover:gap-3"
-                  >
-                    Ler artigo
-                    <ArrowRight className="h-4 w-4" />
-                  </Link>
+                <button
+                  type="button"
+                  onClick={() => setShowArticle(true)}
+                  className="inline-flex items-center gap-2 text-sm font-medium text-azure-deep transition group-hover:gap-3"
+                >
+                  Ler artigo
+                  <ArrowRight className="h-4 w-4" />
+                </button>
+//                  <Link
+//                    to="/central-de-saude/o-que-e-teleconsulta"
+//                    className="inline-flex items-center gap-2 text-sm font-medium text-azure-deep transition group-hover:gap-3"
+//                  >
+//                    Ler artigo
+//                    <ArrowRight className="h-4 w-4" />
+//                  </Link>
                 ) : (
                   <span className="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground">
                     Em breve
