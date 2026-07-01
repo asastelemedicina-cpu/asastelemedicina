@@ -29,7 +29,7 @@ const CANONICAL = "https://www.asastelemedicina.com.br/blog/o-que-e-teleconsulta
 const PUBLISHED = "2026-06-10";
 const UPDATED = "2026-07-01";
 
-const TITLE = "O que é Teleconsulta? Como Funciona a Consulta Médica Online";
+const TITLE = "AAAAAAAAAAAAAAAAO que é Teleconsulta? Como Funciona a Consulta Médica Online";
 const DESCRIPTION =
   "Entenda o que é teleconsulta, como funciona a consulta médica online, quando ela é indicada, suas vantagens e quais documentos podem ser emitidos.";
 
