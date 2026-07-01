@@ -180,7 +180,7 @@ function CentralDeSaude() {
               </a>
 
               <Link
-                to="/blog/o-que-e-teleconsulta"
+                to="/central-de-saude/o-que-e-teleconsulta"
                 className="rounded-full border border-border px-8 py-4 font-semibold hover:bg-card transition"
               >
                 Ler artigo em destaque
@@ -456,7 +456,7 @@ function CentralDeSaude() {
             <div className="mt-10">
 
               <Link
-                to="/blog/o-que-e-teleconsulta"
+                to="/central-de-saude/o-que-e-teleconsulta"
                 className="inline-flex items-center rounded-full bg-lilac px-8 py-4 font-semibold text-white transition hover:scale-105"
               >
                 Ler artigo completo →
@@ -565,7 +565,7 @@ function CentralDeSaude() {
                   </span>
 
                   <Link
-                    to="/blog/o-que-e-teleconsulta"
+                    to="/central-de-saude/o-que-e-teleconsulta"
                     className="font-semibold text-lilac transition group-hover:translate-x-1"
                   >
                     Ler artigo →
@@ -974,7 +974,7 @@ function CentralDeSaude() {
 
             <Link to="/">Início</Link>
 
-            <Link to="/blog/o-que-e-teleconsulta">
+            <Link to="/central-de-saude/o-que-e-teleconsulta">
               Teleconsulta
             </Link>
 
