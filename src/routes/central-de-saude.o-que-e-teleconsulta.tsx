@@ -195,7 +195,7 @@ export const Route = createFileRoute("/central-de-saude/o-que-e-teleconsulta")({
       },
     ],
   }),
-  component: Article,
+ component : Article,
 });
 
 function Article() {
