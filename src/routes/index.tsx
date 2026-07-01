@@ -98,6 +98,7 @@ const faqs = [
   },
 ];
 
+import Article from "./central-de-saude.o-que-e-teleconsulta";
 function Index() {
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -329,6 +330,12 @@ function Index() {
         </div>
       </section>
 
+      
+<div className="mt-20">
+  <Article />
+</div>
+
+      
       {/* FOOTER */}
       {/* FAQ */}
       <section id="faq" className="border-t border-border bg-card/40 py-24">
