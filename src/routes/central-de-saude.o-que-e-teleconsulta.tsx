@@ -1,4 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
+import { TeleconsultaArticle } from "@/components/articles/TeleconsultaArticle";
+
 import {
   ArrowLeft,
   MessageCircle,
