@@ -76,6 +76,13 @@ export const Route = createFileRoute("/central-de-saude")({
 });
 
 function CentralDeSaude() {
+  
+  const [showArticle, setShowArticle] = useState(false);
+
+  if (showArticle) {
+    return <Article />;
+  }
+  
   return (
     <div className="min-h-screen bg-background text-foreground">
       <header className="border-b border-border">
@@ -125,6 +132,7 @@ function CentralDeSaude() {
       <section className="py-20">
         <div className="mx-auto grid max-w-6xl grid-cols-1 gap-8 px-6 md:grid-cols-2">
           {posts.map((post) => (
+      
             <article
               key={post.title}
               className="group flex flex-col rounded-2xl border border-border bg-card p-8 transition hover:border-lilac hover:shadow-lg hover:shadow-lilac/10"
