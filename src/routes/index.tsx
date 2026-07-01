@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Link } from "@tanstack/react-router";
 import heroDoctor from "@/assets/hero-doctor.jpg";
 import asasLogo from "@/assets/asas-logo.jpeg";
 import {
@@ -117,6 +118,8 @@ function Index() {
             <a href="#especialidades" className="hover:text-foreground">Especialidades</a>
             <a href="#como-funciona" className="hover:text-foreground">Como funciona</a>
             <a href="#documentos" className="hover:text-foreground">Documentos</a>
+            <Link to="/blog" className="hover:text-foreground">Blog</Link>
+            <a href="#faq" className="hover:text-foreground">FAQ</a>
           </nav>
           <a
             href={WHATSAPP_URL}
