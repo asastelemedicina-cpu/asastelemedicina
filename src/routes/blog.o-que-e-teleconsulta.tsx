@@ -226,18 +226,6 @@ function Article() {
       </header>
 
       <article className="mx-auto max-w-3xl px-6 py-12">
-        <div
-style={{
-background: "red",
-color: "white",
-padding: "20px",
-fontSize: "32px",
-textAlign: "center",
-}}
->
-TESTE ARTIGO NOVO
-</div> 
-
         {/* Breadcrumbs */}
         <nav
           aria-label="Breadcrumb"
