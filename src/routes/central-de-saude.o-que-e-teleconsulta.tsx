@@ -198,7 +198,7 @@ export const Route = createFileRoute("/central-de-saude/o-que-e-teleconsulta")({
  component : Article,
 });
 
-export default function Article() {
+export function Article() {
   const shareText = encodeURIComponent(`${TITLE} — Asas Telemedicina`);
   const shareUrl = encodeURIComponent(CANONICAL);
 
