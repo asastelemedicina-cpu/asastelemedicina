@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as BlogRouteImport } from './routes/blog'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as BlogOQueETeleconsultaRouteImport } from './routes/blog.o-que-e-teleconsulta'
 import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
 
 const BlogRoute = BlogRouteImport.update({
@@ -23,6 +24,11 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const BlogOQueETeleconsultaRoute = BlogOQueETeleconsultaRouteImport.update({
+  id: '/o-que-e-teleconsulta',
+  path: '/o-que-e-teleconsulta',
+  getParentRoute: () => BlogRoute,
+} as any)
 const BlogSlugRoute = BlogSlugRouteImport.update({
   id: '/$slug',
   path: '/$slug',
@@ -33,24 +39,27 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/blog': typeof BlogRouteWithChildren
   '/blog/$slug': typeof BlogSlugRoute
+  '/blog/o-que-e-teleconsulta': typeof BlogOQueETeleconsultaRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/blog': typeof BlogRouteWithChildren
   '/blog/$slug': typeof BlogSlugRoute
+  '/blog/o-que-e-teleconsulta': typeof BlogOQueETeleconsultaRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/blog': typeof BlogRouteWithChildren
   '/blog/$slug': typeof BlogSlugRoute
+  '/blog/o-que-e-teleconsulta': typeof BlogOQueETeleconsultaRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/blog' | '/blog/$slug'
+  fullPaths: '/' | '/blog' | '/blog/$slug' | '/blog/o-que-e-teleconsulta'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/blog' | '/blog/$slug'
-  id: '__root__' | '/' | '/blog' | '/blog/$slug'
+  to: '/' | '/blog' | '/blog/$slug' | '/blog/o-que-e-teleconsulta'
+  id: '__root__' | '/' | '/blog' | '/blog/$slug' | '/blog/o-que-e-teleconsulta'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -74,6 +83,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/blog/o-que-e-teleconsulta': {
+      id: '/blog/o-que-e-teleconsulta'
+      path: '/o-que-e-teleconsulta'
+      fullPath: '/blog/o-que-e-teleconsulta'
+      preLoaderRoute: typeof BlogOQueETeleconsultaRouteImport
+      parentRoute: typeof BlogRoute
+    }
     '/blog/$slug': {
       id: '/blog/$slug'
       path: '/$slug'
@@ -86,10 +102,12 @@ declare module '@tanstack/react-router' {
 
 interface BlogRouteChildren {
   BlogSlugRoute: typeof BlogSlugRoute
+  BlogOQueETeleconsultaRoute: typeof BlogOQueETeleconsultaRoute
 }
 
 const BlogRouteChildren: BlogRouteChildren = {
   BlogSlugRoute: BlogSlugRoute,
+  BlogOQueETeleconsultaRoute: BlogOQueETeleconsultaRoute,
 }
 
 const BlogRouteWithChildren = BlogRoute._addFileChildren(BlogRouteChildren)
