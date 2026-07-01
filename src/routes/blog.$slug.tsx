@@ -36,13 +36,6 @@ export const Route = createFileRoute("/blog/$slug")({
 });
 
 function BlogPost() {
-
-  return (
-<div style={{ background: "red", color: "white", padding: 30 }}>
-ESTOU NO BLOG.$SLUG
-</div>
-); 
-
   
   const { post } = Route.useLoaderData();
   const others = posts.filter((p) => p.slug !== post.slug).slice(0, 2);
