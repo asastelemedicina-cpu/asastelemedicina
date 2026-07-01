@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState } from "react";
 //import { Article } from "./central-de-saude.o-que-e-teleconsulta";
+import { TeleconsultaArticle } from "@/components/articles/TeleconsultaArticle";
 
 import {
   ArrowLeft,
