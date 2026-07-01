@@ -10,7 +10,7 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
-    slug: "blog.o-que-e-teleconsulta",
+    slug: "o-que-e-teleconsulta",
     title: "O que é teleconsulta e como ela funciona?",
     excerpt:
       "Entenda como funciona a consulta médica por vídeo, sua segurança e validade legal no Brasil.",
