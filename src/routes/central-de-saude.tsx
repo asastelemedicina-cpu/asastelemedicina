@@ -2,6 +2,8 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowLeft, ArrowRight, MessageCircle } from "lucide-react";
 import asasLogo from "@/assets/asas-logo.jpeg";
 
+import { useState } from "react";
+
 const WHATSAPP_URL = "https://wa.me/5545920018284";
 
 const posts = [
