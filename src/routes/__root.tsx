@@ -91,6 +91,26 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/pZ77uOEYelQqYR7Xn5eA0zb8Cjt2/social-images/social-1782550622564-WhatsApp_Image_2026-06-28_at_03.05.04.webp" },
     ],
     links: [
+
+      
+        {
+    rel: "icon",
+    type: "image/x-icon",
+    href: "/favicon.ico",
+  },
+  {
+    rel: "icon",
+    type: "image/png",
+    sizes: "32x32",
+    href: "/favicon-32x32.png",
+  },
+  {
+    rel: "apple-touch-icon",
+    href: "/apple-touch-icon.png",
+  },
+
+      
+      
       {
         rel: "stylesheet",
         href: appCss,
