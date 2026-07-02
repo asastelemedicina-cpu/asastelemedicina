@@ -51,21 +51,21 @@ export const Route = createFileRoute("/central-de-saude")({
   head: () => ({
     meta: [
       {
-        title: "Central de Saúde | Clínica Popular Asas Telemedicina",
+        title: "Artigos de Saúde | Clínica Popular Asas Telemedicina",
       },
       {
         name: "description",
         content:
-          "Conteúdos médicos confiáveis sobre teleconsulta, psiquiatria, clínica geral, pediatria, ginecologia, emagrecimento, cannabis medicinal e documentos médicos.",
+          "Conteúdos médicos e artigos confiáveis sobre teleconsulta, psiquiatria, clínica geral, pediatria, ginecologia, emagrecimento, cannabis medicinal e documentos médicos.",
       },
       {
         name: "keywords",
         content:
-          "teleconsulta, telemedicina, psiquiatria online, clínico geral online, ginecologista online, pediatra online, receita médica digital, atestado médico online, emagrecimento, cannabis medicinal",
+          "teleconsulta, telemedicina, psiquiatria online, clínico geral online, ginecologista online, pediatra online, receita médica digital, atestado médico online, emagrecimento, cannabis medicinal, clínica popular, consultas baratas, laudo médico, laudo online, médico online, médico em são paulo, médico rio de janeiro",
       },
       {
         property: "og:title",
-        content: "Central de Saúde | Asas Telemedicina",
+        content: "Artigos de Saúde | Asas Telemedicina",
       },
       {
         property: "og:description",
@@ -116,7 +116,7 @@ function CentralDeSaude() {
       <section className="border-b border-border bg-card/40 py-20">
         <div className="mx-auto max-w-6xl px-6">
           <p className="text-xs uppercase tracking-[0.2em] text-lilac">
-            Central de Saúde
+            Artigos de Saúde
           </p>
 
           <h1 className="mt-3 font-display text-5xl md:text-6xl">
