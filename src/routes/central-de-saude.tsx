@@ -82,7 +82,8 @@ function CentralDeSaude() {
   const [showArticle, setShowArticle] = useState(false);
 
   if (showArticle) {
-    return <Article />;
+    //return <Article />;
+    return <Article onBack={() => setShowArticle(false)} />;
   }
   
   return (
