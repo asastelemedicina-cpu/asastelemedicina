@@ -119,7 +119,7 @@ function Index() {
             <a href="#especialidades" className="hover:text-foreground">Cuidados Oferecidos</a>
             <a href="#como-funciona" className="hover:text-foreground">Como funciona</a>
             <a href="#documentos" className="hover:text-foreground">Documentos</a>
-            //<Link to="/blog" className="hover:text-foreground">Blog</Link>
+            {/*<Link to="/blog" className="hover:text-foreground">Blog</Link>*/}
             <Link to="/central-de-saude" className="hover:text-foreground">Central de Saúde</Link>
             <a href="#faq" className="hover:text-foreground">FAQ</a>
           </nav>
