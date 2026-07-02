@@ -35,7 +35,7 @@ content:
 {
 property: "og:description",
 content:
-"Consultas online com médicos especialistas. Atestados, laudos e relatórios. A partir de R$ 120.",
+"Consultas médicas online. Atestados, laudos e relatórios. A partir de R$ 120.",
 },
 ],
 links: [
@@ -82,11 +82,11 @@ const faqs = [
   },
   {
     q: "Como faço para agendar?",
-    a: "Basta enviar uma mensagem no nosso WhatsApp. Nossa equipe te orienta sobre a especialidade, horários disponíveis e forma de pagamento.",
+    a: "Basta enviar uma mensagem no nosso WhatsApp. Nossa equipe te orienta sobre a área de saúde desejada, horários disponíveis e forma de pagamento.",
   },
   {
     q: "Quanto custa a consulta?",
-    a: "As consultas começam a partir de R$ 120,00. O valor pode variar conforme a especialidade — a equipe informa todos os detalhes no WhatsApp antes do agendamento.",
+    a: "As consultas começam a partir de R$ 120,00. O valor pode variar conforme a área de cuidado e especialidade — a equipe informa todos os detalhes no WhatsApp antes do agendamento.",
   },
   {
     q: "Do que eu preciso para a consulta?",
@@ -116,7 +116,7 @@ function Index() {
             </span>
           </a>
           <nav className="hidden gap-8 text-sm text-muted-foreground md:flex">
-            <a href="#especialidades" className="hover:text-foreground">Especialidades</a>
+            <a href="#especialidades" className="hover:text-foreground">Cuidados Oferecidos</a>
             <a href="#como-funciona" className="hover:text-foreground">Como funciona</a>
             <a href="#documentos" className="hover:text-foreground">Documentos</a>
             <Link to="/blog" className="hover:text-foreground">Blog</Link>
@@ -147,7 +147,7 @@ function Index() {
               Cuidado médico <em className="not-italic text-lilac">acessível</em>, no conforto da sua casa.
             </h1>
             <p className="mt-6 max-w-lg text-lg text-muted-foreground">
-              Atendimento por vídeo com profissionais de diversas especialidades. Consultas
+              Atendimento por vídeo com profissionais de diversas especialidades e áreas de atuação. Consultas
               <span className="font-medium text-foreground"> a partir de R$ 120,00</span> — com
               atestados, laudos e relatórios médicos emitidos online.
             </p>
@@ -164,7 +164,7 @@ function Index() {
                 href="#especialidades"
                 className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-6 py-3.5 text-sm font-medium text-foreground transition hover:bg-secondary"
               >
-                Ver especialidades
+                Ver Áreas de Atendimento
               </a>
             </div>
             <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-3 text-sm text-muted-foreground">
@@ -197,7 +197,7 @@ function Index() {
       <section id="especialidades" className="border-t border-border bg-card/40 py-24">
         <div className="mx-auto max-w-6xl px-6">
           <div className="max-w-2xl">
-            <p className="text-xs uppercase tracking-[0.2em] text-lilac">Especialidades</p>
+            <p className="text-xs uppercase tracking-[0.2em] text-lilac">Cuidados Oferecidos</p>
             <h2 className="mt-3 font-display text-4xl md:text-5xl">
               Atendimentos feitos por <em className="not-italic text-azure-deep">teleconsulta</em>.
             </h2>
@@ -265,7 +265,7 @@ function Index() {
           </div>
           <ol className="space-y-6">
             {[
-              { n: "01", t: "Fale com a equipe no WhatsApp", d: "Envie uma mensagem para a nossa equipe, informe a especialidade desejada e o motivo do atendimento. Tiramos suas dúvidas e mostramos os horários disponíveis." },
+              { n: "01", t: "Fale com a equipe no WhatsApp", d: "Envie uma mensagem para a nossa equipe, informe a especialidade, área de atuação e o motivo do atendimento. Tiramos suas dúvidas e mostramos os horários disponíveis." },
               { n: "02", t: "Agende e faça o pagamento", d: "Escolha o horário que melhor se encaixa na sua rotina e realize o pagamento online por Pix ou cartão. A confirmação é imediata." },
               { n: "03", t: "Receba o link da sala virtual", d: "Pouco antes da consulta, enviamos pelo WhatsApp o link de acesso à sala de vídeo, junto com orientações simples para entrar." },
               { n: "04", t: "Consulta por vídeo com o médico", d: "No horário marcado, você entra na sala pelo celular ou computador e conversa por vídeo com o médico, com sigilo e privacidade." },
