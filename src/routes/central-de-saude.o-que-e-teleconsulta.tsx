@@ -221,19 +221,23 @@ export function Article() {
               Asas Telemedicina
             </span>
           </Link>
-//          <Link
-//            to="/central-de-saude"
-//            className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground"
-//          >
-//            <ArrowLeft className="h-4 w-4" /> Central de Saúde
-//          </Link>
-              <button
+
+          
+          <Link
+            to="/central-de-saude"
+            className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground"
+          >
+            <ArrowLeft className="h-4 w-4" /> Central de Saúde
+          </Link>
+          
+
+              /*<button
                 onClick={onBack}
                 className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground"
               >
                 <ArrowLeft className="h-4 w-4" />
                 Central de Saúde
-              </button>
+              </button>*/
         </div>
       </header>
 
