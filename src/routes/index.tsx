@@ -120,7 +120,7 @@ function Index() {
             <a href="#como-funciona" className="hover:text-foreground">Como funciona</a>
             <a href="#documentos" className="hover:text-foreground">Documentos</a>
             {/*<Link to="/blog" className="hover:text-foreground">Blog</Link>*/}
-            <Link to="/central-de-saude" className="hover:text-foreground">Central de Saúde</Link>
+            <Link to="/central-de-saude" className="hover:text-foreground">Artigos de Saúde</Link>
             <a href="#faq" className="hover:text-foreground">FAQ</a>
           </nav>
           <a
