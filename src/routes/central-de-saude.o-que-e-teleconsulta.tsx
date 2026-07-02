@@ -198,9 +198,9 @@ export const Route = createFileRoute("/central-de-saude/o-que-e-teleconsulta")({
  component: Article,
 });
 
-type ArticleProps = {
-  onBack: () => void;
-};
+//type ArticleProps = {
+//  onBack: () => void;
+//};
 
 export function Article() {
 //  export function Article({ onBack }: ArticleProps) {
