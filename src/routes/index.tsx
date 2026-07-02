@@ -371,6 +371,38 @@ function Index() {
         </div>
       </section>
 
+
+      {/* ARTIGOS DE SAÚDE */}
+      <section className="border-t border-border bg-card/30 py-20">
+        <div className="mx-auto max-w-5xl px-6">
+          <div className="rounded-3xl border border-border bg-background p-10 text-center shadow-sm">
+            <span className="inline-flex items-center rounded-full bg-lilac/10 px-4 py-1 text-xs font-medium uppercase tracking-[0.2em] text-lilac">
+              Artigos de Saúde
+            </span>
+      
+            <h2 className="mt-5 font-display text-3xl md:text-4xl">
+              Continue aprendendo sobre sua saúde
+            </h2>
+      
+           {/*  <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
+              Reunimos conteúdos médicos confiáveis sobre teleconsulta,
+              saúde mental, clínica geral, ginecologia, pediatria,
+              emagrecimento, documentos médicos e diversos outros temas
+              para ajudar você a tomar decisões com mais segurança.
+            </p> */}
+      
+            <Link
+              to="/central-de-saude"
+              className="mt-8 inline-flex items-center gap-2 rounded-full bg-azure-deep px-6 py-3.5 text-sm font-medium text-primary-foreground transition hover:bg-foreground"
+            >
+              📚 Explorar Artigos de Saúde
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      
+
       {/* FOOTER */}
       <footer className="border-t border-border bg-background py-10">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-6 px-6 text-sm text-muted-foreground md:flex-row">
