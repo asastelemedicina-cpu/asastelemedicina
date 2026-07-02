@@ -169,7 +169,7 @@ export const Route = createFileRoute("/central-de-saude/o-que-e-teleconsulta")({
             {
               "@type": "ListItem",
               position: 2,
-              name: "Central de Saude",
+              name: "Artigos de Saúde",
               item: "https://www.asastelemedicina.com.br/central-de-saude/",
             },
             {
@@ -231,7 +231,7 @@ type ArticleProps = {
                 className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground"
               >
                 <ArrowLeft className="h-4 w-4" />
-                Central de Saúde
+                Artigos de Saúde
               </button>
         </div>
       </header>
@@ -251,7 +251,7 @@ type ArticleProps = {
             <li aria-hidden>›</li>
             <li>
               <Link to="/central-de-saude" className="hover:text-foreground">
-                Central de Saúde
+                Artigos de Saúde
               </Link>
             </li>
             <li aria-hidden>›</li>
@@ -769,7 +769,7 @@ type ArticleProps = {
               </Link>{" "}
               ·{" "}
               <Link to="/central-de-saude" className="text-azure-deep underline">
-                Mais artigos na Central de Saúde
+                Mais Artigos de Saúde
               </Link>
             </p>
           </section>
