@@ -202,8 +202,8 @@ type ArticleProps = {
   onBack: () => void;
 };
 
-export function Article() {
-//  export function Article({ onBack }: ArticleProps) {
+//export function Article() {
+  export function Article({ onBack }: ArticleProps) {
   const shareText = encodeURIComponent(`${TITLE} — Asas Telemedicina`);
   const shareUrl = encodeURIComponent(CANONICAL);
 
