@@ -217,8 +217,9 @@ type ArticleProps = {
               alt="Asas Telemedicina"
               className="h-10 w-10 rounded-full object-cover ring-1 ring-border"
             />
-            <span className="font-display text-base font-semibold">
-              Asas Telemedicina
+            <span className="font-display text-lg font-semibold tracking-tight">
+              Clínica Popular{" "}
+              <span className="text-lilac">Asas Telemedicina</span>
             </span>
           </Link>
 
