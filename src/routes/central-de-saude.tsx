@@ -3,6 +3,7 @@ import { ArrowLeft, ArrowRight, MessageCircle } from "lucide-react";
 import asasLogo from "@/assets/asas-logo.jpeg";
 
 import { Article } from "./central-de-saude.o-que-e-teleconsulta";
+import { ArticlePsiquiatria } from "./central-de-saude.psiquiatra-online";
 
 import { useState } from "react";
 
