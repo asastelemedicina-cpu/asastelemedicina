@@ -40,23 +40,23 @@ const TITLE =
   "Psiquiatra Online: Quando Procurar, Como Funciona a Consulta Psiquiátrica Online";
 
 const DESCRIPTION =
-  "Entenda quando procurar um psiquiatra online, como funciona a consulta psiquiátrica online, quando ela é indicada, quais medicamentos podem ser prescritos e quando buscar ajuda.";
+  "Entenda quando procurar um profissional online na área de psiquiatria, como funciona a consulta online na área de psiquiatria, quando ela é indicada, quais medicamentos podem ser prescritos e quando buscar ajuda.";
 
 const faqs = [
   {
-    q: "Quando devo procurar um psiquiatra?",
+    q: "Quando devo procurar um profissional na área de psiquiatria?",
     a: "Sempre que sintomas emocionais ou comportamentais começarem a prejudicar seu trabalho, estudos, relacionamentos, sono ou qualidade de vida.",
   },
   {
-    q: "Como funciona uma consulta psiquiátrica online?",
+    q: "Como funciona uma consulta online na área de psiquiatria?",
     a: "A consulta é realizada por vídeo, em ambiente seguro, permitindo avaliação clínica, diagnóstico, orientação e acompanhamento, assim como em uma consulta presencial.",
   },
   {
-    q: "Psiquiatra online pode dar atestado?",
+    q: "Médico na área de psiquiatria pode dar atestado online?",
     a: "Sim. Quando houver indicação clínica, o médico pode emitir atestado médico digital assinado eletronicamente conforme a legislação vigente.",
   },
   {
-    q: "Psiquiatra pode receitar medicamentos online?",
+    q: "Médico na área de psiquiatria pode receitar medicamentos online?",
     a: "Sim. Receitas digitais podem ser emitidas conforme a legislação brasileira e o tipo de medicamento prescrito.",
   },
   {
@@ -64,11 +64,11 @@ const faqs = [
     a: "Dependendo da categoria do medicamento e da regulamentação vigente, o psiquiatra pode emitir receitas digitais para medicamentos sujeitos a controle especial.",
   },
   {
-    q: "Quanto dura uma consulta com psiquiatra?",
-    a: "A primeira consulta normalmente dura entre 40 e 60 minutos, enquanto retornos costumam ser mais curtos.",
+    q: "Quanto dura uma consulta com médico na área de psiquiatria?",
+    a: "A primeira consulta normalmente dura entre 40 e 60 minutos, retornos costumam ser mais curtos.",
   },
   {
-    q: "Psiquiatra faz terapia?",
+    q: "Médico na área de psiquiatria faz terapia?",
     a: "O foco principal do psiquiatra é o diagnóstico médico e o tratamento dos transtornos mentais. Em muitos casos, o tratamento é realizado em conjunto com psicólogos.",
   },
   {
@@ -77,25 +77,25 @@ const faqs = [
   },
   {
     q: "Preciso de encaminhamento?",
-    a: "Não. O paciente pode agendar diretamente sua consulta com um psiquiatra.",
+    a: "Não. O paciente pode agendar diretamente sua consulta com um psiquiatra ou médico na área de psiquiatria.",
   },
   {
     q: "Posso fazer a consulta pelo celular?",
     a: "Sim. Basta possuir internet, câmera e microfone.",
   },
   {
-    q: "Psiquiatra online é seguro?",
+    q: "Médico online na área de psiquiatria é seguro?",
     a: "Sim. A consulta ocorre em plataforma segura, preservando o sigilo médico e a confidencialidade das informações.",
   },
   {
-    q: "Quem pode consultar com um psiquiatra online?",
+    q: "Quem pode consultar com um médico online na área de psiquiatria?",
     a: "Adultos, idosos e adolescentes acompanhados de responsável, quando indicado.",
   },
 ];
 
 const toc = [
-  { id: "oquefaz", label: "O que faz um psiquiatra" },
-  { id: "quando", label: "Quando procurar um psiquiatra" },
+  { id: "oquefaz", label: "O que faz um médico na área de psiquiatria" },
+  { id: "quando", label: "Quando procurar um médico na área de psiquiatria" },
   { id: "ansiedade", label: "Ansiedade" },
   { id: "depressao", label: "Depressão" },
   { id: "panico", label: "Síndrome do Pânico" },
@@ -125,7 +125,7 @@ export const Route = createFileRoute(
       {
         name: "keywords",
         content:
-          "psiquiatra online, consulta psiquiatra online, consulta psiquiátrica online, psiquiatria online, psiquiatra online particular, psiquiatra online preço, psiquiatra online urgente, psiquiatra pode dar atestado online, psiquiatra pode receitar remédio online, psiquiatra receita controlada online, quando procurar psiquiatra, ansiedade precisa de psiquiatra, depressão precisa de psiquiatra, primeira consulta psiquiatra, psiquiatra ou psicólogo",
+          "psiquiatra online, atestado médico, médico online consulta psiquiatra online, consulta psiquiátrica online, psiquiatria online, psiquiatra online particular, psiquiatra online preço, psiquiatra online urgente, psiquiatra pode dar atestado online, psiquiatra pode receitar remédio online, psiquiatra receita controlada online, quando procurar psiquiatra, ansiedade precisa de psiquiatra, depressão precisa de psiquiatra, primeira consulta psiquiatra, psiquiatra ou psicólogo, consulta médica barata",
       },
       {
         name: "robots",
@@ -359,7 +359,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
 
         <p className="mt-6 text-lg text-muted-foreground">
 
-          A consulta com um <strong>psiquiatra online</strong> tornou o acesso
+          A consulta na área de <strong>psiquiatria online</strong> tornou o acesso
           ao tratamento em saúde mental mais simples, rápido e seguro. Neste
           guia você entenderá quando procurar ajuda, como funciona uma
           <strong> consulta psiquiátrica online</strong>, quais sintomas merecem
@@ -439,11 +439,11 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
           <section id="oquefaz" className="scroll-mt-24">
 
             <h2 className="font-display text-3xl mt-6">
-              O que faz um psiquiatra?
+              O que faz um médico na área de psiquiatria?
             </h2>
 
             <p>
-              O <strong>psiquiatra</strong> é o médico especializado no
+              O <strong>médico na área de psiquiatria</strong> é um médico que atua no
               diagnóstico, tratamento, prevenção e acompanhamento dos
               transtornos mentais. Diferentemente de outras áreas da saúde, a
               psiquiatria avalia não apenas sintomas emocionais, mas também
@@ -461,8 +461,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
             </p>
 
             <p>
-              Atualmente, realizar uma consulta com um
-              <strong> psiquiatra online</strong> é uma forma prática e segura
+              Atualmente, realizar uma consulta online com um <strong>médico na área de psiquiatria</strong> é uma forma prática e segura
               de iniciar esse acompanhamento, permitindo acesso rápido ao
               especialista sem necessidade de deslocamento.
             </p>
@@ -486,13 +485,13 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
 
             <h2 className="font-display text-3xl mt-10">
 
-              Quando procurar um psiquiatra?
+              Quando procurar um médico na área de psiquiatria?
 
             </h2>
 
             <p>
 
-              Saber <strong>quando procurar um psiquiatra</strong> é uma das
+              Saber <strong>quando procurar um médico na área de psiquiatria</strong> é uma das
               dúvidas mais frequentes entre pacientes. Não existe um momento
               exato ou uma regra única. O principal sinal é quando alterações
               emocionais passam a interferir na qualidade de vida, no trabalho,
@@ -571,7 +570,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
 
             <h2 className="font-display text-3xl mt-10">
 
-              Ansiedade: quando procurar um psiquiatra?
+              Ansiedade: quando procurar um médico na área de psiquiatria?
 
             </h2>
 
@@ -691,14 +690,14 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
 
                 <h2 className="font-display text-2xl">
 
-                  Está em dúvida se precisa de um psiquiatra?
+                  Está em dúvida se precisa de um médico na área de psiquiatria?
 
                 </h2>
 
                 <p className="mt-3 text-background/80">
 
                   Converse com nossa equipe. O agendamento é simples, rápido e
-                  você pode realizar sua consulta com um psiquiatra online sem
+                  você pode realizar sua consulta online com um médico na área de psiquiatria sem
                   sair de casa.
 
                 </p>
@@ -831,7 +830,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
           <section id="consulta" className="scroll-mt-24">
 
             <h2 className="font-display text-3xl mt-10">
-              Como funciona uma consulta com um psiquiatra online?
+              Como funciona uma consulta online com um médico na área de psiquiatria?
             </h2>
 
             <p>
@@ -856,7 +855,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
                 },
                 {
                   t: "3. Atendimento médico",
-                  d: "O psiquiatra conversa detalhadamente sobre sintomas, rotina, histórico e objetivos do tratamento."
+                  d: "O médico na área de psiquiatria conversa detalhadamente sobre sintomas, rotina, histórico e objetivos do tratamento."
                 },
                 {
                   t: "4. Plano terapêutico",
@@ -900,12 +899,12 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
           <section id="primeira" className="scroll-mt-24">
 
             <h2 className="font-display text-3xl mt-10">
-              Como é a primeira consulta com um psiquiatra?
+              Como é a primeira consulta com um médico na área de psiquiatria?
             </h2>
 
             <p>
               Uma das dúvidas mais pesquisadas é sobre a
-              <strong> primeira consulta com psiquiatra</strong>. Muitas pessoas
+              <strong> primeira consulta com médico na área de psiquiatria</strong>. Muitas pessoas
               imaginam que sairão da consulta obrigatoriamente com uma receita,
               mas isso nem sempre acontece.
             </p>
@@ -973,149 +972,15 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
 
             </div>
           </section>
-              <section id="psicologo" className="scroll-mt-24">
-
-            <h2 className="font-display text-3xl mt-10">
-              Psiquiatra ou psicólogo: qual a diferença?
-            </h2>
-
-            <p>
-              Uma das dúvidas mais comuns é saber se o ideal é procurar um
-              <strong> psiquiatra ou psicólogo</strong>. Embora ambos atuem na
-              saúde mental, suas formações e funções são diferentes e, em muitos
-              casos, complementares.
-            </p>
-
-            <p>
-              O psicólogo trabalha principalmente com psicoterapia, auxiliando o
-              paciente a compreender emoções, pensamentos e comportamentos por
-              meio de técnicas específicas. Já o psiquiatra é médico, podendo
-              diagnosticar doenças, solicitar exames, prescrever medicamentos e
-              acompanhar tratamentos clínicos.
-            </p>
-
-            <div className="mt-6 overflow-x-auto rounded-2xl border border-border">
-
-              <table className="w-full text-sm">
-
-                <thead className="bg-card">
-
-                  <tr>
-
-                    <th className="p-4 text-left">Característica</th>
-
-                    <th className="p-4 text-left text-azure-deep">
-                      Psiquiatra
-                    </th>
-
-                    <th className="p-4 text-left">
-                      Psicólogo
-                    </th>
-
-                  </tr>
-
-                </thead>
-
-                <tbody className="divide-y divide-border">
-
-                  <tr>
-
-                    <td className="p-4 font-medium">
-                      Formação
-                    </td>
-
-                    <td className="p-4">
-                      Medicina + Residência em Psiquiatria
-                    </td>
-
-                    <td className="p-4">
-                      Graduação em Psicologia
-                    </td>
-
-                  </tr>
-
-                  <tr>
-
-                    <td className="p-4 font-medium">
-                      Diagnóstico médico
-                    </td>
-
-                    <td className="p-4">
-                      ✔
-                    </td>
-
-                    <td className="p-4">
-                      Não
-                    </td>
-
-                  </tr>
-
-                  <tr>
-
-                    <td className="p-4 font-medium">
-                      Prescrição de medicamentos
-                    </td>
-
-                    <td className="p-4">
-                      ✔
-                    </td>
-
-                    <td className="p-4">
-                      Não
-                    </td>
-
-                  </tr>
-
-                  <tr>
-
-                    <td className="p-4 font-medium">
-                      Psicoterapia
-                    </td>
-
-                    <td className="p-4">
-                      Pode realizar
-                    </td>
-
-                    <td className="p-4">
-                      Principal atuação
-                    </td>
-
-                  </tr>
-
-                  <tr>
-
-                    <td className="p-4 font-medium">
-                      Solicitação de exames
-                    </td>
-
-                    <td className="p-4">
-                      ✔
-                    </td>
-
-                    <td className="p-4">
-                      Não
-                    </td>
-
-                  </tr>
-
-                </tbody>
-
-              </table>
-
-            </div>
-
-            <p className="mt-5">
-              Em muitos casos, o melhor tratamento envolve a atuação conjunta de
-              psiquiatra e psicólogo, oferecendo acompanhamento médico e suporte
-              psicoterapêutico ao mesmo tempo.
-            </p>
-
+              
+          
+          <section id="psicologo" className="scroll-mt-24">
           </section>
 
           <section id="receitas" className="scroll-mt-24">
 
             <h2 className="font-display text-3xl mt-10">
-              O psiquiatra pode receitar medicamentos online?
+              O médico na área de psiquiatria pode receitar medicamentos online?
             </h2>
 
             <p>
@@ -1179,12 +1044,12 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
           <section className="scroll-mt-24">
 
             <h2 className="font-display text-3xl mt-10">
-              Psiquiatra receita medicamento controlado online?
+              Médico na área de psiquiatria receita medicamento controlado online?
             </h2>
 
             <p>
               Sim. Dependendo do medicamento e da regulamentação vigente,
-              o <strong>psiquiatra pode receitar medicamentos controlados
+              o <strong>médico na área de psiquiatria pode receitar medicamentos controlados
               online</strong>, utilizando sistemas eletrônicos autorizados e
               assinaturas digitais válidas.
             </p>
@@ -1214,12 +1079,12 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
           <section className="scroll-mt-24">
 
             <h2 className="font-display text-3xl mt-10">
-              Psiquiatra pode dar atestado online?
+              Médico na área de psiquiatria pode dar atestado online?
             </h2>
 
             <p>
               Sim. Sempre que houver indicação clínica, o
-              <strong> psiquiatra pode emitir atestado médico online</strong>.
+              <strong> médico na área de psiquiatria pode emitir atestado médico online</strong>.
             </p>
 
             <p>
@@ -1297,7 +1162,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
               <div>
 
                 <h2 className="font-display text-3xl">
-                  Agende sua consulta com um psiquiatra online
+                  Agende sua consulta online com um médico na área de psiquiatria
                 </h2>
 
                 <p className="mt-3 text-white/80 max-w-xl">
@@ -1647,14 +1512,14 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
               <div className="max-w-2xl">
 
                 <p className="font-display text-3xl">
-                  Agende sua consulta com um psiquiatra online
+                  Agende sua consulta online com um médico na área de psiquiatria
                 </p>
 
                 <p className="mt-4 text-background/75">
 
                   Nossa equipe está pronta para oferecer um atendimento
                   acolhedor, ético e humanizado. Se você está procurando uma
-                  consulta com <strong>psiquiatra online particular</strong>,
+                  consulta com <strong>psiquiatra online</strong>,
                   deseja entender melhor como funciona o tratamento ou precisa
                   de orientação médica especializada, fale conosco pelo
                   WhatsApp.
