@@ -26,7 +26,7 @@ const posts = [
     title: "Psiquiatria Online",
     excerpt:
       "Quando procurar um psiquiatra? Como funciona uma consulta online? Em quais situações ela é indicada?",
-    published: false,
+    published: true,
   },
   {
     slug: "#",
@@ -62,7 +62,8 @@ export const Route = createFileRoute("/central-de-saude")({
       {
         name: "keywords",
         content:
-          "teleconsulta, telemedicina, psiquiatria online, clínico geral online, ginecologista online, pediatra online, receita médica digital, atestado médico online, emagrecimento, cannabis medicinal, clínica popular, consultas baratas, laudo médico, laudo online, médico online, médico em são paulo, médico rio de janeiro",
+          "teleconsulta, telemedicina, psiquiatria online, clínico geral online, ginecologista online, pediatra online, receita médica digital, atestado médico online, emagrecimento, cannabis medicinal, clínica popular, consultas baratas, laudo médico, laudo online, médico online, médico em são paulo, médico rio de janeiro,Ansiedade, Depressão, Burnout, TDAH, Insônia, TOC, Transtorno Bipolar, Primeira consulta com psiquiatra, Psiquiatra, Receita de medicamentos controlados",
+          
       },
       {
         property: "og:title",
