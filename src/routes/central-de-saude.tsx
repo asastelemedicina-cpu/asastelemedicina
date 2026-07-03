@@ -88,11 +88,7 @@ function CentralDeSaude() {
   }
 
 
-  const [showArticlePsiquiatria, setShowArticlePsiquiatria] = useState(false);
 
-  if (showArticlePsiquiatria) {
-    return <ArticlePsiquiatria onBack={() => setShowArticlePsiquiatria(false)} />;
-  }
 
   
   return (
