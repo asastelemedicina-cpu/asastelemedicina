@@ -13,7 +13,7 @@ const posts = [
   {
     slug: "o-que-e-teleconsulta",
     category: "Telemedicina",
-    readTime: "12 min",
+    readTime: "10 min",
     title: "O que é Teleconsulta? Como funciona a consulta médica online",
     excerpt:
       "Entenda como funciona uma teleconsulta, quando ela é indicada, quais documentos podem ser emitidos e quais são suas vantagens.",
@@ -22,7 +22,7 @@ const posts = [
   {
     slug: "#",
     category: "Psiquiatria",
-    readTime: "Em breve",
+    readTime: "12 min",
     title: "Psiquiatria Online",
     excerpt:
       "Quando procurar um psiquiatra? Como funciona uma consulta online? Em quais situações ela é indicada?",
@@ -175,13 +175,7 @@ function CentralDeSaude() {
                   Ler artigo
                   <ArrowRight className="h-4 w-4" />
                 </button>
-//                  <Link
-//                    to="/central-de-saude/o-que-e-teleconsulta"
-//                    className="inline-flex items-center gap-2 text-sm font-medium text-azure-deep transition group-hover:gap-3"
-//                  >
-//                    Ler artigo
-//                    <ArrowRight className="h-4 w-4" />
-//                  </Link>
+
                 ) : (
                   <span className="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground">
                     Em breve
