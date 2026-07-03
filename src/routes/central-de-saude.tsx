@@ -26,7 +26,7 @@ const posts = [
     title: "Psiquiatria Online",
     excerpt:
       "Quando procurar um psiquiatra? Como funciona uma consulta online? Em quais situações ela é indicada?",
-    published: false,
+    published: true,
   },
   {
     slug: "receita-medica-digital",
