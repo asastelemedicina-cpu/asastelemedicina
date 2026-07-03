@@ -84,9 +84,16 @@ function CentralDeSaude() {
   const [showArticle, setShowArticle] = useState(false);
 
   if (showArticle) {
-    //return <Article />;
     return <Article onBack={() => setShowArticle(false)} />;
   }
+
+
+  const [showArticlePsiquiatria, setShowArticlePsiquiatria] = useState(false);
+
+  if (showArticlePsiquiatria) {
+    return <ArticlePsiquiatria onBack={() => setShowArticlePsiquiatria(false)} />;
+  }
+
   
   return (
     <div className="min-h-screen bg-background text-foreground">
