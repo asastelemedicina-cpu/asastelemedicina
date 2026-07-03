@@ -81,13 +81,31 @@ export const Route = createFileRoute("/central-de-saude")({
 
 function CentralDeSaude() {
   
-  const [showArticle, setShowArticle] = useState(false);
+  /*const [showArticle, setShowArticle] = useState(false);
 
   if (showArticle) {
     return <Article onBack={() => setShowArticle(false)} />;
-  }
+  }*/
 
+const [currentArticle, setCurrentArticle] = useState<
+  "o-que-e-teleconsulta" | "psiquiatria" | null
+>(null);
 
+if (currentArticle === "o-que-e-teleconsulta") {
+  return (
+    <Article
+      onBack={() => setCurrentArticle(null)}
+    />
+  );
+}
+
+if (currentArticle === "psiquiatria") {
+  return (
+    <ArticlePsiquiatria
+      onBack={() => setCurrentArticle(null)}
+    />
+  );
+}
 
 
   
@@ -165,7 +183,8 @@ function CentralDeSaude() {
                 {post.published ? (
                 <button
                   type="button"
-                  onClick={() => setShowArticle(true)}
+                  //onClick={() => setShowArticle(true)}
+                  onClick={() => setCurrentArticle(post.slug as any)}
                   className="inline-flex items-center gap-2 text-sm font-medium text-azure-deep transition group-hover:gap-3"
                 >
                   Ler artigo
