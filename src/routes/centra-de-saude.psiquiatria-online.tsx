@@ -972,7 +972,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
               </div>
 
             </div>
-
+          </section>
               <section id="psicologo" className="scroll-mt-24">
 
             <h2 className="font-display text-3xl mt-10">
