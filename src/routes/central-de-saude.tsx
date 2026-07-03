@@ -20,7 +20,7 @@ const posts = [
     published: true,
   },
   {
-    slug: "#",
+    slug: "psiquiatria",
     category: "Psiquiatria",
     readTime: "12 min",
     title: "Psiquiatria Online",
@@ -29,7 +29,7 @@ const posts = [
     published: false,
   },
   {
-    slug: "#",
+    slug: "receita-medica-digital",
     category: "Documentos Médicos",
     readTime: "Em breve",
     title: "Receita Médica Digital",
@@ -38,7 +38,7 @@ const posts = [
     published: false,
   },
   {
-    slug: "#",
+    slug: "atestado-medico-online",
     category: "Documentos Médicos",
     readTime: "Em breve",
     title: "Atestado Médico Online",
