@@ -576,7 +576,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
               Ansiedade: quando procurar um médico na área de psiquiatria?
 
             </h2>
-
+<br/>
             <p>
 
               A ansiedade faz parte da vida e todos nós a sentimos em alguns
@@ -585,7 +585,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
               transtorno de ansiedade.
 
             </p>
-
+<br/>
             <p>
 
               Quem pesquisa no Google se <strong>"ansiedade precisa de
@@ -628,7 +628,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
               Depressão: quando procurar ajuda?
 
             </h2>
-
+<br/>
             <p>
 
               A depressão vai muito além da tristeza. Trata-se de um transtorno
@@ -636,7 +636,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
               sono, alimentação e até sintomas corporais.
 
             </p>
-
+<br/>
             <p>
 
               Quem procura saber se <strong>"depressão precisa de
@@ -730,7 +730,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
             <h2 className="font-display text-3xl mt-10">
               Síndrome do Pânico
             </h2>
-
+<br/>
             <p>
               A síndrome do pânico é caracterizada por crises súbitas de medo
               intenso acompanhadas de sintomas físicos importantes, como falta
@@ -739,7 +739,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
               possuem tratamento e quanto mais cedo forem reconhecidas, melhores
               costumam ser os resultados.
             </p>
-
+<br/>
             <p>
               Muitas pessoas procuram um <strong>psiquiatra online urgente</strong>
               após a primeira crise. Embora toda dor intensa deva ser avaliada,
@@ -759,7 +759,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
             <h2 className="font-display text-3xl mt-10">
               Burnout e esgotamento emocional
             </h2>
-
+<br/>
             <p>
               O Burnout está relacionado ao estresse crônico, principalmente
               associado ao trabalho. Sensação constante de exaustão,
@@ -767,7 +767,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
               concentrar e falta de motivação são alguns dos sintomas mais
               frequentes.
             </p>
-
+<br/>
             <p>
               Muitas vezes o Burnout é confundido com ansiedade ou depressão.
               A avaliação médica é importante para diferenciar essas condições e
@@ -786,7 +786,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
             <h2 className="font-display text-3xl mt-10">
               TDAH em adultos
             </h2>
-
+<br/>
             <p>
               O Transtorno do Déficit de Atenção e Hiperatividade não ocorre
               apenas durante a infância. Muitos adultos convivem durante anos
@@ -794,13 +794,13 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
               desorganização e sensação constante de baixo rendimento sem saber
               que esses sintomas podem estar relacionados ao TDAH.
             </p>
-
+<br/>
             <p>
               O diagnóstico é exclusivamente clínico e deve ser realizado por um
               médico após uma avaliação cuidadosa da história do paciente,
               sintomas atuais e impacto na vida cotidiana.
             </p>
-
+<br/>
             <p className="mt-4 text-sm text-muted-foreground">
               Também teremos um artigo específico explicando como é feito o
               diagnóstico e tratamento do TDAH em adultos.
@@ -813,14 +813,14 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
             <h2 className="font-display text-3xl mt-10">
               Insônia
             </h2>
-
+<br/>
             <p>
               Dormir mal ocasionalmente é comum. Entretanto, quando a dificuldade
               para iniciar ou manter o sono torna-se frequente, prejudicando o
               desempenho durante o dia, pode existir um transtorno do sono ou
               outro problema de saúde mental associado.
             </p>
-
+<br/>
             <p>
               Ansiedade, depressão, estresse crônico e diversos outros
               transtornos podem provocar insônia. Uma consulta psiquiátrica
@@ -835,7 +835,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
             <h2 className="font-display text-3xl mt-10">
               Como funciona uma consulta online com um médico na área de psiquiatria?
             </h2>
-
+<br/>
             <p>
               A <strong>consulta psiquiátrica online</strong> ocorre por
               videoconferência em ambiente seguro e segue os mesmos princípios
@@ -904,14 +904,14 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
             <h2 className="font-display text-3xl mt-10">
               Como é a primeira consulta com um médico na área de psiquiatria?
             </h2>
-
+<br/>
             <p>
               Uma das dúvidas mais pesquisadas é sobre a
               <strong> primeira consulta com médico na área de psiquiatria</strong>. Muitas pessoas
               imaginam que sairão da consulta obrigatoriamente com uma receita,
               mas isso nem sempre acontece.
             </p>
-
+<br/>
             <p>
               O principal objetivo da primeira consulta é compreender a história
               do paciente de forma ampla. O médico busca entender quando os
@@ -961,7 +961,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
                   <h3 className="font-semibold text-lg">
                     Atendimento humanizado
                   </h3>
-
+<br/>
                   <p className="mt-2 text-sm text-muted-foreground">
                     A consulta é um espaço de acolhimento, escuta e respeito.
                     Não existe julgamento. O objetivo é compreender sua história
@@ -985,14 +985,14 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
             <h2 className="font-display text-3xl mt-10">
               O médico na área de psiquiatria pode receitar medicamentos online?
             </h2>
-
+<br/>
             <p>
               Sim. Uma das principais dúvidas de quem busca um
               <strong> psiquiatra online</strong> é se existe possibilidade de
               receber receitas médicas durante uma consulta realizada por
               telemedicina.
             </p>
-
+<br/>
             <p>
               Após avaliação clínica individualizada, o médico pode emitir
               receitas digitais conforme a legislação brasileira. Essas receitas
@@ -1049,14 +1049,14 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
             <h2 className="font-display text-3xl mt-10">
               Médico na área de psiquiatria receita medicamento controlado online?
             </h2>
-
+<br/>
             <p>
               Sim. Dependendo do medicamento e da regulamentação vigente,
               o <strong>médico na área de psiquiatria pode receitar medicamentos controlados
               online</strong>, utilizando sistemas eletrônicos autorizados e
               assinaturas digitais válidas.
             </p>
-
+<br/>
             <p>
               A emissão sempre depende da avaliação médica. Nenhuma receita é
               fornecida automaticamente ou apenas mediante solicitação do
@@ -1084,18 +1084,18 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
             <h2 className="font-display text-3xl mt-10">
               Médico na área de psiquiatria pode dar atestado online?
             </h2>
-
+<br/>
             <p>
               Sim. Sempre que houver indicação clínica, o
               <strong> médico na área de psiquiatria pode emitir atestado médico online</strong>.
             </p>
-
+<br/>
             <p>
               O documento é emitido eletronicamente e possui assinatura digital,
               podendo ser apresentado ao empregador, instituição de ensino ou
               demais órgãos, conforme as regras aplicáveis.
             </p>
-
+<br/>
             <p>
               Vale lembrar que o atestado não é um benefício automático da
               consulta. Sua emissão depende exclusivamente da avaliação médica e
@@ -1167,7 +1167,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
                 <h2 className="font-display text-3xl">
                   Agende sua consulta online com um médico na área de psiquiatria
                 </h2>
-
+<br/>
                 <p className="mt-3 text-white/80 max-w-xl">
                   Atendimento humanizado, seguro e com toda a comodidade da
                   telemedicina. Nossa equipe está pronta para esclarecer suas
@@ -1198,7 +1198,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
             <h2 className="font-display text-3xl mt-10">
               Vantagens da consulta com um psiquiatra online
             </h2>
-
+<br/>
             <p>
               A telemedicina ampliou o acesso à saúde mental em todo o Brasil.
               Hoje, realizar uma <strong>consulta psiquiátrica online</strong>
@@ -1273,7 +1273,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
             <h2 className="font-display text-3xl mt-10">
               Quando a consulta online não é indicada?
             </h2>
-
+<br/>
             <p>
               Embora a <strong>psiquiatria online</strong> seja adequada para a
               grande maioria das consultas, existem situações que exigem
@@ -1330,7 +1330,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
             <h2 className="font-display text-3xl mt-10">
               Como se preparar para a consulta?
             </h2>
-
+<br/>
             <p>
               Algumas medidas simples ajudam a aproveitar melhor o atendimento.
             </p>
@@ -1371,7 +1371,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
             <h2 className="font-display text-3xl mt-10">
               Por que escolher a Asas Telemedicina?
             </h2>
-
+<br/>
             <p>
               Nosso objetivo é oferecer um atendimento acessível, ético e
               humanizado. Acreditamos que cuidar da saúde mental deve ser um
@@ -1415,7 +1415,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
               <h2 className="font-display text-3xl">
                 Cuidar da saúde mental é um investimento em qualidade de vida
               </h2>
-
+<br/>
               <p className="mt-4 text-background/75 max-w-2xl mx-auto">
                 Quanto mais cedo o tratamento começa, maiores costumam ser as
                 chances de controlar os sintomas e recuperar o bem-estar. Nossa
@@ -1483,7 +1483,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
             <h2 className="font-display text-3xl mt-10">
               Conclusão
             </h2>
-
+<br/>
             <p>
 
               Procurar um <strong>psiquiatra online</strong> pode ser o primeiro
@@ -1493,7 +1493,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
               eficazes.
 
             </p>
-
+<br/>
             <p>
 
               A <strong>consulta psiquiátrica online</strong> oferece conforto,
@@ -1501,7 +1501,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
               que você receba atendimento médico sem precisar sair de casa.
 
             </p>
-
+<br/>
             <p>
 
               Quanto antes um transtorno mental for identificado, maiores
