@@ -1206,6 +1206,12 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
               privacidade e praticidade, sem abrir mão da qualidade do cuidado.
             </p>
 
+            <p className="mt-5 text-muted-foreground">
+              Caso o médico identifique durante a consulta online que existe
+              necessidade de avaliação presencial, ele orientará imediatamente o
+              paciente quanto ao encaminhamento mais adequado.
+            </p>
+
             <div className="mt-6 grid gap-4 sm:grid-cols-2">
 
               {[
@@ -1268,62 +1274,9 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
 
           </section>
 
-          <section id="presencial" className="scroll-mt-24">
+          
 
-            <h2 className="font-display text-3xl mt-10">
-              Quando a consulta online não é indicada?
-            </h2>
-<br/>
-            <p>
-              Embora a <strong>psiquiatria online</strong> seja adequada para a
-              grande maioria das consultas, existem situações que exigem
-              avaliação presencial imediata.
-            </p>
-
-            <div className="mt-6 rounded-2xl border border-border bg-card p-6">
-
-              <h3 className="font-semibold text-lg mb-4">
-                Procure atendimento presencial imediatamente em casos de:
-              </h3>
-
-              <ul className="space-y-3">
-
-                {[
-                  "Risco de suicídio ou automutilação.",
-                  "Tentativa de suicídio.",
-                  "Surto psicótico.",
-                  "Comportamento agressivo com risco para terceiros.",
-                  "Perda importante do contato com a realidade.",
-                  "Intoxicação por álcool ou outras drogas.",
-                  "Emergências clínicas associadas."
-                ].map((item)=>(
-
-                  <li
-                    key={item}
-                    className="flex gap-3"
-                  >
-
-                    <Check className="h-5 w-5 text-azure-deep flex-none"/>
-
-                    <span>
-                      {item}
-                    </span>
-
-                  </li>
-
-                ))}
-
-              </ul>
-
-            </div>
-
-            <p className="mt-5 text-muted-foreground">
-              Caso o médico identifique durante a consulta online que existe
-              necessidade de avaliação presencial, ele orientará imediatamente o
-              paciente quanto ao encaminhamento mais adequado.
-            </p>
-
-          </section>
+          
 
           <section id="preparo" className="scroll-mt-24">
 
