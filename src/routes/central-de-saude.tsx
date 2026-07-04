@@ -78,9 +78,8 @@ export const Route = createFileRoute("/central-de-saude")({
     
       links: [
         {
-          rel: "icon",
-          href: "/favicon.ico",
-          type: "image/x-icon",
+            rel: "icon",
+            href: "/favicon.ico",
         },
       ],
     
