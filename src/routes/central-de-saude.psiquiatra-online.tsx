@@ -437,9 +437,9 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
         <div className="prose-content mt-12 space-y-6 text-base leading-relaxed">
 
 
-          <section id="oquefaz" className="scroll-mt-24">
+          <section id="oquefaz" className="scroll-mt-24 text-justify">
 
-            <h2 className="font-display text-3xl mt-6 text-justify">
+            <h2 className="font-display text-3xl mt-6">
               O que faz um médico na área de psiquiatria?
             </h2>
 
