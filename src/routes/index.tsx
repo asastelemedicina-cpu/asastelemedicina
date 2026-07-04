@@ -43,6 +43,10 @@ links: [
 rel: "canonical",
 href: "https://www.asastelemedicina.com.br/",
 },
+  {
+    rel: "shortcut icon",
+    href: "/favicon.ico",
+  },
 ],
 }),
 component: Index,
