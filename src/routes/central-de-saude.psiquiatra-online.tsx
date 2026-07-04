@@ -442,7 +442,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
             <h2 className="font-display text-3xl mt-6">
               O que faz um médico na área de psiquiatria?
             </h2>
-            <br>
+            <br/>
 
             <p>
               O <strong>médico na área de psiquiatria</strong> é um médico que atua no
@@ -452,6 +452,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
               alterações do comportamento, do pensamento, da memória, do sono,
               da concentração e do humor.
             </p>
+            <br/>
 
             <p>
               Muitas pessoas acreditam que somente indivíduos com doenças
