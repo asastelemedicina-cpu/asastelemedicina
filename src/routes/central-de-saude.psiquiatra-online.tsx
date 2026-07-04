@@ -442,6 +442,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
             <h2 className="font-display text-3xl mt-6">
               O que faz um médico na área de psiquiatria?
             </h2>
+            <br>
 
             <p>
               O <strong>médico na área de psiquiatria</strong> é um médico que atua no
