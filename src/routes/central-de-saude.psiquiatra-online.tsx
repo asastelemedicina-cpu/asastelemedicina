@@ -434,7 +434,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
 
         </div>
 
-        <div className="prose-content mt-12 space-y-6 text-base leading-relaxed">
+        <div className="prose-content mt-12 space-y-6 text-base leading-relaxed text-justify">
 
 
           <section id="oquefaz" className="scroll-mt-24 text-justify">
