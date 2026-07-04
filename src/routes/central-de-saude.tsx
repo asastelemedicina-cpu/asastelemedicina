@@ -75,6 +75,15 @@ export const Route = createFileRoute("/central-de-saude")({
           "Artigos médicos escritos para esclarecer dúvidas sobre saúde e telemedicina.",
       },
     ],
+    
+      links: [
+        {
+          rel: "icon",
+          href: "/favicon.ico",
+          type: "image/x-icon",
+        },
+      ],
+    
   }),
   component: CentralDeSaude,
 });
