@@ -462,7 +462,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
               irritabilidade excessiva ou dificuldade de concentração podem
               indicar que uma avaliação médica especializada seja necessária.
             </p>
-
+<br/>
             <p>
               Atualmente, realizar uma consulta online com um <strong>médico na área de psiquiatria</strong> é uma forma prática e segura
               de iniciar esse acompanhamento, permitindo acesso rápido ao
@@ -484,14 +484,14 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
 
           </section>
 
-          <section id="quando" className="scroll-mt-24">
+          <section id="quando" className="scroll-mt-24 text-justify">
 
             <h2 className="font-display text-3xl mt-10">
 
               Quando procurar um médico na área de psiquiatria?
 
             </h2>
-
+<br/>
             <p>
 
               Saber <strong>quando procurar um médico na área de psiquiatria</strong> é uma das
@@ -501,7 +501,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
               nos estudos, nos relacionamentos ou nas atividades do dia a dia.
 
             </p>
-
+<br/>
             <p>
 
               Algumas pessoas convivem durante meses ou até anos com sintomas
@@ -569,7 +569,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
 
           </section>
 
-          <section id="ansiedade" className="scroll-mt-24">
+          <section id="ansiedade" className="scroll-mt-24 text-justify">
 
             <h2 className="font-display text-3xl mt-10">
 
@@ -621,7 +621,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
 
           </section>
 
-          <section id="depressao" className="scroll-mt-24">
+          <section id="depressao" className="scroll-mt-24 text-justify">
 
             <h2 className="font-display text-3xl mt-10">
 
@@ -725,7 +725,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
           </div>
 
 
-          <section id="panico" className="scroll-mt-24">
+          <section id="panico" className="scroll-mt-24 text-justify">
 
             <h2 className="font-display text-3xl mt-10">
               Síndrome do Pânico
@@ -754,7 +754,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
 
           </section>
 
-          <section id="burnout" className="scroll-mt-24">
+          <section id="burnout" className="scroll-mt-24 text-justify">
 
             <h2 className="font-display text-3xl mt-10">
               Burnout e esgotamento emocional
@@ -781,7 +781,7 @@ export function ArticlePsiquiatria({ onBack }: ArticleProps) {
 
           </section>
 
-          <section id="tdah" className="scroll-mt-24">
+          <section id="tdah" className="scroll-mt-24 text-justify">
 
             <h2 className="font-display text-3xl mt-10">
               TDAH em adultos
