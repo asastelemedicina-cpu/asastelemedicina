@@ -288,14 +288,14 @@ function FacaParte() {
             </article>
 
             <article className="rounded-2xl border border-border bg-card p-8 transition hover:border-lilac hover:shadow-lg hover:shadow-lilac/10">
-              <div className="mb-5 text-4xl">🇧🇷</div>
+              <div className="mb-5 text-4xl">Do Brasil para o Mundo</div>
 
               <h3 className="font-display text-2xl">
-                Alcance Nacional
+                Alcance Nacional e Internacional
               </h3>
 
               <p className="mt-4 text-justify text-muted-foreground leading-7">
-                Ajude pacientes de diferentes regiões do Brasil sem necessidade
+                Ajude pacientes de diferentes regiões do Brasil e do Mundo sem necessidade
                 de deslocamentos.
               </p>
             </article>
@@ -517,91 +517,6 @@ function FacaParte() {
               conforme as necessidades da plataforma e o perfil
               profissional apresentado.
             </p>
-
-          </div>
-        </div>
-      </section>
-
-      <section className="py-24">
-        <div className="mx-auto max-w-6xl px-6">
-          <div className="max-w-3xl">
-            <p className="text-xs uppercase tracking-[0.2em] text-lilac">
-              Diferenciais da ASAS
-            </p>
-
-            <h2 className="mt-3 font-display text-4xl md:text-5xl">
-              Um ambiente pensado para o{" "}
-              <span className="text-azure-deep">crescimento profissional.</span>
-            </h2>
-
-            <br />
-
-            <p className="text-justify text-muted-foreground leading-8">
-              Estamos construindo uma plataforma moderna, organizada e focada na
-              qualidade assistencial. Queremos crescer ao lado de profissionais
-              que compartilhem dos mesmos valores.
-            </p>
-          </div>
-
-          <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-
-            {[
-              {
-                emoji: "🖥️",
-                titulo: "Teleatendimento",
-                texto:
-                  "Realize atendimentos online com conforto, praticidade e segurança.",
-              },
-              {
-                emoji: "📱",
-                titulo: "Tecnologia",
-                texto:
-                  "Utilizamos ferramentas modernas para facilitar a comunicação entre pacientes e profissionais.",
-              },
-              {
-                emoji: "📅",
-                titulo: "Flexibilidade",
-                texto:
-                  "Organize seus horários de atendimento conforme sua disponibilidade.",
-              },
-              {
-                emoji: "🤝",
-                titulo: "Trabalho colaborativo",
-                texto:
-                  "Acreditamos na integração entre diferentes áreas da saúde para oferecer um cuidado mais completo.",
-              },
-              {
-                emoji: "📈",
-                titulo: "Crescimento",
-                texto:
-                  "Faça parte de uma plataforma em constante evolução e participe dessa construção desde o início.",
-              },
-              {
-                emoji: "❤️",
-                titulo: "Foco no paciente",
-                texto:
-                  "Nosso maior objetivo é oferecer um atendimento ético, acessível e verdadeiramente humanizado.",
-              },
-            ].map((item) => (
-              <article
-                key={item.titulo}
-                className="rounded-2xl border border-border bg-card p-8 transition hover:border-lilac hover:shadow-lg hover:shadow-lilac/10"
-              >
-                <div className="text-5xl">
-                  {item.emoji}
-                </div>
-
-                <h3 className="mt-6 font-display text-2xl">
-                  {item.titulo}
-                </h3>
-
-                <br />
-
-                <p className="text-justify text-muted-foreground leading-7">
-                  {item.texto}
-                </p>
-              </article>
-            ))}
 
           </div>
         </div>
