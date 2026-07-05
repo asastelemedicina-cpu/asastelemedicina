@@ -122,10 +122,10 @@ function Index() {
           <nav className="hidden gap-8 text-sm text-muted-foreground md:flex">
             <a href="#especialidades" className="hover:text-foreground">Cuidados Oferecidos</a>
             <a href="#como-funciona" className="hover:text-foreground">Como funciona</a>
-            <a href="#documentos" className="hover:text-foreground">Documentos</a>
-            {/*<Link to="/blog" className="hover:text-foreground">Blog</Link>*/}
+            <a href="#documentos" className="hover:text-foreground">Documentos</a>           
             <Link to="/central-de-saude" className="hover:text-foreground">Artigos de Saúde</Link>
             <a href="#faq" className="hover:text-foreground">FAQ</a>
+            <Link to="/faca-parte" className="hover:text-foreground">Faça parte</Link>
           </nav>
           <a
             href={WHATSAPP_URL}
@@ -406,6 +406,67 @@ function Index() {
       </section>
 
       
+      <section className="border-t border-border bg-card/30 py-20">
+  <div className="mx-auto max-w-5xl px-6">
+
+    <div className="rounded-3xl border border-border bg-background p-10 text-center shadow-sm">
+
+      <span className="inline-flex items-center rounded-full bg-lilac/10 px-4 py-1 text-xs font-medium uppercase tracking-[0.2em] text-lilac">
+        Nossa Missão
+      </span>
+
+      <h2 className="mt-5 font-display text-3xl md:text-4xl">
+        A saúde deve estar ao alcance de todos.
+      </h2>
+
+      <br />
+
+      <p className="mx-auto max-w-3xl text-justify text-muted-foreground leading-8">
+        A ASAS Telemedicina nasceu acreditando que o acesso à saúde de qualidade
+        não deve ser um privilégio. Nossa missão é aproximar profissionais e
+        pacientes por meio da tecnologia, contribuindo para a democratização do
+        atendimento em saúde em todo o Brasil.
+      </p>
+
+      <br />
+
+      <p className="mx-auto max-w-3xl text-justify text-muted-foreground leading-8">
+        Buscamos promover um cuidado baseado na longitudinalidade, fortalecendo
+        o acompanhamento contínuo dos pacientes, incentivando a prevenção, o
+        diagnóstico precoce, a educação em saúde e a construção de vínculos de
+        confiança entre profissionais e pessoas atendidas.
+      </p>
+
+      <br />
+
+      <p className="mx-auto max-w-3xl text-justify text-muted-foreground leading-8">
+        Acreditamos que consultas, procedimentos e acompanhamentos com médicos,
+        psicólogos, fisioterapeutas, nutricionistas e demais profissionais da
+        saúde podem ser mais acessíveis sem abrir mão da ética, da qualidade
+        técnica e do atendimento humanizado.
+      </p>
+
+      <br />
+
+      <p className="mx-auto max-w-3xl text-justify text-muted-foreground leading-8">
+        Se você compartilha desses valores e deseja contribuir para ampliar o
+        acesso à saúde, reduzir desigualdades e transformar positivamente a vida
+        das pessoas, será uma satisfação conhecer sua trajetória profissional.
+      </p>
+
+      <Link
+        to="/faca-parte"
+        className="mt-8 inline-flex items-center gap-2 rounded-full bg-lilac px-6 py-3.5 text-sm font-medium text-foreground transition hover:bg-foreground hover:text-background"
+      >
+        💜 Faça parte da equipe
+      </Link>
+
+    </div>
+
+  </div>
+</section>
+
+      
 
       {/* FOOTER */}
       <footer className="border-t border-border bg-background py-10">
@@ -418,6 +479,12 @@ function Index() {
             </div>
           </div>
           <div className="flex flex-col items-center gap-1 md:items-end">
+              <Link
+                to="/faca-parte"
+                className="font-medium text-lilac hover:text-foreground"
+              >
+                Faça parte da equipe
+              </Link>
             <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="hover:text-foreground">
               WhatsApp: (45) 92001-8284
             </a>
