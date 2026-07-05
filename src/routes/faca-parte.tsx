@@ -7,6 +7,12 @@ import {
 } from "lucide-react";
 import asasLogo from "@/assets/asas-logo.jpeg";
 import heroDoctor from "@/assets/hero-doctor.jpg";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 export const Route = createFileRoute("/faca-parte")({
   head: () => ({
