@@ -439,14 +439,14 @@ function Index() {
 
       <br />
 
-      <p className="mx-auto max-w-3xl text-justify text-muted-foreground leading-8">
-        Acreditamos que consultas, procedimentos e acompanhamentos com médicos,
+      {/* <p className="mx-auto max-w-3xl text-justify text-muted-foreground leading-8">
+        Acreditamos que consultas e acompanhamentos com médicos,
         psicólogos, fisioterapeutas, nutricionistas e demais profissionais da
         saúde podem ser mais acessíveis sem abrir mão da ética, da qualidade
         técnica e do atendimento humanizado.
       </p>
 
-      <br />
+      <br />  */}
 
       <p className="mx-auto max-w-3xl text-justify text-muted-foreground leading-8">
         Se você compartilha desses valores e deseja contribuir para ampliar o
