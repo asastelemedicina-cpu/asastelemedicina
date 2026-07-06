@@ -29,7 +29,7 @@ meta: [
 {
 name: "description",
 content:
-"Teleconsulta com psiquiatria, clínica geral, ginecologia, pediatria, emagrecimento e mais. Atestados, afastamentos, laudos e relatórios médicos. A partir de R$ 120.",
+"Teleconsulta médica com psiquiatria, clínica geral, ginecologia, pediatria, emagrecimento e mais. Atestados, afastamentos, laudos e relatórios médicos. A partir de R$ 120.",
 },
 { property: "og:title", content: "Clínica Popular Asas Telemedicina — Cuidado médico online" },
 {
@@ -89,8 +89,8 @@ const faqs = [
     a: "Basta enviar uma mensagem no nosso WhatsApp. Nossa equipe te orienta sobre a área de saúde desejada, horários disponíveis e forma de pagamento.",
   },
   {
-    q: "Quanto custa a consulta?",
-    a: "As consultas começam a partir de R$ 120,00. O valor pode variar conforme a área de cuidado e especialidade — a equipe informa todos os detalhes no WhatsApp antes do agendamento.",
+    q: "Quanto custa a consulta com um médico?",
+    a: "As consultas médicas começam a partir de R$ 120,00. O valor pode variar conforme a área de cuidado e especialidade — a equipe informa todos os detalhes no WhatsApp antes do agendamento.",
   },
   {
     q: "Do que eu preciso para a consulta?",
@@ -152,9 +152,8 @@ function Index() {
               Cuidado médico <em className="not-italic text-lilac">acessível</em>, no conforto da sua casa.
             </h1>
             <p className="mt-6 max-w-lg text-lg text-muted-foreground">
-              Atendimento por vídeo com profissionais de diversas especialidades e áreas de atuação. Consultas
-              <span className="font-medium text-foreground"> a partir de R$ 120,00</span> — com
-              atestados, laudos e relatórios médicos emitidos online.
+              Atendimento por vídeo com profissionais de diversas especialidades e áreas de atuação. Consultas com médicos
+              <span className="font-medium text-foreground"> a partir de R$ 120,00</span>. Possibilidade de emissão de atestados, laudos e relatórios médicos emitidos online.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <a
@@ -191,7 +190,7 @@ function Index() {
               <img src={asasLogo} alt="Logo Asas Telemedicina" className="h-full w-full object-contain" />
             </div>
             <div className="absolute -bottom-6 -left-6 hidden rounded-2xl border border-border bg-card p-4 shadow-xl md:block">
-              <p className="text-xs uppercase tracking-widest text-muted-foreground">Consultas a partir de</p>
+              <p className="text-xs uppercase tracking-widest text-muted-foreground">Consultas médicas a partir de</p>
               <p className="font-display text-3xl font-semibold text-azure-deep">R$ 120,00</p>
             </div>
           </div>
