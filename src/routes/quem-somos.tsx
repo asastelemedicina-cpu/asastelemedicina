@@ -413,7 +413,7 @@ function QuemSomos() {
 
           <br />
 
-          <p className="mx-auto max-w-4xl text-justify leading-8 text-muted-foreground">
+          {/*         <p className="mx-auto max-w-4xl text-justify leading-8 text-muted-foreground">
             Valorizamos médicos, psicólogos,
             fisioterapeutas, nutricionistas, enfermeiros, farmacêuticos,
             terapeutas ocupacionais, fonoaudiólogos, educadores físicos e demais
@@ -422,7 +422,7 @@ function QuemSomos() {
           </p>
 
           <br />
-
+*/}
           <p className="mx-auto max-w-4xl text-justify leading-8 text-muted-foreground">
             Quando o cuidado acontece de forma integrada, o paciente é atendido
             de maneira mais completa, humanizada e centrada em suas necessidades.
@@ -590,9 +590,7 @@ function QuemSomos() {
           </h2>
 
           <p className="max-w-3xl text-justify text-background/70 leading-8">
-            Seja como paciente, profissional da saúde ou parceiro, queremos
-            caminhar ao seu lado para contribuir com uma saúde cada vez mais
-            acessível, humana e centrada nas pessoas.
+            Queremos caminhar ao seu lado para contribuir com uma saúde cada vez mais acessível, humana e centrada nas pessoas.
           </p>
 
           <div className="mt-4 flex flex-wrap justify-center gap-4">
