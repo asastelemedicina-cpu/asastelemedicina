@@ -120,6 +120,7 @@ function Index() {
             </span>
           </a>
           <nav className="hidden gap-8 text-sm text-muted-foreground md:flex">
+            <Link to="/quem-somos" className="hover:text-foreground">Quem Somos</Link>
             <a href="#especialidades" className="hover:text-foreground">Cuidados Oferecidos</a>
             <a href="#como-funciona" className="hover:text-foreground">Como funciona</a>
             <a href="#documentos" className="hover:text-foreground">Documentos</a>           
