@@ -428,7 +428,7 @@ function Index() {
 
       </div>
 
-      <div className="mt-10 rounded-2xl border border-border bg-card p-5 shadow-sm bg-lilac/10">
+     {/*<div className="mt-10 rounded-2xl border border-border bg-card p-5 shadow-sm bg-lilac/10">*/}
 
         <div className="flex flex-wrap items-center gap-x-8 gap-y-3 text-sm">
 
@@ -442,7 +442,7 @@ function Index() {
 
         </div>
 
-      </div>
+      {/*</div>*/}
 
     </div>
 
