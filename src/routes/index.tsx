@@ -428,19 +428,17 @@ function Index() {
 
       </div>
 
-      <div className="mt-10 rounded-2xl border border-border bg-card p-5 shadow-sm">
+      <div className="mt-10 rounded-2xl border border-border bg-card p-5 shadow-sm bg-lilac/10">
 
         <div className="flex flex-wrap items-center gap-x-8 gap-y-3 text-sm">
 
           <div className="mt-2 flex items-center gap-1 text-yellow-400">
 
-              ★★★★★ <div className="mt-1 text-sm font-medium text-foreground"> <strong>Mais de 2.000 pacientes atendidos em todo o Brasil e exterior.</strong></div>
+              ★★★★★ <div className="mt-1 text-sm font-medium text-foreground"> Mais de <strong>2.000 pacientes atendidos</strong> em todo o Brasil e exterior.</div>
 
           </div>
 
-          
-
-          
+                  
 
         </div>
 
@@ -462,44 +460,8 @@ function Index() {
         className="relative z-20 aspect-square w-full rounded-[2rem] object-cover shadow-2xl shadow-black/20"
       />
 
-      {/* CARD SUPERIOR */}
-
-      <div className="absolute -top-6 -right-6 z-30 hidden rounded-3xl border border-border bg-background p-5 shadow-2xl lg:block">
-
-        <div className="flex items-center gap-4">
-
-          <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-lilac/10">
-
-            <Users className="h-7 w-7 text-lilac" />
-
-          </div>
-
-          <div>
-
-            <p className="font-display text-3xl leading-none text-foreground">
-
-              2.000+
-
-            </p>
-
-            <p className="mt-1 text-sm font-medium text-foreground">
-
-              Pacientes atendidos
-
-            </p>
-
-            <div className="mt-2 flex items-center gap-1 text-yellow-400">
-
-              ★★★★★
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
+      
+      
       {/* CARD INFERIOR */}
 
       <div className="absolute -bottom-7 -left-7 z-30 hidden w-72 rounded-3xl border border-border bg-background p-6 shadow-2xl lg:block">
