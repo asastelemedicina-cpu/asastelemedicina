@@ -546,57 +546,6 @@ className="w-[330px] flex-shrink-0 rounded-3xl border border-border bg-card p-6 
 
 </div>
 
-{/* SEGUNDA LINHA */}
-
-<div className="mt-6">
-
-<div className="marquee-right gap-6">
-
-{[...testimonials.reverse(),...testimonials.reverse()].map((item,index)=>(
-
-<div
-key={index}
-className="w-[330px] flex-shrink-0 rounded-3xl border border-border bg-card p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg"
->
-
-<div className="text-yellow-400 text-lg tracking-wider">
-
-★★★★★
-
-</div>
-
-<p className="mt-5 text-sm leading-7 text-muted-foreground">
-
-"{item.text}"
-
-</p>
-
-<div className="mt-6">
-
-<p className="font-semibold">
-
-{item.name}
-
-</p>
-
-<p className="text-sm text-muted-foreground">
-
-{item.city}
-
-</p>
-
-</div>
-
-</div>
-
-))}
-
-</div>
-
-</div>
-
-</div>
-
 </section>
 
   
