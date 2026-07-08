@@ -202,7 +202,7 @@ function Index() {
             rel="noopener noreferrer"
             className="hidden items-center gap-2 rounded-full bg-foreground px-5 py-2.5 text-sm font-medium text-background transition hover:bg-azure-deep md:inline-flex"
           >
-            <MessageCircle className="h-4 w-4" /> Agendar
+            <MessageCircle className="h-4 w-4" /> Agendar pelo WhatsApp
           </a>
         </div>
       </header>
@@ -765,7 +765,7 @@ className="w-[330px] flex-shrink-0 rounded-3xl border border-border bg-card p-6 
         aria-label="Conversar no WhatsApp"
         className="fixed bottom-6 right-6 z-50 inline-flex h-14 w-14 items-center justify-center rounded-full bg-azure-deep text-primary-foreground shadow-xl shadow-azure-deep/30 transition hover:scale-105 hover:bg-lilac"
       >
-        <MessageCircle className="h-6 w-6" />
+        <MessageCircle className="h-6 w-6" /> Agendar Consulta
       </a>
     </div>
   );
