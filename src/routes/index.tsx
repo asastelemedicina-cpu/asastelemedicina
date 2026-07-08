@@ -434,22 +434,6 @@ function Index() {
 
           <div className="flex items-center gap-2">
 
-            <span className="tracking-wider text-yellow-400">
-
-              ★★★★★
-
-            </span>
-
-            <span>
-
-              Mais de <strong>2.000 pacientes atendidos</strong>
-
-            </span>
-
-          </div>
-
-          <div className="flex items-center gap-2">
-
             <Globe className="h-4 w-4 text-lilac" />
 
             Brasil e exterior
