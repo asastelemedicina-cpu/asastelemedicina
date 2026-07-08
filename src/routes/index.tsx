@@ -602,7 +602,7 @@ function Index() {
 
           </div>
 
-          <div>
+          {/*<div>
 
             <p className="font-semibold text-foreground">
 
@@ -616,7 +616,7 @@ function Index() {
 
             </p>
 
-          </div>
+          </div>*/}
 
         </div>
 
