@@ -175,6 +175,8 @@ function Index() {
     <div className="min-h-screen bg-background text-foreground">
       {/* NAV */}
       {/*<header className="absolute top-0 left-0 right-0 z-20">*/}
+
+      {/*
       <header className="fixed top-0 left-0 right-0 z-50 border-b border-white/10 bg-background/70 backdrop-blur-xl supports-[backdrop-filter]:bg-background/60">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-6">
           <a href="#top" className="flex items-center gap-2">
@@ -206,9 +208,96 @@ function Index() {
           </a>
         </div>
       </header>
+      */}
+
+  <header className="fixed inset-x-0 top-0 z-50 border-b border-border/40 bg-background/75 backdrop-blur-xl">
+  <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
+
+    <a href="#top" className="flex items-center gap-3 transition hover:opacity-90">
+      <img
+        src={asasLogo}
+        alt="Asas Telemedicina"
+        className="h-11 w-11 rounded-full object-cover ring-1 ring-border"
+      />
+
+      <div>
+        <p className="font-display text-lg font-semibold leading-none">
+          Clínica Popular
+        </p>
+
+        <p className="font-display text-lg leading-none text-lilac">
+          Asas Telemedicina
+        </p>
+      </div>
+    </a>
+
+    <nav className="hidden items-center gap-8 text-sm text-muted-foreground lg:flex">
+
+      <Link
+        to="/quem-somos"
+        className="transition hover:text-foreground"
+      >
+        Quem Somos
+      </Link>
+
+      <a
+        href="#especialidades"
+        className="transition hover:text-foreground"
+      >
+        Especialidades
+      </a>
+
+      <a
+        href="#como-funciona"
+        className="transition hover:text-foreground"
+      >
+        Como funciona
+      </a>
+
+      <a
+        href="#documentos"
+        className="transition hover:text-foreground"
+      >
+        Documentos
+      </a>
+
+      <Link
+        to="/central-de-saude"
+        className="transition hover:text-foreground"
+      >
+        Artigos
+      </Link>
+
+      <a
+        href="#faq"
+        className="transition hover:text-foreground"
+      >
+        FAQ
+      </a>
+
+      <Link
+        to="/faca-parte"
+        className="transition hover:text-foreground"
+      >
+        Faça Parte
+      </Link>
+
+    </nav>
+
+    <a
+      href={WHATSAPP_URL}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hidden items-center gap-2 rounded-full bg-foreground px-5 py-3 text-sm font-medium text-background transition-all duration-300 hover:-translate-y-0.5 hover:bg-azure-deep hover:shadow-lg lg:inline-flex"
+    >
+      <MessageCircle className="h-4 w-4" />
+      Agendar pelo WhatsApp
+    </a>
+
+  </div>
+</header>
 
       {/* HERO */}
-     {/* <section id="top" className="relative overflow-hidden pt-32 pb-20 md:pt-40 md:pb-28">*/}
       <section id="top" className="relative overflow-hidden pt-36 pb-24 md:pt-44 md:pb-32">
         
         <div className="pointer-events-none absolute -top-32 -right-32 h-96 w-96 rounded-full bg-lilac-soft blur-3xl" />
