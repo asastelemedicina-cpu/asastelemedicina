@@ -95,7 +95,7 @@ const faqs = [
   },
   {
     q: "Quanto custa a consulta com um médico?",
-    a: "As consultas médicas começam a partir de R$ 120,00. O valor pode variar conforme a área de cuidado e especialidade — a equipe informa todos os detalhes no WhatsApp antes do agendamento.",
+    a: "As consultas médicas começam a partir de R$ 119,00. O valor pode variar conforme a área de cuidado e especialidade — a equipe informa todos os detalhes no WhatsApp antes do agendamento.",
   },
   {
     q: "Do que eu preciso para a consulta?",
@@ -874,7 +874,7 @@ className="w-[330px] flex-shrink-0 rounded-3xl border border-border bg-card p-6 
           <div className="rounded-3xl border border-background/10 bg-background/5 p-10 backdrop-blur">
             <p className="text-xs uppercase tracking-[0.2em] text-lilac">Consultas</p>
             <p className="mt-4 font-display text-6xl text-background">
-              R$ 120<span className="text-2xl text-background/60">,00</span>
+              R$ 119<span className="text-2xl text-background/60">,00</span>
             </p>
             <p className="mt-2 text-sm text-background/60">valor inicial por consulta</p>
             <div className="my-8 h-px bg-background/15" />
