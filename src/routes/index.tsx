@@ -208,7 +208,9 @@ function Index() {
       </header>
 
       {/* HERO */}
-      <section id="top" className="relative overflow-hidden pt-32 pb-20 md:pt-40 md:pb-28">
+     {/* <section id="top" className="relative overflow-hidden pt-32 pb-20 md:pt-40 md:pb-28">*/}
+      <section id="top" className="relative overflow-hidden pt-36 pb-24 md:pt-44 md:pb-32">
+        
         <div className="pointer-events-none absolute -top-32 -right-32 h-96 w-96 rounded-full bg-lilac-soft blur-3xl" />
         <div className="pointer-events-none absolute top-40 -left-20 h-72 w-72 rounded-full bg-secondary blur-3xl opacity-60" />
         <div className="relative mx-auto grid max-w-6xl grid-cols-1 items-center gap-12 px-6 md:grid-cols-2">
