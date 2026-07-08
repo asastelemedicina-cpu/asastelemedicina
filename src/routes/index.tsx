@@ -765,7 +765,7 @@ className="w-[330px] flex-shrink-0 rounded-3xl border border-border bg-card p-6 
         aria-label="Conversar no WhatsApp"
         className="fixed bottom-6 right-6 z-50 inline-flex h-14 w-14 items-center justify-center rounded-full bg-azure-deep text-primary-foreground shadow-xl shadow-azure-deep/30 transition hover:scale-105 hover:bg-lilac"
       >
-        <MessageCircle className="h-6 w-6" /> Agendar Consulta
+        <MessageCircle className="h-6 w-6" />
       </a>
     </div>
   );
