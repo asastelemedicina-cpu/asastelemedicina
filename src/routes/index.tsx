@@ -576,7 +576,7 @@ function Index() {
 
       {/* CARD SEGURANÇA */}
 
-      {/*<div className="absolute top-12 -left-8 z-30 hidden rounded-3xl border border-border bg-background p-5 shadow-2xl xl:block">
+      <div className="absolute bottom-12 -right-8 z-30 hidden rounded-3xl border border-border bg-background p-5 shadow-2xl xl:block">
 
         <div className="flex items-start gap-4">
 
@@ -604,7 +604,7 @@ function Index() {
 
         </div>
 
-      </div>*/}
+      </div>
 
     </div>
 
