@@ -450,7 +450,7 @@ function Index() {
 
     <div className="relative isolate">
 
-      <div className="absolute inset-0 translate-x-5 translate-y-5 rounded-[2rem] bg-lilac/20" />
+      <div className="absolute inset-0 translate-x-3 translate-y-3 rounded-[2rem] bg-lilac/20" />
 
       <div className="absolute inset-0 z-10 rounded-[2rem] bg-gradient-to-r from-lilac/20 via-transparent to-transparent" />
 
