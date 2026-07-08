@@ -298,7 +298,7 @@ function Index() {
 </header>
 
       {/* HERO */}
-      <section id="top" className="relative overflow-hidden pt-36 pb-24 md:pt-44 md:pb-32">
+      {/*<section id="top" className="relative overflow-hidden pt-36 pb-24 md:pt-44 md:pb-32">
         
         <div className="pointer-events-none absolute -top-32 -right-32 h-96 w-96 rounded-full bg-lilac-soft blur-3xl" />
         <div className="pointer-events-none absolute top-40 -left-20 h-72 w-72 rounded-full bg-secondary blur-3xl opacity-60" />
@@ -355,7 +355,280 @@ function Index() {
             </div>
           </div>
         </div>
-      </section>
+      </section>*/}
+
+{/* ======================= HERO ======================= */}
+
+<section
+  id="top"
+  className="relative overflow-hidden pt-36 pb-24 md:pt-44 md:pb-32"
+>
+
+  <div className="pointer-events-none absolute -right-40 -top-40 h-[520px] w-[520px] rounded-full bg-lilac/15 blur-3xl" />
+
+  <div className="pointer-events-none absolute -left-40 bottom-0 h-[420px] w-[420px] rounded-full bg-secondary/60 blur-3xl" />
+
+  <div className="mx-auto grid max-w-6xl items-center gap-16 px-6 lg:grid-cols-2">
+
+    {/* TEXTO */}
+
+    <div>
+
+      <span className="inline-flex items-center gap-2 rounded-full border border-border bg-card/70 px-4 py-2 text-xs uppercase tracking-[0.22em] text-muted-foreground backdrop-blur">
+
+        <span className="h-2 w-2 rounded-full bg-lilac" />
+
+        Teleconsulta • Atendimento online
+
+      </span>
+
+      <h1 className="mt-7 max-w-xl font-display text-5xl leading-[1.05] md:text-6xl">
+
+        Cuidado médico{" "}
+
+        <span className="text-lilac">
+
+          acessível
+
+        </span>
+
+        , no conforto da sua casa.
+
+      </h1>
+
+      <p className="mt-7 max-w-xl text-lg leading-8 text-muted-foreground">
+
+        Consultas médicas online com profissionais qualificados em diversas áreas da saúde. Atendimento por vídeo com possibilidade de emissão de receitas digitais, atestados, laudos e relatórios médicos quando indicados.
+
+      </p>
+
+      <div className="mt-10 flex flex-wrap gap-4">
+
+        <a
+          href={WHATSAPP_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 rounded-full bg-azure-deep px-7 py-4 text-sm font-medium text-primary-foreground shadow-xl shadow-azure-deep/20 transition-all duration-300 hover:-translate-y-0.5 hover:bg-foreground"
+        >
+
+          <MessageCircle className="h-4 w-4" />
+
+          Agendar pelo WhatsApp
+
+        </a>
+
+        <a
+          href="#especialidades"
+          className="inline-flex items-center rounded-full border border-border bg-card px-7 py-4 text-sm font-medium transition hover:bg-secondary"
+        >
+
+          Ver Especialidades
+
+        </a>
+
+      </div>
+
+      <div className="mt-10 rounded-2xl border border-border bg-card p-5 shadow-sm">
+
+        <div className="flex flex-wrap items-center gap-x-8 gap-y-3 text-sm">
+
+          <div className="flex items-center gap-2">
+
+            <span className="tracking-wider text-yellow-400">
+
+              ★★★★★
+
+            </span>
+
+            <span>
+
+              Mais de <strong>2.000 pacientes atendidos</strong>
+
+            </span>
+
+          </div>
+
+          <div className="flex items-center gap-2">
+
+            <Globe className="h-4 w-4 text-lilac" />
+
+            Brasil e exterior
+
+          </div>
+
+          <div className="flex items-center gap-2">
+
+            <ShieldCheck className="h-4 w-4 text-lilac" />
+
+            CRM ativo
+
+          </div>
+
+          <div className="flex items-center gap-2">
+
+            <FileText className="h-4 w-4 text-lilac" />
+
+            Receitas digitais
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    {/* FOTO */}
+
+    <div className="relative isolate">
+
+      <div className="absolute inset-0 translate-x-5 translate-y-5 rounded-[2rem] bg-lilac/20" />
+
+      <div className="absolute inset-0 z-10 rounded-[2rem] bg-gradient-to-r from-lilac/20 via-transparent to-transparent" />
+
+      <img
+        src={heroDoctor}
+        alt="Médica realizando teleconsulta"
+        className="relative z-20 aspect-square w-full rounded-[2rem] object-cover shadow-2xl shadow-black/20"
+      />
+
+      {/* CARD SUPERIOR */}
+
+      <div className="absolute -top-6 -right-6 z-30 hidden rounded-3xl border border-border bg-background p-5 shadow-2xl lg:block">
+
+        <div className="flex items-center gap-4">
+
+          <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-lilac/10">
+
+            <Users className="h-7 w-7 text-lilac" />
+
+          </div>
+
+          <div>
+
+            <p className="font-display text-3xl leading-none text-foreground">
+
+              2.000+
+
+            </p>
+
+            <p className="mt-1 text-sm font-medium text-foreground">
+
+              Pacientes atendidos
+
+            </p>
+
+            <div className="mt-2 flex items-center gap-1 text-yellow-400">
+
+              ★★★★★
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      {/* CARD INFERIOR */}
+
+      <div className="absolute -bottom-7 -left-7 z-30 hidden w-72 rounded-3xl border border-border bg-background p-6 shadow-2xl lg:block">
+
+        <p className="text-xs uppercase tracking-[0.18em] text-muted-foreground">
+
+          Consultas
+
+        </p>
+
+        <p className="mt-2 text-sm text-muted-foreground">
+
+          a partir de
+
+        </p>
+
+        <p className="mt-1 font-display text-5xl leading-none text-azure-deep">
+
+          R$ 120
+
+          <span className="text-2xl text-muted-foreground">
+
+            ,00
+
+          </span>
+
+        </p>
+
+        <div className="my-5 h-px bg-border" />
+
+        <div className="space-y-3 text-sm">
+
+          <div className="flex items-center gap-2">
+
+            <Check className="h-4 w-4 text-lilac" />
+
+            Atendimento por vídeo
+
+          </div>
+
+          <div className="flex items-center gap-2">
+
+            <Check className="h-4 w-4 text-lilac" />
+
+            Receita digital
+
+          </div>
+
+          <div className="flex items-center gap-2">
+
+            <Check className="h-4 w-4 text-lilac" />
+
+            Documentos médicos
+
+          </div>
+
+        </div>
+
+      </div>
+
+      {/* CARD SEGURANÇA */}
+
+      <div className="absolute top-12 -left-8 z-30 hidden rounded-3xl border border-border bg-background p-5 shadow-2xl xl:block">
+
+        <div className="flex items-start gap-4">
+
+          <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-green-100">
+
+            <ShieldCheck className="h-6 w-6 text-green-600" />
+
+          </div>
+
+          <div>
+
+            <p className="font-semibold text-foreground">
+
+              Consulta segura
+
+            </p>
+
+            <p className="mt-2 max-w-[180px] text-sm leading-6 text-muted-foreground">
+
+              Seus dados são protegidos durante toda a consulta.
+
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+      
 
 
 
