@@ -120,7 +120,7 @@ const testimonials = [
   {
     name: "Juliana Andrade",
     city: "Londrina • PR",
-    text: "A médica foi extremamente atenciosa e esclareceu todas as minhas dúvidas.",
+    text: "A médica foi extremamente atenciosa e esclareceu todas as minhas dúvidas. Excelente custo-benefício! ",
   },
   {
     name: "Fernando L.",
@@ -129,7 +129,7 @@ const testimonials = [
   },
   {
     name: "Patrícia Rodrigues",
-    city: "Cascavel • PR",
+    city: "Teresina • PI",
     text: "Recebi minha receita poucos minutos após a consulta. Tudo muito organizado.",
   },
   {
@@ -154,7 +154,7 @@ const testimonials = [
   },
   {
     name: "Renata F.",
-    city: "Foz do Iguaçu • PR",
+    city: "Rio de Janeiro • RJ",
     text: "A consulta foi excelente. Voltarei sempre que precisar.",
   },
   {
@@ -163,8 +163,8 @@ const testimonials = [
     text: "Atendimento seguro, cordial e muito eficiente.",
   },
   {
-    name: "Camila S.",
-    city: "Brasília • DF",
+    name: "V.C.S.",
+    city: "Vitória • ES",
     text: "Toda a experiência foi excelente, desde o agendamento até a consulta.",
   },
 ];
