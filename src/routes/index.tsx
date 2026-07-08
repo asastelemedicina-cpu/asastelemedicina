@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Link } from "@tanstack/react-router";
-import heroDoctor from "@/assets/hero-doctor.jpg";
+import heroDoctor1 from "@/assets/hero-doctor.jpg";
+import heroDoctor from "@/assets/hero-doctor1.png";
 import asasLogo from "@/assets/asas-logo.jpeg";
 
 import Article from "./central-de-saude.o-que-e-teleconsulta";
