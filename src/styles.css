@@ -196,3 +196,44 @@ animation:marquee 45s linear infinite;
 animation-play-state:paused;
 
 }
+
+/* ===========================================
+   CARROSSEL DE DEPOIMENTOS
+=========================================== */
+
+@keyframes marqueeLeft {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes marqueeRight {
+  from {
+    transform: translateX(-50%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.marquee-left {
+  display: flex;
+  width: max-content;
+  animation: marqueeLeft 55s linear infinite;
+}
+
+.marquee-right {
+  display: flex;
+  width: max-content;
+  animation: marqueeRight 55s linear infinite;
+}
+
+.marquee-left:hover,
+.marquee-right:hover {
+  animation-play-state: paused;
+}
