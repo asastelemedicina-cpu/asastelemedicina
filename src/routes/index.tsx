@@ -3,6 +3,8 @@ import { Link } from "@tanstack/react-router";
 import heroDoctor from "@/assets/hero-doctor.jpg";
 import asasLogo from "@/assets/asas-logo.jpeg";
 
+import Article from "./central-de-saude.o-que-e-teleconsulta";
+
 import {
   Brain,
   Stethoscope,
@@ -104,7 +106,70 @@ const faqs = [
   },
 ];
 
-import Article from "./central-de-saude.o-que-e-teleconsulta";
+const testimonials = [
+  {
+    name: "Mariana Silva",
+    city: "Curitiba • PR",
+    text: "Atendimento excelente. Consegui marcar a consulta no mesmo dia e fui muito bem atendida. Recomendo.",
+  },
+  {
+    name: "Carlos M.",
+    city: "São Paulo • SP",
+    text: "Precisava de um atendimento rápido e tudo aconteceu de forma simples. Excelente experiência.",
+  },
+  {
+    name: "Juliana Andrade",
+    city: "Londrina • PR",
+    text: "A médica foi extremamente atenciosa e esclareceu todas as minhas dúvidas.",
+  },
+  {
+    name: "Fernando L.",
+    city: "Campo Grande • MS",
+    text: "Muito mais prático do que imaginei. Atendimento rápido e profissional.",
+  },
+  {
+    name: "Patrícia Rodrigues",
+    city: "Cascavel • PR",
+    text: "Recebi minha receita poucos minutos após a consulta. Tudo muito organizado.",
+  },
+  {
+    name: "Lucas T.",
+    city: "Florianópolis • SC",
+    text: "Resolvi meu problema sem precisar sair de casa. Excelente atendimento.",
+  },
+  {
+    name: "Beatriz Nogueira",
+    city: "Joinville • SC",
+    text: "Equipe muito educada e plataforma extremamente simples de utilizar.",
+  },
+  {
+    name: "Ricardo P.",
+    city: "Goiânia • GO",
+    text: "Profissionais competentes e atendimento muito humanizado.",
+  },
+  {
+    name: "Daniela Costa",
+    city: "Belo Horizonte • MG",
+    text: "Gostei muito da organização e da rapidez no atendimento.",
+  },
+  {
+    name: "Renata F.",
+    city: "Foz do Iguaçu • PR",
+    text: "A consulta foi excelente. Voltarei sempre que precisar.",
+  },
+  {
+    name: "Eduardo Henrique",
+    city: "Porto Alegre • RS",
+    text: "Atendimento seguro, cordial e muito eficiente.",
+  },
+  {
+    name: "Camila S.",
+    city: "Brasília • DF",
+    text: "Toda a experiência foi excelente, desde o agendamento até a consulta.",
+  },
+];
+
+
 function Index() {
   return (
     <div className="min-h-screen bg-background text-foreground">
