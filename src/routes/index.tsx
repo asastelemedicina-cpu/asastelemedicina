@@ -481,7 +481,7 @@ function Index() {
 
         <p className="mt-1 font-display text-5xl leading-none text-azure-deep">
 
-          R$ 120
+          R$ 119
 
           <span className="text-2xl text-muted-foreground">
 
