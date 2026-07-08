@@ -398,7 +398,7 @@ function Index() {
 
       <p className="mt-7 max-w-xl text-lg leading-8 text-muted-foreground">
 
-        Consultas médicas online com profissionais qualificados em diversas áreas da saúde. Atendimento por vídeo com possibilidade de emissão de receitas digitais, atestados, laudos e relatórios médicos quando indicados.
+        Consultas médicas online com profissionais qualificados em diversas áreas da saúde. Atendimento online com possibilidade de emissão e <strong>renovação de receitas</strong> digitais, atestados, laudos e relatórios médicos quando indicados.
 
       </p>
 
