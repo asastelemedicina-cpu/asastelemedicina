@@ -544,7 +544,7 @@ function Index() {
 
             <p className="mt-2 max-w-[180px] text-sm leading-6 text-muted-foreground">
 
-              Seus dados são protegidos durante toda a consulta.
+              Sigilo, acolhimento e confidencialidade.
 
             </p>
 
