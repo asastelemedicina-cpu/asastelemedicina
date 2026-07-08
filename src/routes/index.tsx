@@ -473,6 +473,134 @@ function Index() {
         </div>
       </section>
 
+
+
+  {/* ===================== DEPOIMENTOS ===================== */}
+
+<section className="overflow-hidden py-20 bg-background">
+
+<div className="mx-auto max-w-6xl px-6">
+
+<div className="mx-auto max-w-3xl text-center">
+
+<span className="inline-flex items-center rounded-full bg-lilac/10 px-4 py-1 text-xs font-medium uppercase tracking-[0.2em] text-lilac">
+Depoimentos
+</span>
+
+<h2 className="mt-5 font-display text-3xl md:text-4xl">
+O que nossos pacientes dizem
+</h2>
+
+<p className="mt-4 text-muted-foreground">
+A confiança dos nossos pacientes é o que inspira o nosso cuidado todos os dias.
+</p>
+
+</div>
+
+{/* PRIMEIRA LINHA */}
+
+<div className="mt-14">
+
+<div className="marquee-left gap-6">
+
+{[...testimonials,...testimonials].map((item,index)=>(
+
+<div
+key={index}
+className="w-[330px] flex-shrink-0 rounded-3xl border border-border bg-card p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg"
+>
+
+<div className="text-yellow-400 text-lg tracking-wider">
+
+★★★★★
+
+</div>
+
+<p className="mt-5 text-sm leading-7 text-muted-foreground">
+
+"{item.text}"
+
+</p>
+
+<div className="mt-6">
+
+<p className="font-semibold">
+
+{item.name}
+
+</p>
+
+<p className="text-sm text-muted-foreground">
+
+{item.city}
+
+</p>
+
+</div>
+
+</div>
+
+))}
+
+</div>
+
+</div>
+
+{/* SEGUNDA LINHA */}
+
+<div className="mt-6">
+
+<div className="marquee-right gap-6">
+
+{[...testimonials.reverse(),...testimonials.reverse()].map((item,index)=>(
+
+<div
+key={index}
+className="w-[330px] flex-shrink-0 rounded-3xl border border-border bg-card p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg"
+>
+
+<div className="text-yellow-400 text-lg tracking-wider">
+
+★★★★★
+
+</div>
+
+<p className="mt-5 text-sm leading-7 text-muted-foreground">
+
+"{item.text}"
+
+</p>
+
+<div className="mt-6">
+
+<p className="font-semibold">
+
+{item.name}
+
+</p>
+
+<p className="text-sm text-muted-foreground">
+
+{item.city}
+
+</p>
+
+</div>
+
+</div>
+
+))}
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+  
+
       {/* DOCUMENTS / PRICING */}
       <section id="documentos" className="bg-foreground py-24 text-background">
         <div className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-12 px-6 md:grid-cols-2">
