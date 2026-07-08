@@ -30,17 +30,17 @@ import {
 export const Route = createFileRoute("/")({
 head: () => ({
 meta: [
-{ title: "Clínica Popular Asas Telemedicina — Teleconsulta a partir de R$ 120" },
+{ title: "Clínica Popular Asas Telemedicina — Teleconsulta a partir de R$ 119" },
 {
 name: "description",
 content:
-"Teleconsulta médica com psiquiatria, clínica geral, ginecologia, pediatria, emagrecimento e mais. Atestados, afastamentos, laudos e relatórios médicos. A partir de R$ 120.",
+"Teleconsulta médica com psiquiatria, clínica geral, ginecologia, pediatria, emagrecimento e mais. Atestados, afastamentos, laudos e relatórios médicos. A partir de R$ 119.",
 },
 { property: "og:title", content: "Clínica Popular Asas Telemedicina — Cuidado médico online" },
 {
 property: "og:description",
 content:
-"Consultas médicas online. Atestados, laudos e relatórios. A partir de R$ 120.",
+"Consultas médicas online. Atestados, laudos e relatórios. A partir de R$ 119.",
 },
 ],
 links: [
