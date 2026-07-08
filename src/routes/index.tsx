@@ -545,6 +545,7 @@ className="w-[330px] flex-shrink-0 rounded-3xl border border-border bg-card p-6 
 </div>
 
 </div>
+</div>
 
 </section>
 
