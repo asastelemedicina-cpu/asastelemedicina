@@ -198,6 +198,132 @@ function Index() {
         </div>
       </section>
 
+
+
+      {/* TRUST CARDS */}
+<section className="py-20 bg-background">
+  <div className="mx-auto max-w-6xl px-6">
+
+    <div className="mx-auto max-w-3xl text-center">
+      <span className="inline-flex items-center rounded-full bg-lilac/10 px-4 py-1 text-xs font-medium uppercase tracking-[0.2em] text-lilac">
+        Confiança
+      </span>
+
+      <h2 className="mt-5 font-display text-4xl md:text-5xl">
+        Confiança construída
+        <span className="text-azure-deep"> atendimento após atendimento.</span>
+      </h2>
+
+      <p className="mt-5 text-lg text-muted-foreground">
+        Mais de <strong className="text-foreground">2.000 pacientes</strong> já
+        confiaram na ASAS Telemedicina para cuidar da sua saúde.
+      </p>
+    </div>
+
+    <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+
+      {/* Card 1 */}
+      <div className="rounded-3xl border border-background/10 bg-foreground p-8 shadow-xl transition hover:-translate-y-1 hover:shadow-2xl">
+
+        <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl bg-lilac/20">
+          <Users className="h-7 w-7 text-lilac" />
+        </div>
+
+        <p className="font-display text-5xl text-background">
+          2.000+
+        </p>
+
+        <h3 className="mt-4 text-2xl font-semibold text-background">
+          Pacientes
+        </h3>
+
+        <p className="mt-3 leading-7 text-background/70">
+          Atendidos com cuidado,
+          ética e atendimento
+          humanizado.
+        </p>
+
+      </div>
+
+      {/* Card 2 */}
+      <div className="rounded-3xl border border-background/10 bg-foreground p-8 shadow-xl transition hover:-translate-y-1 hover:shadow-2xl">
+
+        <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl bg-lilac/20">
+          <ShieldCheck className="h-7 w-7 text-lilac" />
+        </div>
+
+        <p className="font-display text-4xl text-background">
+          Médicos
+        </p>
+
+        <h3 className="mt-4 text-2xl font-semibold text-background">
+          Registrados
+        </h3>
+
+        <p className="mt-3 leading-7 text-background/70">
+          Profissionais com CRM
+          ativo e atendimento
+          ético.
+        </p>
+
+      </div>
+
+      {/* Card 3 */}
+      <div className="rounded-3xl border border-background/10 bg-foreground p-8 shadow-xl transition hover:-translate-y-1 hover:shadow-2xl">
+
+        <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl bg-lilac/20">
+          <MessageCircle className="h-7 w-7 text-lilac" />
+        </div>
+
+        <p className="font-display text-4xl text-background">
+          Atendimento
+        </p>
+
+        <h3 className="mt-4 text-2xl font-semibold text-background">
+          Ágil
+        </h3>
+
+        <p className="mt-3 leading-7 text-background/70">
+          Agendamento simples,
+          suporte rápido e consulta
+          sem sair de casa.
+        </p>
+
+      </div>
+
+      {/* Card 4 */}
+      <div className="rounded-3xl border border-background/10 bg-foreground p-8 shadow-xl transition hover:-translate-y-1 hover:shadow-2xl">
+
+        <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl bg-lilac/20">
+          🌎
+        </div>
+
+        <p className="font-display text-4xl text-background">
+          Atendimento
+        </p>
+
+        <h3 className="mt-4 text-2xl font-semibold text-background">
+          Em todo o Brasil
+          e no exterior.
+        </h3>
+
+        <p className="mt-3 leading-7 text-background/70">
+          Consulte-se de onde
+          estiver com segurança
+          e praticidade.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+      
+
       {/* SPECIALTIES */}
       <section id="especialidades" className="border-t border-border bg-card/40 py-24">
         <div className="mx-auto max-w-6xl px-6">
