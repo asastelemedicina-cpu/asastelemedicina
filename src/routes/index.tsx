@@ -398,7 +398,7 @@ function Index() {
 
       <p className="mt-7 max-w-xl text-lg leading-8 text-muted-foreground">
 
-        Consultas médicas online com profissionais qualificados em diversas áreas da saúde. Atendimento online com possibilidade de emissão e <strong>renovação de receitas</strong> digitais, atestados, laudos e relatórios médicos quando indicados.
+        Consultas médicas online com profissionais qualificados em diversas áreas da saúde. Atendimento online com possibilidade de emissão e <strong>renovação de receitas</strong>, atestados, laudos e relatórios médicos quando indicados.
 
       </p>
 
@@ -432,29 +432,15 @@ function Index() {
 
         <div className="flex flex-wrap items-center gap-x-8 gap-y-3 text-sm">
 
-          <div className="flex items-center gap-2">
+          <div className="mt-2 flex items-center gap-1 text-yellow-400">
 
-            <Globe className="h-4 w-4 text-lilac" />
-
-            Brasil e exterior
+              ★★★★★ <div className="mt-1 text-sm font-medium text-foreground"> <strong>Mais de 2.000 pacientes atendidos em todo o Brasil e exterior.</strong></div>
 
           </div>
 
-          <div className="flex items-center gap-2">
+          
 
-            <ShieldCheck className="h-4 w-4 text-lilac" />
-
-            CRM ativo
-
-          </div>
-
-          <div className="flex items-center gap-2">
-
-            <FileText className="h-4 w-4 text-lilac" />
-
-            Receitas digitais
-
-          </div>
+          
 
         </div>
 
