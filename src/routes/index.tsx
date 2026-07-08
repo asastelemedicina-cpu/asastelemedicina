@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Link } from "@tanstack/react-router";
 import heroDoctor from "@/assets/hero-doctor.jpg";
 import asasLogo from "@/assets/asas-logo.jpeg";
+import { Globe, Users, ShieldCheck, FileText } from "lucide-react";
 import {
   Brain,
   Stethoscope,
