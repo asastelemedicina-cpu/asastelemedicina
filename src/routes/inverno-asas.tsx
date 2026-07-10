@@ -339,261 +339,48 @@ function InvernoAsas() {
 
 {/* ================= HERO ================= */}
 
-{/* ================= HERO ================= */}
-
 <section
   id="top"
-  className="relative overflow-hidden pt-32 pb-20 lg:pt-40"
+  className="relative overflow-hidden pt-32 pb-24 lg:pt-40"
 >
 
-  {/* Background */}
+  {/* ================= BACKGROUND ================= */}
 
   <div className="pointer-events-none absolute inset-0 overflow-hidden">
 
-    <div className="absolute -left-56 top-16 h-[520px] w-[520px] rounded-full bg-lilac/10 blur-[120px]" />
+    <div className="absolute -left-56 top-12 h-[520px] w-[520px] rounded-full bg-lilac/10 blur-[120px]" />
 
-    <div className="absolute right-[-220px] top-[-120px] h-[780px] w-[780px] rounded-full bg-sky-100/50 blur-[120px]" />
+    <div className="absolute right-[-200px] top-[-80px] h-[760px] w-[760px] rounded-full bg-sky-100/50 blur-[140px]" />
 
-    <div className="absolute bottom-[-180px] right-40 h-[420px] w-[420px] rounded-full bg-cyan-100/30 blur-[100px]" />
+    <div className="absolute bottom-[-120px] right-32 h-[420px] w-[420px] rounded-full bg-cyan-100/30 blur-[120px]" />
 
   </div>
 
-  <div className="relative mx-auto max-w-7xl px-6">
-
-    <div className="grid items-center gap-10 lg:grid-cols-[0.9fr_1.3fr]">
-
-      {/* ================= ESQUERDA ================= */}
-
-      <div className="relative z-30 max-w-lg">
-
-        <span className="inline-flex items-center gap-2 rounded-full border border-sky-100 bg-white/80 px-5 py-2 text-xs font-medium uppercase tracking-[0.22em] text-sky-700 backdrop-blur">
-
-          <Snowflake className="h-3.5 w-3.5" />
-
-          Iniciativa ❄️ Inverno ASAS – Estação do Cuidado
-
-        </span>
-
-        <h1 className="mt-8 font-display text-5xl leading-[1.02] lg:text-6xl">
-
-          Mais acesso à
-
-          <span className="block text-lilac">
-
-            saúde
-
-          </span>
-
-          durante todo o inverno.
-
-        </h1>
-
-        <p className="mt-8 max-w-lg text-lg leading-8 text-muted-foreground">
-
-          Atendimento médico online com foco em
-
-          <strong> saúde mental</strong>,
-
-          <strong> emagrecimento saudável</strong>,
-
-          acompanhamento médico e renovação de receitas quando indicada.
-
-        </p>
-
-        {/* BOTÕES */}
-
-        <div className="mt-10 flex flex-wrap gap-4">
-
-          <a
-            href={WHATSAPP_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full bg-azure-deep px-8 py-4 font-medium text-primary-foreground shadow-lg transition-all duration-300 hover:-translate-y-0.5 hover:bg-foreground"
-          >
-
-            <MessageCircle className="h-4 w-4" />
-
-            Agendar Teleconsulta
-
-          </a>
-
-          <a
-            href="#porque"
-            className="inline-flex items-center gap-2 rounded-full border border-border bg-background px-8 py-4 font-medium transition hover:bg-secondary"
-          >
-
-            Conheça a iniciativa
-
-            <ArrowRight className="h-4 w-4" />
-
-          </a>
-
-        </div>
-
-        {/* ÍCONES */}
-
-        <div className="mt-8 grid grid-cols-2 gap-x-6 gap-y-5 text-sm lg:grid-cols-4">
-
-          <div className="flex flex-col items-center gap-2 rounded-2xl bg-white/60 p-3 backdrop-blur">
-
-            <Brain className="h-7 w-7 text-lilac" />
-
-            <span>Psiquiatria</span>
-
-          </div>
-
-          <div className="flex flex-col items-center gap-2 rounded-2xl bg-white/60 p-3 backdrop-blur">
-
-            <Scale className="h-7 w-7 text-lilac" />
-
-            <span>Emagrecimento</span>
-
-          </div>
-
-          <div className="flex flex-col items-center gap-2 rounded-2xl bg-white/60 p-3 backdrop-blur">
-
-            <Stethoscope className="h-7 w-7 text-lilac" />
-
-            <span>Teleconsulta</span>
-
-          </div>
-
-          <div className="flex flex-col items-center gap-2 rounded-2xl bg-white/60 p-3 backdrop-blur">
-
-            <CalendarDays className="h-7 w-7 text-lilac" />
-
-            <span>21 jun • 22 set</span>
-
-          </div>
-
-        </div>
-
-        {/* ================= CARDS ================= */}
-        {/* ================= CARDS ================= */}
-
-        <div className="mt-10 max-w-xl grid gap-4 md:grid-cols-2">
-
-          <article className="rounded-[28px] border border-sky-100 bg-white/90 p-6 shadow-lg backdrop-blur transition duration-300 hover:-translate-y-1 hover:shadow-xl">
-
-            <div className="flex items-center gap-2 text-sky-700">
-
-              <Stethoscope className="h-5 w-5" />
-
-              <span className="text-xs font-semibold uppercase tracking-[0.18em]">
-
-                Teleconsulta Médica
-
-              </span>
-
-            </div>
-
-            <div className="mt-5">
-
-              <div className="flex items-end gap-1">
-
-                <span className="font-display text-5xl leading-none text-azure-deep">
-
-                  R$ 59
-
-                </span>
-
-                <span className="pb-1 text-2xl text-azure-deep">
-
-                  ,50
-
-                </span>
-
-              </div>
-
-              <p className="mt-3 text-sm text-muted-foreground">
-
-                Valor habitual
-
-                <span className="ml-2 line-through">
-
-                  R$ 119,00
-
-                </span>
-
-              </p>
-
-            </div>
-
-          </article>
-
-          <article className="rounded-[28px] border border-sky-100 bg-white/90 p-6 shadow-lg backdrop-blur transition duration-300 hover:-translate-y-1 hover:shadow-xl">
-
-            <div className="flex items-center gap-2 text-sky-700">
-
-              <FileText className="h-5 w-5" />
-
-              <span className="text-xs font-semibold uppercase tracking-[0.18em]">
-
-                Renovação de Receita*
-
-              </span>
-
-            </div>
-
-            <div className="mt-5">
-
-              <div className="flex items-end gap-1">
-
-                <span className="font-display text-5xl leading-none text-azure-deep">
-
-                  R$ 39
-
-                </span>
-
-                <span className="pb-1 text-2xl text-azure-deep">
-
-                  ,95
-
-                </span>
-
-              </div>
-
-              <p className="mt-3 text-sm text-muted-foreground">
-
-                Valor habitual
-
-                <span className="ml-2 line-through">
-
-                  R$ 79,90
-
-                </span>
-
-              </p>
-
-            </div>
-
-          </article>
-
-        </div>
-
-        <p className="mt-4 max-w-xl text-xs leading-6 text-muted-foreground">
-
-          *Quando clinicamente indicada após avaliação médica.
-
-        </p>
-
-      </div>
-
-      {/* ================= IMAGEM ================= */}
-
-{/* ================= IMAGEM ================= */}
-
-<div className="relative hidden min-h-[760px] lg:block">
-
-  {/* Glow principal */}
-
-  <div className="absolute right-0 top-0 h-[720px] w-[720px] rounded-full bg-sky-100/35 blur-[120px]" />
-
-  {/* Glow frio */}
-
-  <div className="absolute bottom-0 right-24 h-[420px] w-[420px] rounded-full bg-cyan-100/30 blur-[100px]" />
-
-  {/* Fade lateral extremamente suave */}
+  {/* ================= HERO IMAGE ================= */}
+
+  <img
+    src={winterHero}
+    alt="Médica durante atendimento online"
+    draggable={false}
+    className="
+      pointer-events-none
+      absolute
+      bottom-0
+      right-0
+      z-0
+
+      hidden
+      lg:block
+
+      w-[82%]
+      max-w-none
+
+      object-contain
+      select-none
+    "
+  />
+
+  {/* Fade MUITO discreto */}
 
   <div
     className="
@@ -601,16 +388,16 @@ function InvernoAsas() {
       absolute
       inset-y-0
       left-0
-      z-30
-      w-28
+      z-10
+      hidden
+      lg:block
+      w-[45%]
       bg-gradient-to-r
       from-background
-      via-background/25
+      via-background/55
       to-transparent
     "
   />
-
-  {/* Fade inferior */}
 
   <div
     className="
@@ -618,44 +405,275 @@ function InvernoAsas() {
       absolute
       inset-x-0
       bottom-0
-      z-30
-      h-24
+      z-10
+      h-28
       bg-gradient-to-t
       from-background
-      via-background/20
+      via-background/25
       to-transparent
     "
   />
 
-  {/* Imagem */}
+  {/* ================= CONTAINER ================= */}
 
-  <img
-    src={winterHero}
-    alt="Médica durante atendimento online"
-    className="
-      absolute
-      right-[-70px]
-      bottom-0
-      z-20
+  <div className="relative z-20 mx-auto max-w-7xl px-6">
 
-      w-[132%]
-      max-w-none
+    <div className="max-w-lg">
 
-      object-contain
-      select-none
-    "
-    draggable={false}
-  />
+      <span className="inline-flex items-center gap-2 rounded-full border border-sky-100 bg-white/80 px-5 py-2 text-xs font-medium uppercase tracking-[0.22em] text-sky-700 backdrop-blur">
 
-</div>
+        <Snowflake className="h-3.5 w-3.5" />
 
-            {/* Fim da coluna da imagem */}
+        Iniciativa ❄️ Inverno ASAS – Estação do Cuidado
 
-    </div>
+      </span>
+
+      <h1 className="mt-8 font-display text-5xl leading-[1.02] lg:text-6xl">
+
+        Mais acesso à
+
+        <span className="block text-lilac">
+
+          saúde
+
+        </span>
+
+        durante todo o inverno.
+
+      </h1>
+
+      <p className="mt-8 max-w-lg text-lg leading-8 text-muted-foreground">
+
+        Atendimento médico online com foco em
+
+        <strong> saúde mental</strong>,
+
+        <strong> emagrecimento saudável</strong>,
+
+        acompanhamento médico e renovação de receitas quando indicada.
+
+      </p>
+
+      {/* BOTÕES */}
+
+      <div className="mt-10 flex flex-wrap gap-4">
+
+        <a
+          href={WHATSAPP_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 rounded-full bg-azure-deep px-8 py-4 font-medium text-primary-foreground shadow-lg transition-all duration-300 hover:-translate-y-0.5 hover:bg-foreground"
+        >
+
+          <MessageCircle className="h-4 w-4" />
+
+          Agendar Teleconsulta
+
+        </a>
+
+        <a
+          href="#porque"
+          className="inline-flex items-center gap-2 rounded-full border border-border bg-background/90 px-8 py-4 font-medium backdrop-blur transition hover:bg-secondary"
+        >
+
+          Conheça a iniciativa
+
+          <ArrowRight className="h-4 w-4" />
+
+        </a>
+
+      </div>
+
+      {/* ÍCONES */}
+
+      <div className="mt-8 grid max-w-xl grid-cols-2 gap-5 text-sm lg:grid-cols-4">
+
+        <div className="rounded-2xl bg-white/75 p-4 text-center shadow-sm backdrop-blur">
+
+          <Brain className="mx-auto mb-2 h-7 w-7 text-lilac" />
+
+          <span>Psiquiatria</span>
+
+        </div>
+
+        <div className="rounded-2xl bg-white/75 p-4 text-center shadow-sm backdrop-blur">
+
+          <Scale className="mx-auto mb-2 h-7 w-7 text-lilac" />
+
+          <span>Emagrecimento</span>
+
+        </div>
+
+        <div className="rounded-2xl bg-white/75 p-4 text-center shadow-sm backdrop-blur">
+
+          <Stethoscope className="mx-auto mb-2 h-7 w-7 text-lilac" />
+
+          <span>Teleconsulta</span>
+
+        </div>
+
+        <div className="rounded-2xl bg-white/75 p-4 text-center shadow-sm backdrop-blur">
+
+          <CalendarDays className="mx-auto mb-2 h-7 w-7 text-lilac" />
+
+          <span>21 jun • 22 set</span>
+
+        </div>
+
+      </div>
+
+      {/* ================= CARDS ================= */}
+
+      {/* ================= CARDS ================= */}
+
+<div className="mt-10 max-w-xl">
+
+  <div className="grid gap-5 md:grid-cols-2">
+
+    <article
+      className="
+        rounded-[28px]
+        border
+        border-sky-100/80
+        bg-white/88
+        p-6
+        shadow-xl
+        shadow-sky-100/40
+        backdrop-blur-md
+        transition-all
+        duration-300
+        hover:-translate-y-1
+      "
+    >
+
+      <div className="flex items-center gap-2 text-sky-700">
+
+        <Stethoscope className="h-5 w-5" />
+
+        <span className="text-[11px] font-semibold uppercase tracking-[0.18em]">
+
+          Teleconsulta Médica
+
+        </span>
+
+      </div>
+
+      <div className="mt-5">
+
+        <div className="flex items-end gap-1">
+
+          <span className="font-display text-[54px] leading-none text-azure-deep">
+
+            R$ 59
+
+          </span>
+
+          <span className="pb-1 text-2xl text-azure-deep">
+
+            ,50
+
+          </span>
+
+        </div>
+
+        <p className="mt-3 text-sm text-muted-foreground">
+
+          Valor habitual
+
+          <span className="ml-2 line-through">
+
+            R$ 119,00
+
+          </span>
+
+        </p>
+
+      </div>
+
+    </article>
+
+    <article
+      className="
+        rounded-[28px]
+        border
+        border-sky-100/80
+        bg-white/88
+        p-6
+        shadow-xl
+        shadow-sky-100/40
+        backdrop-blur-md
+        transition-all
+        duration-300
+        hover:-translate-y-1
+      "
+    >
+
+      <div className="flex items-center gap-2 text-sky-700">
+
+        <FileText className="h-5 w-5" />
+
+        <span className="text-[11px] font-semibold uppercase tracking-[0.18em]">
+
+          Renovação de Receita*
+
+        </span>
+
+      </div>
+
+      <div className="mt-5">
+
+        <div className="flex items-end gap-1">
+
+          <span className="font-display text-[54px] leading-none text-azure-deep">
+
+            R$ 39
+
+          </span>
+
+          <span className="pb-1 text-2xl text-azure-deep">
+
+            ,95
+
+          </span>
+
+        </div>
+
+        <p className="mt-3 text-sm text-muted-foreground">
+
+          Valor habitual
+
+          <span className="ml-2 line-through">
+
+            R$ 79,90
+
+          </span>
+
+        </p>
+
+      </div>
+
+    </article>
 
   </div>
 
+  <p className="mt-4 pl-1 text-xs leading-6 text-muted-foreground">
+
+    *Quando clinicamente indicada após avaliação médica.
+
+  </p>
+
+</div>
+
+</div>
+
+    </div> {/* max-w-lg */}
+
+</div> {/* container */}
+
 </section>
+
+
+      
 
       
 
