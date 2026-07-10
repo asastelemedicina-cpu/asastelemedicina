@@ -711,36 +711,96 @@ function InvernoAsas() {
         "
       >
 
-        <div className="rounded-2xl bg-white/72 p-4 text-center shadow-md backdrop-blur">
-
+        <div
+          className="
+            rounded-2xl
+        
+            bg-white/90
+            md:bg-white/72
+        
+            p-4
+        
+            text-center
+        
+            shadow-md
+        
+            md:backdrop-blur
+          "
+        >
+        
           <Brain className="mx-auto mb-2 h-7 w-7 text-lilac" />
-
+        
           <span>Psiquiatria</span>
-
+        
         </div>
 
-        <div className="rounded-2xl bg-white/72 p-4 text-center shadow-md backdrop-blur">
-
+        <div
+          className="
+            rounded-2xl
+        
+            bg-white/90
+            md:bg-white/72
+        
+            p-4
+        
+            text-center
+        
+            shadow-md
+        
+            md:backdrop-blur
+          "
+        >
+        
           <Scale className="mx-auto mb-2 h-7 w-7 text-lilac" />
-
+        
           <span>Emagrecimento</span>
-
+        
         </div>
 
-        <div className="rounded-2xl bg-white/72 p-4 text-center shadow-md backdrop-blur">
-
+        <div
+          className="
+            rounded-2xl
+        
+            bg-white/90
+            md:bg-white/72
+        
+            p-4
+        
+            text-center
+        
+            shadow-md
+        
+            md:backdrop-blur
+          "
+        >
+        
           <Stethoscope className="mx-auto mb-2 h-7 w-7 text-lilac" />
-
+        
           <span>Teleconsulta</span>
-
+        
         </div>
 
-        <div className="rounded-2xl bg-white/72 p-4 text-center shadow-md backdrop-blur">
-
+        <div
+          className="
+            rounded-2xl
+        
+            bg-white/90
+            md:bg-white/72
+        
+            p-4
+        
+            text-center
+        
+            shadow-md
+        
+            md:backdrop-blur
+          "
+        >
+        
           <CalendarDays className="mx-auto mb-2 h-7 w-7 text-lilac" />
-
+        
           <span>21 jun • 22 set</span>
-
+        
         </div>
 
       </div>
