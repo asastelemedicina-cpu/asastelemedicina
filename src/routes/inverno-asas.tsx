@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 
-import winterHero from "@/assets/winter-hero.webp";
+import winterHero from "@/assets/winter-hero1.webp";
 import winterLogo from "@/assets/asas-logo-winter.webp";
 
 import {
