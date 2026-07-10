@@ -358,29 +358,25 @@ function InvernoAsas() {
 
   {/* ================= HERO IMAGE ================= */}
 
-  <img
+<img
   src={winterHero}
   alt="Médica durante atendimento online"
   draggable={false}
   className="
     pointer-events-none
     absolute
-    top-0
-
-    -left-[8%]
-    right-auto
+    inset-0
 
     z-0
 
     hidden
     lg:block
 
-    h-[108%]
-    w-auto
-    max-w-none
+    w-full
+    h-full
 
     object-cover
-    object-right-top
+    object-center
 
     select-none
   "
