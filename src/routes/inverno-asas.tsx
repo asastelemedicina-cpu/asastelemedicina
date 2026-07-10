@@ -227,7 +227,22 @@ function InvernoAsas() {
       
       {/* ================= HEADER ================= */}
 
-<header className="fixed inset-x-0 top-0 z-50 border-b border-sky-200/40 bg-gradient-to-r from-background/85 via-sky-50/85 to-background/85 backdrop-blur-xl">
+<header
+  className="
+    fixed
+    inset-x-0
+    top-0
+    z-50
+
+    border-b
+    border-white/10
+
+    bg-transparent backdrop-blur-0
+
+    transition-all
+    duration-300
+  "
+>
 
   <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
 
@@ -346,7 +361,7 @@ function InvernoAsas() {
 
   {/* ================= BACKGROUND ================= */}
 
-  <div className="pointer-events-none absolute inset-0 overflow-hidden">
+  <div className="pointer-events-none top-[-92px] h-[calc(100%+92px)] overflow-hidden">
 
     <div className="absolute -left-56 top-12 h-[520px] w-[520px] rounded-full bg-lilac/10 blur-[120px]" />
 
@@ -359,27 +374,25 @@ function InvernoAsas() {
   {/* ================= HERO IMAGE ================= */}
 
 <img
-  src={winterHero}
-  alt="Médica durante atendimento online"
-  draggable={false}
-  className="
-    pointer-events-none
-    absolute
-    inset-0
+    src={winterHero}
+    alt=""
+    className="
+        absolute
 
-    z-0
+        top-[-92px]
 
-    hidden
-    lg:block
+        left-0
+        right-0
 
-    w-full
-    h-full
+        w-full
 
-    object-cover
-    object-center
+        h-[calc(100%+92px)]
 
-    select-none
-  "
+        object-cover
+        object-center
+
+        z-0
+    "
 />
 
   {/* Fade MUITO discreto */}
