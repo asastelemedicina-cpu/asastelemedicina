@@ -1,8 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-
 import winterHero from "@/assets/winter-hero.webp";
 import winterLogo from "@/assets/asas-logo-winter.webp";
 
@@ -226,7 +223,13 @@ function InvernoAsas() {
   return (
     <div className="min-h-screen bg-background text-foreground">
 
+
+      
       <Header />
+
+
+
+      
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -1616,7 +1619,54 @@ function InvernoAsas() {
 
       </section>
 
-      <Footer />
+{/* FOOTER */}
+<footer className="border-t border-border bg-background py-10">
+  <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-6 px-6 text-sm text-muted-foreground md:flex-row">
+
+    <div className="flex items-center gap-3">
+      <img
+        src={winterLogo} // ou asasLogo, se preferir manter a identidade padrão
+        alt="ASAS Telemedicina"
+        className="h-12 w-12 rounded-full object-cover ring-1 ring-border"
+      />
+
+      <div>
+        <p className="font-display text-base text-foreground">
+          Clínica Popular ASAS Telemedicina
+        </p>
+
+        <p className="text-xs">
+          Tecnologia a serviço do cuidado. Transformando vidas.
+        </p>
+      </div>
+    </div>
+
+    <div className="flex flex-col items-center gap-1 md:items-end">
+
+      <Link
+        to="/faca-parte"
+        className="font-medium text-lilac hover:text-foreground"
+      >
+        Faça parte da equipe
+      </Link>
+
+      <a
+        href={WHATSAPP_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hover:text-foreground"
+      >
+        WhatsApp: (45) 92001-8284
+      </a>
+
+      <p className="text-xs">
+        © {new Date().getFullYear()} Todos os direitos reservados.
+      </p>
+
+    </div>
+
+  </div>
+</footer>
 
       {/* Floating WhatsApp */}
 
