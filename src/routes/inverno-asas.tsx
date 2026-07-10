@@ -312,18 +312,21 @@ function InvernoAsas() {
 
   {/* ================= ATMOSPHERE ================= */}
 
-  <div
-    className="
-      absolute
-      inset-0
+<div
+  className="
+    hidden
+    md:block
 
-      z-[2]
+    absolute
+    inset-0
 
-      overflow-hidden
+    z-[2]
 
-      pointer-events-none
-    "
-  >
+    overflow-hidden
+
+    pointer-events-none
+  "
+>
 
     <div className="absolute -left-52 top-10 h-[520px] w-[520px] rounded-full bg-lilac/10 blur-[120px]" />
 
