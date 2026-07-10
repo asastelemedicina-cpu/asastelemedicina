@@ -339,60 +339,58 @@ function InvernoAsas() {
 
 {/* ================= HERO ================= */}
 
+{/* ================= HERO ================= */}
+
 <section
   id="top"
-  className="relative overflow-hidden pt-36 pb-28 md:pt-44"
+  className="relative overflow-hidden pt-32 pb-20 lg:pt-40"
 >
 
   {/* Background */}
 
-  <div className="absolute inset-0 pointer-events-none">
+  <div className="pointer-events-none absolute inset-0 overflow-hidden">
 
-    <div className="absolute -left-40 top-20 h-[500px] w-[500px] rounded-full bg-lilac/10 blur-3xl" />
+    <div className="absolute -left-56 top-16 h-[520px] w-[520px] rounded-full bg-lilac/10 blur-[120px]" />
 
-    <div className="absolute right-0 top-0 h-[700px] w-[700px] rounded-full bg-sky-100/40 blur-3xl" />
+    <div className="absolute right-[-220px] top-[-120px] h-[780px] w-[780px] rounded-full bg-sky-100/50 blur-[120px]" />
+
+    <div className="absolute bottom-[-180px] right-40 h-[420px] w-[420px] rounded-full bg-cyan-100/30 blur-[100px]" />
 
   </div>
 
-  <div className="relative mx-auto max-w-6xl px-6">
+  <div className="relative mx-auto max-w-7xl px-6">
 
-    <div className="grid items-center gap-20 lg:grid-cols-[1fr_1.05fr]">
+    <div className="grid items-center gap-10 lg:grid-cols-[0.9fr_1.3fr]">
 
-      {/* ESQUERDA */}
+      {/* ================= ESQUERDA ================= */}
 
-      <div>
+      <div className="relative z-30 max-w-lg">
 
-        <span className="inline-flex items-center gap-2 rounded-full border border-border bg-background/80 px-5 py-2 text-xs uppercase tracking-[0.22em] backdrop-blur">
+        <span className="inline-flex items-center gap-2 rounded-full border border-sky-100 bg-white/80 px-5 py-2 text-xs font-medium uppercase tracking-[0.22em] text-sky-700 backdrop-blur">
 
-          <Snowflake className="h-3.5 w-3.5 text-sky-500" />
+          <Snowflake className="h-3.5 w-3.5" />
 
           Iniciativa ❄️ Inverno ASAS – Estação do Cuidado
 
         </span>
 
-        <h1 className="mt-8 max-w-xl font-display text-5xl leading-[1.02] lg:text-6xl">
+        <h1 className="mt-8 font-display text-5xl leading-[1.02] lg:text-6xl">
 
-          Mais acesso à{" "}
+          Mais acesso à
 
-          <span className="text-lilac">
+          <span className="block text-lilac">
 
             saúde
 
           </span>
 
-          <br />
-
           durante todo o inverno.
 
         </h1>
 
-        <p className="mt-8 max-w-xl text-lg leading-9 text-muted-foreground">
+        <p className="mt-8 max-w-lg text-lg leading-8 text-muted-foreground">
 
-          A
-
-          <strong> Iniciativa ❄️ Inverno ASAS – Estação do Cuidado </strong>
-
-          amplia o acesso ao atendimento médico durante o inverno, com foco em
+          Atendimento médico online com foco em
 
           <strong> saúde mental</strong>,
 
@@ -410,7 +408,7 @@ function InvernoAsas() {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full bg-azure-deep px-8 py-4 font-medium text-primary-foreground transition hover:-translate-y-0.5 hover:bg-foreground"
+            className="inline-flex items-center gap-2 rounded-full bg-azure-deep px-8 py-4 font-medium text-primary-foreground shadow-lg transition-all duration-300 hover:-translate-y-0.5 hover:bg-foreground"
           >
 
             <MessageCircle className="h-4 w-4" />
@@ -432,11 +430,11 @@ function InvernoAsas() {
 
         </div>
 
-        {/* BULLETS */}
+        {/* ÍCONES */}
 
-        <div className="mt-10 grid grid-cols-2 gap-5 text-sm lg:grid-cols-4">
+        <div className="mt-8 grid grid-cols-2 gap-x-6 gap-y-5 text-sm lg:grid-cols-4">
 
-          <div className="flex flex-col items-center gap-2 text-center">
+          <div className="flex flex-col items-center gap-2 rounded-2xl bg-white/60 p-3 backdrop-blur">
 
             <Brain className="h-7 w-7 text-lilac" />
 
@@ -444,7 +442,7 @@ function InvernoAsas() {
 
           </div>
 
-          <div className="flex flex-col items-center gap-2 text-center">
+          <div className="flex flex-col items-center gap-2 rounded-2xl bg-white/60 p-3 backdrop-blur">
 
             <Scale className="h-7 w-7 text-lilac" />
 
@@ -452,7 +450,7 @@ function InvernoAsas() {
 
           </div>
 
-          <div className="flex flex-col items-center gap-2 text-center">
+          <div className="flex flex-col items-center gap-2 rounded-2xl bg-white/60 p-3 backdrop-blur">
 
             <Stethoscope className="h-7 w-7 text-lilac" />
 
@@ -460,7 +458,7 @@ function InvernoAsas() {
 
           </div>
 
-          <div className="flex flex-col items-center gap-2 text-center">
+          <div className="flex flex-col items-center gap-2 rounded-2xl bg-white/60 p-3 backdrop-blur">
 
             <CalendarDays className="h-7 w-7 text-lilac" />
 
@@ -470,20 +468,20 @@ function InvernoAsas() {
 
         </div>
 
-        {/* CARDS DE PREÇO */}
+        {/* ================= CARDS ================= */}
         {/* ================= CARDS ================= */}
 
-        <div className="mt-12 grid gap-5 md:grid-cols-2">
+        <div className="mt-10 max-w-xl grid gap-4 md:grid-cols-2">
 
-          <article className="rounded-3xl border border-sky-100 bg-background/95 p-6 shadow-lg backdrop-blur">
+          <article className="rounded-[28px] border border-sky-100 bg-white/90 p-6 shadow-lg backdrop-blur transition duration-300 hover:-translate-y-1 hover:shadow-xl">
 
-            <div className="flex items-center gap-2 text-sky-600">
+            <div className="flex items-center gap-2 text-sky-700">
 
               <Stethoscope className="h-5 w-5" />
 
               <span className="text-xs font-semibold uppercase tracking-[0.18em]">
 
-                Teleconsulta
+                Teleconsulta Médica
 
               </span>
 
@@ -491,13 +489,23 @@ function InvernoAsas() {
 
             <div className="mt-5">
 
-              <p className="text-5xl font-display text-azure-deep">
+              <div className="flex items-end gap-1">
 
-                R$ 59<span className="text-2xl">,50</span>
+                <span className="font-display text-5xl leading-none text-azure-deep">
 
-              </p>
+                  R$ 59
 
-              <p className="mt-2 text-sm text-muted-foreground">
+                </span>
+
+                <span className="pb-1 text-2xl text-azure-deep">
+
+                  ,50
+
+                </span>
+
+              </div>
+
+              <p className="mt-3 text-sm text-muted-foreground">
 
                 Valor habitual
 
@@ -513,15 +521,15 @@ function InvernoAsas() {
 
           </article>
 
-          <article className="rounded-3xl border border-sky-100 bg-background/95 p-6 shadow-lg backdrop-blur">
+          <article className="rounded-[28px] border border-sky-100 bg-white/90 p-6 shadow-lg backdrop-blur transition duration-300 hover:-translate-y-1 hover:shadow-xl">
 
-            <div className="flex items-center gap-2 text-sky-600">
+            <div className="flex items-center gap-2 text-sky-700">
 
               <FileText className="h-5 w-5" />
 
               <span className="text-xs font-semibold uppercase tracking-[0.18em]">
 
-                Renovação de receita*
+                Renovação de Receita*
 
               </span>
 
@@ -529,13 +537,23 @@ function InvernoAsas() {
 
             <div className="mt-5">
 
-              <p className="text-5xl font-display text-azure-deep">
+              <div className="flex items-end gap-1">
 
-                R$ 39<span className="text-2xl">,95</span>
+                <span className="font-display text-5xl leading-none text-azure-deep">
 
-              </p>
+                  R$ 39
 
-              <p className="mt-2 text-sm text-muted-foreground">
+                </span>
+
+                <span className="pb-1 text-2xl text-azure-deep">
+
+                  ,95
+
+                </span>
+
+              </div>
+
+              <p className="mt-3 text-sm text-muted-foreground">
 
                 Valor habitual
 
@@ -553,7 +571,7 @@ function InvernoAsas() {
 
         </div>
 
-        <p className="mt-4 text-xs text-muted-foreground">
+        <p className="mt-4 max-w-xl text-xs leading-6 text-muted-foreground">
 
           *Quando clinicamente indicada após avaliação médica.
 
@@ -563,27 +581,75 @@ function InvernoAsas() {
 
       {/* ================= IMAGEM ================= */}
 
-      <div className="relative">
+{/* ================= IMAGEM ================= */}
 
-        {/* glow */}
+<div className="relative hidden min-h-[760px] lg:block">
 
-        <div className="absolute inset-0 rounded-[40px] bg-gradient-to-br from-sky-100/70 via-white/20 to-lilac/10 blur-2xl" />
+  {/* Glow principal */}
 
-        {/* fade lateral */}
+  <div className="absolute right-0 top-0 h-[720px] w-[720px] rounded-full bg-sky-100/35 blur-[120px]" />
 
-        <div className="absolute inset-y-0 left-0 z-30 w-40 bg-gradient-to-r from-background via-background/75 to-transparent" />
+  {/* Glow frio */}
 
-        {/* fade inferior */}
+  <div className="absolute bottom-0 right-24 h-[420px] w-[420px] rounded-full bg-cyan-100/30 blur-[100px]" />
 
-        <div className="absolute inset-x-0 bottom-0 z-30 h-24 bg-gradient-to-t from-background via-background/60 to-transparent" />
+  {/* Fade lateral extremamente suave */}
 
-        <img
-          src={winterHero}
-          alt="Médica durante atendimento online"
-          className="relative z-20 w-full object-contain"
-        />
+  <div
+    className="
+      pointer-events-none
+      absolute
+      inset-y-0
+      left-0
+      z-30
+      w-28
+      bg-gradient-to-r
+      from-background
+      via-background/25
+      to-transparent
+    "
+  />
 
-      </div>
+  {/* Fade inferior */}
+
+  <div
+    className="
+      pointer-events-none
+      absolute
+      inset-x-0
+      bottom-0
+      z-30
+      h-24
+      bg-gradient-to-t
+      from-background
+      via-background/20
+      to-transparent
+    "
+  />
+
+  {/* Imagem */}
+
+  <img
+    src={winterHero}
+    alt="Médica durante atendimento online"
+    className="
+      absolute
+      right-[-70px]
+      bottom-0
+      z-20
+
+      w-[132%]
+      max-w-none
+
+      object-contain
+      select-none
+    "
+    draggable={false}
+  />
+
+</div>
+
+            {/* Fim da coluna da imagem */}
 
     </div>
 
@@ -591,6 +657,9 @@ function InvernoAsas() {
 
 </section>
 
+      
+
+        
 
 
         
