@@ -223,219 +223,303 @@ function InvernoAsas() {
   return (
     <div className="min-h-screen bg-background text-foreground">
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(structuredData),
-        }}
-      />
-      
-      {/* ================= HEADER ================= */}
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify(structuredData),
+  }}
+/>
 
-<header
-  className="
-    fixed
-    inset-x-0
-    top-0
-    z-50
-
-    border-b
-    border-white/10
-
-    bg-transparent backdrop-blur-0
-
-    transition-all
-    duration-300
-  "
->
-
-  <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
-
-    <Link
-      to="/"
-      className="flex items-center gap-3 transition hover:opacity-90"
-    >
-
-      <img
-        src={winterLogo} // se ainda não existir, use asasLogo temporariamente
-        alt="ASAS Telemedicina"
-        className="h-11 w-11 rounded-full object-cover ring-1 ring-sky-200"
-      />
-
-      <div>
-
-        <p className="font-display text-lg font-semibold leading-none">
-          Clínica Popular
-        </p>
-
-        <div className="flex items-center gap-2">
-
-          <p className="font-display text-lg leading-none text-lilac">
-            ASAS Telemedicina
-          </p>
-
-          <span className="hidden rounded-full bg-sky-100 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.15em] text-sky-700 lg:inline-flex">
-            ❄️ Inverno
-          </span>
-
-        </div>
-
-      </div>
-
-    </Link>
-
-    <nav className="hidden items-center gap-8 text-sm text-muted-foreground lg:flex">
-
-      <Link
-        to="/quem-somos"
-        className="transition hover:text-foreground"
-      >
-        Quem Somos
-      </Link>
-
-      <Link
-        to="/inverno-asas"
-        className="font-semibold text-sky-700"
-      >
-        ❄️ Inverno ASAS
-      </Link>
-
-      <a
-        href="#porque"
-        className="transition hover:text-foreground"
-      >
-        A Iniciativa
-      </a>
-
-      <a
-        href="#faq"
-        className="transition hover:text-foreground"
-      >
-        FAQ
-      </a>
-
-      <Link
-        to="/central-de-saude"
-        className="transition hover:text-foreground"
-      >
-        Artigos
-      </Link>
-
-      <Link
-        to="/faca-parte"
-        className="transition hover:text-foreground"
-      >
-        Faça Parte
-      </Link>
-
-    </nav>
-
-    <a
-      href={WHATSAPP_URL}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="hidden items-center gap-2 rounded-full bg-azure-deep px-5 py-3 text-sm font-medium text-primary-foreground transition-all duration-300 hover:-translate-y-0.5 hover:bg-foreground hover:shadow-lg lg:inline-flex"
-    >
-
-      <MessageCircle className="h-4 w-4" />
-
-      Agendar pelo WhatsApp
-
-    </a>
-
-  </div>
-
-</header>
-
-
-
-      
-      
-
-{/* ================= HERO ================= */}
+{/* ===================================================== */}
+{/* HERO + HEADER                                         */}
+{/* ===================================================== */}
 
 <section
   id="top"
-  className="relative overflow-hidden pt-32 pb-16 lg:pt-40 min-h-[820px]"
+  className="
+    relative
+    isolate
+    overflow-hidden
+
+    min-h-[920px]
+  "
 >
-
-  {/* ================= BACKGROUND ================= */}
-
-  <div className="pointer-events-none top-[-92px] h-[calc(100%+92px)] overflow-hidden">
-
-    <div className="absolute -left-56 top-12 h-[520px] w-[520px] rounded-full bg-lilac/10 blur-[120px]" />
-
-    <div className="absolute right-[-200px] top-[-80px] h-[760px] w-[760px] rounded-full bg-sky-100/50 blur-[140px]" />
-
-    <div className="absolute bottom-[-120px] right-32 h-[420px] w-[420px] rounded-full bg-cyan-100/30 blur-[120px]" />
-
-  </div>
 
   {/* ================= HERO IMAGE ================= */}
 
-<img
+  <img
     src={winterHero}
     alt=""
+    aria-hidden="true"
+    draggable={false}
     className="
-        absolute
+      absolute
+      inset-0
 
-        top-[-92px]
+      h-full
+      w-full
 
-        left-0
-        right-0
+      object-cover
+      object-center
 
-        w-full
+      pointer-events-none
+      select-none
 
-        h-[calc(100%+92px)]
-
-        object-cover
-        object-center
-
-        z-0
+      z-0
     "
-/>
+  />
 
-  {/* Fade MUITO discreto */}
+  {/* ================= LIGHT OVERLAY ================= */}
 
   <div
     className="
-      pointer-events-none
       absolute
-      inset-y-0
-      left-0
-      z-10
-      hidden
-      lg:block
-      w-[45%]
+      inset-0
+      z-[1]
+
       bg-gradient-to-r
+
       from-background
-      via-background/55
+      via-background/15
       to-transparent
     "
   />
+
+  {/* ================= ATMOSPHERE ================= */}
 
   <div
     className="
-      pointer-events-none
       absolute
-      inset-x-0
-      bottom-0
-      z-10
-      h-28
-      bg-gradient-to-t
-      from-background
-      via-background/25
-      to-transparent
+      inset-0
+
+      z-[2]
+
+      overflow-hidden
+
+      pointer-events-none
     "
-  />
+  >
 
-  {/* ================= CONTAINER ================= */}
+    <div className="absolute -left-52 top-10 h-[520px] w-[520px] rounded-full bg-lilac/10 blur-[120px]" />
 
-  <div className="relative z-20 mx-auto max-w-7xl px-6">
+    <div className="absolute right-[-180px] top-[-120px] h-[760px] w-[760px] rounded-full bg-sky-100/35 blur-[140px]" />
+
+    <div className="absolute bottom-[-180px] right-20 h-[420px] w-[420px] rounded-full bg-cyan-100/25 blur-[120px]" />
+
+  </div>
+
+  {/* ===================================================== */}
+  {/* HEADER                                                */}
+  {/* ===================================================== */}
+
+  <header
+    className="
+      fixed
+      inset-x-0
+      top-0
+
+      z-50
+
+      border-b
+      border-white/10
+
+      bg-transparent
+
+      transition-all
+      duration-300
+    "
+  >
+
+    <div
+      className="
+        mx-auto
+        flex
+        max-w-7xl
+        items-center
+        justify-between
+
+        px-6
+        py-5
+      "
+    >
+
+            <Link
+        to="/"
+        className="flex items-center gap-3 transition hover:opacity-90"
+      >
+
+        <img
+          src={winterLogo}
+          alt="ASAS Telemedicina"
+          className="h-11 w-11 rounded-full object-cover ring-1 ring-white/20"
+        />
+
+        <div>
+
+          <p className="font-display text-lg font-semibold leading-none text-foreground">
+
+            Clínica Popular
+
+          </p>
+
+          <div className="mt-0.5 flex items-center gap-2">
+
+            <p className="font-display text-lg leading-none text-lilac">
+
+              ASAS Telemedicina
+
+            </p>
+
+            <span className="hidden rounded-full bg-sky-100/90 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.15em] text-sky-700 lg:inline-flex">
+
+              ❄️ Inverno
+
+            </span>
+
+          </div>
+
+        </div>
+
+      </Link>
+
+      <nav className="hidden items-center gap-8 text-sm lg:flex">
+
+        <Link
+          to="/quem-somos"
+          className="font-medium text-foreground/85 transition hover:text-foreground"
+        >
+          Quem Somos
+        </Link>
+
+        <Link
+          to="/inverno-asas"
+          className="font-semibold text-sky-700"
+        >
+          ❄️ Inverno ASAS
+        </Link>
+
+        <a
+          href="#porque"
+          className="font-medium text-foreground/85 transition hover:text-foreground"
+        >
+          A Iniciativa
+        </a>
+
+        <a
+          href="#faq"
+          className="font-medium text-foreground/85 transition hover:text-foreground"
+        >
+          FAQ
+        </a>
+
+        <Link
+          to="/central-de-saude"
+          className="font-medium text-foreground/85 transition hover:text-foreground"
+        >
+          Artigos
+        </Link>
+
+        <Link
+          to="/faca-parte"
+          className="font-medium text-foreground/85 transition hover:text-foreground"
+        >
+          Faça Parte
+        </Link>
+
+      </nav>
+
+      <a
+        href={WHATSAPP_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="
+          hidden
+          lg:inline-flex
+
+          items-center
+          gap-2
+
+          rounded-full
+
+          bg-azure-deep
+
+          px-5
+          py-3
+
+          text-sm
+          font-medium
+
+          text-primary-foreground
+
+          shadow-lg
+          shadow-azure-deep/20
+
+          transition-all
+          duration-300
+
+          hover:-translate-y-0.5
+          hover:bg-foreground
+        "
+      >
+
+        <MessageCircle className="h-4 w-4" />
+
+        Agendar pelo WhatsApp
+
+      </a>
+
+    </div>
+
+  </header>
+
+  {/* ===================================================== */}
+  {/* HERO CONTENT                                           */}
+  {/* ===================================================== */}
+
+  <div
+    className="
+      relative
+      z-20
+
+      mx-auto
+      max-w-7xl
+
+      px-6
+
+      pt-36
+      lg:pt-44
+    "
+  >
 
     <div className="max-w-lg">
 
-      <span className="inline-flex items-center gap-2 rounded-full border border-sky-100 bg-white/80 px-5 py-2 text-xs font-medium uppercase tracking-[0.22em] text-sky-700 backdrop-blur">
+            <span
+        className="
+          inline-flex
+          items-center
+          gap-2
+
+          rounded-full
+
+          border
+          border-white/20
+
+          bg-white/75
+
+          px-5
+          py-2
+
+          text-xs
+          font-medium
+          uppercase
+
+          tracking-[0.22em]
+
+          text-sky-700
+
+          backdrop-blur-md
+        "
+      >
 
         <Snowflake className="h-3.5 w-3.5" />
 
@@ -443,7 +527,21 @@ function InvernoAsas() {
 
       </span>
 
-      <h1 className="mt-8 font-display text-5xl leading-[1.02] lg:text-6xl">
+      <h1
+        className="
+          mt-8
+
+          max-w-xl
+
+          font-display
+
+          text-5xl
+
+          leading-[1.02]
+
+          lg:text-6xl
+        "
+      >
 
         Mais acesso à
 
@@ -457,9 +555,29 @@ function InvernoAsas() {
 
       </h1>
 
-      <p className="mt-8 max-w-lg text-lg leading-8 text-muted-foreground">
+      <p
+        className="
+          mt-8
 
-        Atendimento médico online com foco em
+          max-w-lg
+
+          text-lg
+
+          leading-8
+
+          text-muted-foreground
+        "
+      >
+
+        A
+
+        <strong>
+
+          {" "}Iniciativa ❄️ Inverno ASAS – Estação do Cuidado{" "}
+
+        </strong>
+
+        amplia o acesso ao atendimento médico durante o inverno, com foco em
 
         <strong> saúde mental</strong>,
 
@@ -469,7 +587,7 @@ function InvernoAsas() {
 
       </p>
 
-      {/* BOTÕES */}
+      {/* ================= BOTÕES ================= */}
 
       <div className="mt-10 flex flex-wrap gap-4">
 
@@ -477,7 +595,31 @@ function InvernoAsas() {
           href={WHATSAPP_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 rounded-full bg-azure-deep px-8 py-4 font-medium text-primary-foreground shadow-lg transition-all duration-300 hover:-translate-y-0.5 hover:bg-foreground"
+          className="
+            inline-flex
+            items-center
+            gap-2
+
+            rounded-full
+
+            bg-azure-deep
+
+            px-8
+            py-4
+
+            font-medium
+
+            text-primary-foreground
+
+            shadow-xl
+            shadow-azure-deep/20
+
+            transition-all
+            duration-300
+
+            hover:-translate-y-0.5
+            hover:bg-foreground
+          "
         >
 
           <MessageCircle className="h-4 w-4" />
@@ -488,7 +630,29 @@ function InvernoAsas() {
 
         <a
           href="#porque"
-          className="inline-flex items-center gap-2 rounded-full border border-border bg-background/90 px-8 py-4 font-medium backdrop-blur transition hover:bg-secondary"
+          className="
+            inline-flex
+            items-center
+            gap-2
+
+            rounded-full
+
+            border
+            border-border
+
+            bg-white/80
+
+            px-8
+            py-4
+
+            font-medium
+
+            backdrop-blur
+
+            transition
+
+            hover:bg-secondary
+          "
         >
 
           Conheça a iniciativa
@@ -499,11 +663,27 @@ function InvernoAsas() {
 
       </div>
 
-      {/* ÍCONES */}
+      {/* ================= BENEFÍCIOS ================= */}
 
-      <div className="mt-8 grid max-w-xl grid-cols-2 gap-5 text-sm lg:grid-cols-4">
+      <div
+        className="
+          mt-10
 
-        <div className="rounded-2xl bg-white/75 p-4 text-center shadow-sm backdrop-blur">
+          grid
+
+          max-w-xl
+
+          grid-cols-2
+
+          gap-5
+
+          text-sm
+
+          lg:grid-cols-4
+        "
+      >
+
+        <div className="rounded-2xl bg-white/72 p-4 text-center shadow-md backdrop-blur">
 
           <Brain className="mx-auto mb-2 h-7 w-7 text-lilac" />
 
@@ -511,7 +691,7 @@ function InvernoAsas() {
 
         </div>
 
-        <div className="rounded-2xl bg-white/75 p-4 text-center shadow-sm backdrop-blur">
+        <div className="rounded-2xl bg-white/72 p-4 text-center shadow-md backdrop-blur">
 
           <Scale className="mx-auto mb-2 h-7 w-7 text-lilac" />
 
@@ -519,7 +699,7 @@ function InvernoAsas() {
 
         </div>
 
-        <div className="rounded-2xl bg-white/75 p-4 text-center shadow-sm backdrop-blur">
+        <div className="rounded-2xl bg-white/72 p-4 text-center shadow-md backdrop-blur">
 
           <Stethoscope className="mx-auto mb-2 h-7 w-7 text-lilac" />
 
@@ -527,7 +707,7 @@ function InvernoAsas() {
 
         </div>
 
-        <div className="rounded-2xl bg-white/75 p-4 text-center shadow-sm backdrop-blur">
+        <div className="rounded-2xl bg-white/72 p-4 text-center shadow-md backdrop-blur">
 
           <CalendarDays className="mx-auto mb-2 h-7 w-7 text-lilac" />
 
@@ -539,152 +719,167 @@ function InvernoAsas() {
 
       {/* ================= CARDS ================= */}
 
-      {/* ================= CARDS ================= */}
+      <div className="mt-10 max-w-xl">
 
-<div className="mt-10 max-w-xl">
+        <div className="grid gap-5 md:grid-cols-2">
 
-  <div className="grid gap-5 md:grid-cols-2">
+                    <article
+            className="
+              rounded-[28px]
 
-    <article
-      className="
-        rounded-[28px]
-        border
-        border-sky-100/80
-        bg-white/88
-        p-6
-        shadow-xl
-        shadow-sky-100/40
-        backdrop-blur-md
-        transition-all
-        duration-300
-        hover:-translate-y-1
-      "
-    >
+              border
+              border-sky-100/80
 
-      <div className="flex items-center gap-2 text-sky-700">
+              bg-white/88
 
-        <Stethoscope className="h-5 w-5" />
+              p-6
 
-        <span className="text-[11px] font-semibold uppercase tracking-[0.18em]">
+              shadow-xl
+              shadow-sky-100/40
 
-          Teleconsulta Médica
+              backdrop-blur-md
 
-        </span>
+              transition-all
+              duration-300
 
-      </div>
+              hover:-translate-y-1
+            "
+          >
 
-      <div className="mt-5">
+            <div className="flex items-center gap-2 text-sky-700">
 
-        <div className="flex items-end gap-1">
+              <Stethoscope className="h-5 w-5" />
 
-          <span className="font-display text-[54px] leading-none text-azure-deep">
+              <span className="text-[11px] font-semibold uppercase tracking-[0.18em]">
 
-            R$ 59
+                Teleconsulta Médica
 
-          </span>
+              </span>
 
-          <span className="pb-1 text-2xl text-azure-deep">
+            </div>
 
-            ,50
+            <div className="mt-5">
 
-          </span>
+              <div className="flex items-end gap-1">
+
+                <span className="font-display text-[54px] leading-none text-azure-deep">
+
+                  R$ 59
+
+                </span>
+
+                <span className="pb-1 text-2xl text-azure-deep">
+
+                  ,50
+
+                </span>
+
+              </div>
+
+              <p className="mt-3 text-sm text-muted-foreground">
+
+                Valor habitual
+
+                <span className="ml-2 line-through">
+
+                  R$ 119,00
+
+                </span>
+
+              </p>
+
+            </div>
+
+          </article>
+
+          <article
+            className="
+              rounded-[28px]
+
+              border
+              border-sky-100/80
+
+              bg-white/88
+
+              p-6
+
+              shadow-xl
+              shadow-sky-100/40
+
+              backdrop-blur-md
+
+              transition-all
+              duration-300
+
+              hover:-translate-y-1
+            "
+          >
+
+            <div className="flex items-center gap-2 text-sky-700">
+
+              <FileText className="h-5 w-5" />
+
+              <span className="text-[11px] font-semibold uppercase tracking-[0.18em]">
+
+                Renovação de Receita*
+
+              </span>
+
+            </div>
+
+            <div className="mt-5">
+
+              <div className="flex items-end gap-1">
+
+                <span className="font-display text-[54px] leading-none text-azure-deep">
+
+                  R$ 39
+
+                </span>
+
+                <span className="pb-1 text-2xl text-azure-deep">
+
+                  ,95
+
+                </span>
+
+              </div>
+
+              <p className="mt-3 text-sm text-muted-foreground">
+
+                Valor habitual
+
+                <span className="ml-2 line-through">
+
+                  R$ 79,90
+
+                </span>
+
+              </p>
+
+            </div>
+
+          </article>
 
         </div>
 
-        <p className="mt-3 text-sm text-muted-foreground">
+        <p className="mt-4 pl-1 text-xs leading-6 text-muted-foreground">
 
-          Valor habitual
-
-          <span className="ml-2 line-through">
-
-            R$ 119,00
-
-          </span>
+          *Quando clinicamente indicada após avaliação médica.
 
         </p>
 
       </div>
 
-    </article>
-
-    <article
-      className="
-        rounded-[28px]
-        border
-        border-sky-100/80
-        bg-white/88
-        p-6
-        shadow-xl
-        shadow-sky-100/40
-        backdrop-blur-md
-        transition-all
-        duration-300
-        hover:-translate-y-1
-      "
-    >
-
-      <div className="flex items-center gap-2 text-sky-700">
-
-        <FileText className="h-5 w-5" />
-
-        <span className="text-[11px] font-semibold uppercase tracking-[0.18em]">
-
-          Renovação de Receita*
-
-        </span>
-
-      </div>
-
-      <div className="mt-5">
-
-        <div className="flex items-end gap-1">
-
-          <span className="font-display text-[54px] leading-none text-azure-deep">
-
-            R$ 39
-
-          </span>
-
-          <span className="pb-1 text-2xl text-azure-deep">
-
-            ,95
-
-          </span>
-
-        </div>
-
-        <p className="mt-3 text-sm text-muted-foreground">
-
-          Valor habitual
-
-          <span className="ml-2 line-through">
-
-            R$ 79,90
-
-          </span>
-
-        </p>
-
-      </div>
-
-    </article>
+    </div>
 
   </div>
 
-  <p className="mt-4 pl-1 text-xs leading-6 text-muted-foreground">
-
-    *Quando clinicamente indicada após avaliação médica.
-
-  </p>
-
-</div>
-
-    </div> {/* max-w-lg */}
-
-</div> {/* container */}
-
 </section>
+      
 
+
+  
 
       
 
