@@ -664,8 +664,6 @@ function InvernoAsas() {
 
 </div>
 
-</div>
-
     </div> {/* max-w-lg */}
 
 </div> {/* container */}
