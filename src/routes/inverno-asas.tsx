@@ -359,31 +359,31 @@ function InvernoAsas() {
   {/* ================= HERO IMAGE ================= */}
 
   <img
-    src={winterHero}
-    alt="Médica durante atendimento online"
-    draggable={false}
-    className="
-        pointer-events-none
-        absolute
+  src={winterHero}
+  alt="Médica durante atendimento online"
+  draggable={false}
+  className="
+    pointer-events-none
+    absolute
+    top-0
 
-        top-0
-        right-0
+    -left-[8%]
+    right-auto
 
-        z-0
+    z-0
 
-        hidden
-        lg:block
+    hidden
+    lg:block
 
-        h-full
-        w-auto
+    h-[108%]
+    w-auto
+    max-w-none
 
-        max-w-none
+    object-cover
+    object-right-top
 
-        object-cover
-        object-right-top
-
-        select-none
-    "
+    select-none
+  "
 />
 
   {/* Fade MUITO discreto */}
