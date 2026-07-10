@@ -225,7 +225,107 @@ function InvernoAsas() {
 
 
       
-      <Header />
+      {/* ================= HEADER ================= */}
+
+<header className="fixed inset-x-0 top-0 z-50 border-b border-sky-200/40 bg-gradient-to-r from-background/85 via-sky-50/85 to-background/85 backdrop-blur-xl">
+
+  <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
+
+    <Link
+      to="/"
+      className="flex items-center gap-3 transition hover:opacity-90"
+    >
+
+      <img
+        src={winterLogo} // se ainda não existir, use asasLogo temporariamente
+        alt="ASAS Telemedicina"
+        className="h-11 w-11 rounded-full object-cover ring-1 ring-sky-200"
+      />
+
+      <div>
+
+        <p className="font-display text-lg font-semibold leading-none">
+          Clínica Popular
+        </p>
+
+        <div className="flex items-center gap-2">
+
+          <p className="font-display text-lg leading-none text-lilac">
+            ASAS Telemedicina
+          </p>
+
+          <span className="hidden rounded-full bg-sky-100 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.15em] text-sky-700 lg:inline-flex">
+            ❄️ Inverno
+          </span>
+
+        </div>
+
+      </div>
+
+    </Link>
+
+    <nav className="hidden items-center gap-8 text-sm text-muted-foreground lg:flex">
+
+      <Link
+        to="/quem-somos"
+        className="transition hover:text-foreground"
+      >
+        Quem Somos
+      </Link>
+
+      <Link
+        to="/inverno-asas"
+        className="font-semibold text-sky-700"
+      >
+        ❄️ Inverno ASAS
+      </Link>
+
+      <a
+        href="#porque"
+        className="transition hover:text-foreground"
+      >
+        A Iniciativa
+      </a>
+
+      <a
+        href="#faq"
+        className="transition hover:text-foreground"
+      >
+        FAQ
+      </a>
+
+      <Link
+        to="/central-de-saude"
+        className="transition hover:text-foreground"
+      >
+        Artigos
+      </Link>
+
+      <Link
+        to="/faca-parte"
+        className="transition hover:text-foreground"
+      >
+        Faça Parte
+      </Link>
+
+    </nav>
+
+    <a
+      href={WHATSAPP_URL}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hidden items-center gap-2 rounded-full bg-azure-deep px-5 py-3 text-sm font-medium text-primary-foreground transition-all duration-300 hover:-translate-y-0.5 hover:bg-foreground hover:shadow-lg lg:inline-flex"
+    >
+
+      <MessageCircle className="h-4 w-4" />
+
+      Agendar pelo WhatsApp
+
+    </a>
+
+  </div>
+
+</header>
 
 
 
