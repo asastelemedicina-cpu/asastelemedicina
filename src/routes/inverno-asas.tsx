@@ -736,6 +736,12 @@ function InvernoAsas() {
 
         <div
           className="
+            flex
+            min-h-[110px]
+            flex-col
+            items-center
+            justify-center
+        
             rounded-2xl
         
             bg-white/90
