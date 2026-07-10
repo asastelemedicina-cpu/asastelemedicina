@@ -337,397 +337,263 @@ function InvernoAsas() {
         }}
       />
 
-      {/* ================= HERO ================= */}
+{/* ================= HERO ================= */}
 
-      <section
-        id="top"
-        className="relative overflow-hidden pt-36 pb-24 md:pt-44 md:pb-32"
-      >
-        {/* Background de inverno integrado às cores da ASAS */}
+<section
+  id="top"
+  className="relative overflow-hidden pt-36 pb-28 md:pt-44"
+>
 
-        <div className="pointer-events-none absolute inset-0">
+  {/* Background */}
 
-          <div className="absolute -top-40 -right-40 h-[540px] w-[540px] rounded-full bg-sky-100/60 blur-3xl" />
+  <div className="absolute inset-0 pointer-events-none">
 
-          <div className="absolute left-[-120px] top-60 h-[420px] w-[420px] rounded-full bg-lilac/10 blur-3xl" />
+    <div className="absolute -left-40 top-20 h-[500px] w-[500px] rounded-full bg-lilac/10 blur-3xl" />
 
-          <div className="absolute bottom-0 right-20 h-[280px] w-[280px] rounded-full bg-cyan-50 blur-3xl" />
+    <div className="absolute right-0 top-0 h-[700px] w-[700px] rounded-full bg-sky-100/40 blur-3xl" />
+
+  </div>
+
+  <div className="relative mx-auto max-w-6xl px-6">
+
+    <div className="grid items-center gap-20 lg:grid-cols-[1fr_1.05fr]">
+
+      {/* ESQUERDA */}
+
+      <div>
+
+        <span className="inline-flex items-center gap-2 rounded-full border border-border bg-background/80 px-5 py-2 text-xs uppercase tracking-[0.22em] backdrop-blur">
+
+          <Snowflake className="h-3.5 w-3.5 text-sky-500" />
+
+          Iniciativa ❄️ Inverno ASAS – Estação do Cuidado
+
+        </span>
+
+        <h1 className="mt-8 max-w-xl font-display text-5xl leading-[1.02] lg:text-6xl">
+
+          Mais acesso à{" "}
+
+          <span className="text-lilac">
+
+            saúde
+
+          </span>
+
+          <br />
+
+          durante todo o inverno.
+
+        </h1>
+
+        <p className="mt-8 max-w-xl text-lg leading-9 text-muted-foreground">
+
+          A
+
+          <strong> Iniciativa ❄️ Inverno ASAS – Estação do Cuidado </strong>
+
+          amplia o acesso ao atendimento médico durante o inverno, com foco em
+
+          <strong> saúde mental</strong>,
+
+          <strong> emagrecimento saudável</strong>,
+
+          acompanhamento médico e renovação de receitas quando indicada.
+
+        </p>
+
+        {/* BOTÕES */}
+
+        <div className="mt-10 flex flex-wrap gap-4">
+
+          <a
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full bg-azure-deep px-8 py-4 font-medium text-primary-foreground transition hover:-translate-y-0.5 hover:bg-foreground"
+          >
+
+            <MessageCircle className="h-4 w-4" />
+
+            Agendar Teleconsulta
+
+          </a>
+
+          <a
+            href="#porque"
+            className="inline-flex items-center gap-2 rounded-full border border-border bg-background px-8 py-4 font-medium transition hover:bg-secondary"
+          >
+
+            Conheça a iniciativa
+
+            <ArrowRight className="h-4 w-4" />
+
+          </a>
 
         </div>
 
-        <div className="relative mx-auto grid max-w-6xl items-center gap-16 px-6 lg:grid-cols-2">
+        {/* BULLETS */}
 
-          {/* TEXTO */}
+        <div className="mt-10 grid grid-cols-2 gap-5 text-sm lg:grid-cols-4">
 
+          <div className="flex flex-col items-center gap-2 text-center">
 
-          <div>
+            <Brain className="h-7 w-7 text-lilac" />
 
-            <span className="inline-flex items-center gap-2 rounded-full border border-border bg-card/80 px-4 py-2 text-xs uppercase tracking-[0.22em] text-muted-foreground backdrop-blur">
+            <span>Psiquiatria</span>
 
-              <Snowflake className="h-3.5 w-3.5 text-sky-500" />
+          </div>
 
-              Iniciativa ❄️ Inverno ASAS – Estação do Cuidado
+          <div className="flex flex-col items-center gap-2 text-center">
 
-            </span>
+            <Scale className="h-7 w-7 text-lilac" />
 
-            <h1 className="mt-7 max-w-xl font-display text-5xl leading-[1.05] md:text-6xl">
+            <span>Emagrecimento</span>
 
-              Mais acesso à{" "}
+          </div>
 
-              <span className="text-lilac">
+          <div className="flex flex-col items-center gap-2 text-center">
 
-                saúde
+            <Stethoscope className="h-7 w-7 text-lilac" />
+
+            <span>Teleconsulta</span>
+
+          </div>
+
+          <div className="flex flex-col items-center gap-2 text-center">
+
+            <CalendarDays className="h-7 w-7 text-lilac" />
+
+            <span>21 jun • 22 set</span>
+
+          </div>
+
+        </div>
+
+        {/* CARDS DE PREÇO */}
+        {/* ================= CARDS ================= */}
+
+        <div className="mt-12 grid gap-5 md:grid-cols-2">
+
+          <article className="rounded-3xl border border-sky-100 bg-background/95 p-6 shadow-lg backdrop-blur">
+
+            <div className="flex items-center gap-2 text-sky-600">
+
+              <Stethoscope className="h-5 w-5" />
+
+              <span className="text-xs font-semibold uppercase tracking-[0.18em]">
+
+                Teleconsulta
 
               </span>
 
-              {" "}durante todo o inverno.
-
-            </h1>
-
-            <p className="mt-7 max-w-xl text-lg leading-8 text-muted-foreground">
-
-              A Iniciativa <strong>❄️ Inverno ASAS – Estação do Cuidado</strong>
-              foi criada para ampliar o acesso ao atendimento médico durante um
-              período do ano em que diversas condições de saúde costumam exigir
-              maior atenção, especialmente relacionadas à <strong>saúde
-              mental</strong>, <strong>emagrecimento saudável</strong>,
-              acompanhamento médico e renovação de receitas quando
-              clinicamente indicada.
-
-            </p>
-
-            <div className="mt-10 flex flex-wrap gap-4">
-
-              <a
-                href={WHATSAPP_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-full bg-azure-deep px-7 py-4 text-sm font-medium text-primary-foreground shadow-xl shadow-azure-deep/20 transition-all duration-300 hover:-translate-y-0.5 hover:bg-foreground"
-              >
-
-                <MessageCircle className="h-4 w-4" />
-
-                Agendar Teleconsulta
-
-              </a>
-
-              <a
-                href="#porque"
-                className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-7 py-4 text-sm font-medium transition hover:bg-secondary"
-              >
-
-                Saiba mais
-
-                <ArrowRight className="h-4 w-4" />
-
-              </a>
-
             </div>
 
-            <div className="mt-10 flex flex-wrap gap-6 text-sm">
+            <div className="mt-5">
 
-              <div className="flex items-center gap-2">
+              <p className="text-5xl font-display text-azure-deep">
 
-                <ShieldCheck className="h-4 w-4 text-lilac" />
+                R$ 59<span className="text-2xl">,50</span>
 
-                Atendimento médico online
+              </p>
 
-              </div>
+              <p className="mt-2 text-sm text-muted-foreground">
 
-              <div className="flex items-center gap-2">
+                Valor habitual
 
-                <CalendarDays className="h-4 w-4 text-lilac" />
+                <span className="ml-2 line-through">
 
-                21 de junho a 22 de setembro
-
-              </div>
-
-              <div className="flex items-center gap-2">
-
-                <Check className="h-4 w-4 text-lilac" />
-
-                Tecnologia a serviço do cuidado
-
-              </div>
-
-            </div>
-
-          </div>
-
-          {/* IMAGEM */}
-
-          <div className="relative isolate">
-
-            <div className="absolute inset-0 translate-x-4 translate-y-4 rounded-[2rem] bg-sky-100/70" />
-
-            <div className="absolute inset-0 rounded-[2rem] bg-gradient-to-br from-sky-100/70 via-white/20 to-lilac/10" />
-
-            <img
-              src={winterHero}
-              alt="Médica durante atendimento por teleconsulta na Iniciativa Inverno ASAS"
-              className="relative z-20 aspect-square w-full rounded-[2rem] object-cover shadow-2xl shadow-sky-200/40"
-            />
-
-            {/* Logo */}
-
-            <div className="absolute -top-6 -right-6 hidden h-24 w-24 items-center justify-center rounded-3xl border border-border bg-background p-3 shadow-2xl lg:flex">
-
-              <img
-                src={winterLogo}
-                alt="Logo ASAS Inverno"
-                className="h-full w-full object-contain"
-              />
-
-            </div>
-
-            {/* Card principal */}
-
-            <div className="absolute -bottom-8 -left-8 hidden w-80 rounded-3xl border border-border bg-background p-6 shadow-2xl xl:block">
-
-              <div className="flex items-center gap-2 text-sky-600">
-
-                <Snowflake className="h-4 w-4" />
-
-                <span className="text-xs uppercase tracking-[0.18em]">
-
-                  Condições de acesso durante a iniciativa
+                  R$ 119,00
 
                 </span>
 
-              </div>
-
-              <div className="mt-5">
-
-                <p className="text-sm text-muted-foreground">
-
-                  Teleconsulta médica
-
-                </p>
-
-                <div className="mt-2 flex items-end gap-3">
-
-                  <span className="font-display text-5xl text-azure-deep">
-
-                    R$ 59
-
-                  </span>
-
-                  <span className="pb-1 text-2xl text-azure-deep">
-
-                    ,50
-
-                  </span>
-
-                </div>
-
-                <p className="mt-2 text-sm text-muted-foreground">
-
-                  Valor habitual:
-
-                  <span className="ml-2 line-through">
-
-                    R$ 119,00
-
-                  </span>
-
-                </p>
-
-              </div>
-
-              <div className="my-5 h-px bg-border" />
-
-              <div className="space-y-3 text-sm">
-
-                <div className="flex items-center gap-2">
-
-                  <Check className="h-4 w-4 text-lilac" />
-
-                  Atendimento médico online
-
-                </div>
-
-                <div className="flex items-center gap-2">
-
-                  <Check className="h-4 w-4 text-lilac" />
-
-                  Psiquiatria e saúde mental
-
-                </div>
-
-                <div className="flex items-center gap-2">
-
-                  <Check className="h-4 w-4 text-lilac" />
-
-                  Emagrecimento saudável
-
-                </div>
-
-                <div className="flex items-center gap-2">
-
-                  <Check className="h-4 w-4 text-lilac" />
-
-                  Renovação de receitas quando indicada
-
-                </div>
-
-              </div>
+              </p>
 
             </div>
 
-          </div>
+          </article>
+
+          <article className="rounded-3xl border border-sky-100 bg-background/95 p-6 shadow-lg backdrop-blur">
+
+            <div className="flex items-center gap-2 text-sky-600">
+
+              <FileText className="h-5 w-5" />
+
+              <span className="text-xs font-semibold uppercase tracking-[0.18em]">
+
+                Renovação de receita*
+
+              </span>
+
+            </div>
+
+            <div className="mt-5">
+
+              <p className="text-5xl font-display text-azure-deep">
+
+                R$ 39<span className="text-2xl">,95</span>
+
+              </p>
+
+              <p className="mt-2 text-sm text-muted-foreground">
+
+                Valor habitual
+
+                <span className="ml-2 line-through">
+
+                  R$ 79,90
+
+                </span>
+
+              </p>
+
+            </div>
+
+          </article>
 
         </div>
 
-      </section>
+        <p className="mt-4 text-xs text-muted-foreground">
 
-      {/* ================= CONDIÇÕES DE ACESSO ================= */}
+          *Quando clinicamente indicada após avaliação médica.
 
-      <section className="border-t border-border bg-card/40 py-24">
+        </p>
 
-        <div className="mx-auto max-w-6xl px-6">
+      </div>
 
-          <div className="mx-auto max-w-3xl text-center">
+      {/* ================= IMAGEM ================= */}
 
-            <span className="inline-flex items-center rounded-full bg-sky-100 px-4 py-1 text-xs font-medium uppercase tracking-[0.18em] text-sky-700">
+      <div className="relative">
 
-              Condições de acesso durante a iniciativa
+        {/* glow */}
 
-            </span>
+        <div className="absolute inset-0 rounded-[40px] bg-gradient-to-br from-sky-100/70 via-white/20 to-lilac/10 blur-2xl" />
 
-            <h2 className="mt-6 font-display text-4xl md:text-5xl">
+        {/* fade lateral */}
 
-              Mais acesso à saúde durante todo o inverno.
+        <div className="absolute inset-y-0 left-0 z-30 w-40 bg-gradient-to-r from-background via-background/75 to-transparent" />
 
-            </h2>
+        {/* fade inferior */}
 
-            <p className="mt-5 text-lg text-muted-foreground">
+        <div className="absolute inset-x-0 bottom-0 z-30 h-24 bg-gradient-to-t from-background via-background/60 to-transparent" />
 
-              Período da iniciativa: <strong>21 de junho a 22 de setembro.</strong>
+        <img
+          src={winterHero}
+          alt="Médica durante atendimento online"
+          className="relative z-20 w-full object-contain"
+        />
 
-            </p>
+      </div>
 
-          </div>
+    </div>
 
-          <div className="mt-14 grid gap-8 lg:grid-cols-2">
+  </div>
 
-            {accessConditions.map((item) => (
-              <article
-                key={item.title}
-                className="group rounded-3xl border border-border bg-background p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-sky-200 hover:shadow-xl"
-              >
-                <div className="flex items-center gap-3">
+</section>
 
-                  <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-sky-100">
 
-                    <Snowflake className="h-6 w-6 text-sky-600" />
 
-                  </div>
-
-                  <div>
-
-                    <h3 className="font-display text-2xl">
-
-                      {item.title}
-
-                    </h3>
-
-                    <p className="text-sm text-muted-foreground">
-
-                      Condição válida durante a iniciativa.
-
-                    </p>
-
-                  </div>
-
-                </div>
-
-                <div className="mt-8">
-
-                  <p className="text-sm uppercase tracking-[0.15em] text-muted-foreground">
-
-                    Valor durante a iniciativa
-
-                  </p>
-
-                  <div className="mt-2 flex items-end gap-2">
-
-                    <span className="font-display text-6xl leading-none text-azure-deep">
-
-                      {item.current.split(",")[0]}
-
-                    </span>
-
-                    <span className="pb-1 text-2xl text-azure-deep">
-
-                      ,{item.current.split(",")[1]}
-
-                    </span>
-
-                  </div>
-
-                  <p className="mt-4 text-muted-foreground">
-
-                    Valor habitual:
-
-                    <span className="ml-2 line-through">
-
-                      {item.regular}
-
-                    </span>
-
-                  </p>
-
-                </div>
-
-              </article>
-            ))}
-
-          </div>
-
-          <div className="mx-auto mt-12 max-w-5xl rounded-3xl border border-sky-100 bg-background p-8 shadow-sm">
-
-            <p className="text-sm leading-7 text-muted-foreground">
-
-              <strong>*Observação:</strong> Quando a legislação exigir a emissão
-              da receita física original para determinados medicamentos sujeitos
-              a controle especial, poderá ser cobrada{" "}
-              <strong>Taxa Administrativa de Envio</strong>, destinada aos
-              procedimentos administrativos de emissão, preparação e envio da
-              documentação.
-
-            </p>
-
-            <p className="mt-5 text-sm leading-7 text-muted-foreground">
-
-              <strong>
-                Durante a Iniciativa ❄️ Inverno ASAS – Estação do Cuidado,
-              </strong>{" "}
-              a ASAS subsidia parte dos custos administrativos relacionados à
-              emissão, preparação e envio da receita física. Em razão desse
-              subsídio, a{" "}
-              <strong>Taxa Administrativa de Envio</strong> passa a ser de{" "}
-              <strong>R$ 34,95</strong> durante o período da iniciativa
-              (valor habitual: <strong>R$ 69,90</strong>).
-
-            </p>
-
-            <p className="mt-5 text-sm leading-7 text-muted-foreground">
-
-              As condições acima fazem parte da{" "}
-              <strong>
-                Iniciativa ❄️ Inverno ASAS – Estação do Cuidado
-              </strong>
-              , criada para ampliar o acesso ao atendimento médico durante um
-              período do ano em que diversas condições de saúde costumam exigir
-              maior atenção.
-
-            </p>
-
-          </div>
-
-        </div>
-
-      </section>
+        
 
       {/* ================= POR QUE A ASAS ESTÁ FAZENDO ISSO ================= */}
 
