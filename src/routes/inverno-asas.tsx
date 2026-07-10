@@ -341,7 +341,7 @@ function InvernoAsas() {
 
 <section
   id="top"
-  className="relative overflow-hidden pt-32 pb-24 lg:pt-40"
+  className="relative overflow-hidden pt-32 pb-16 lg:pt-40 min-h-[820px]"
 >
 
   {/* ================= BACKGROUND ================= */}
@@ -363,22 +363,28 @@ function InvernoAsas() {
     alt="Médica durante atendimento online"
     draggable={false}
     className="
-      pointer-events-none
-      absolute
-      bottom-0
-      right-0
-      z-0
+        pointer-events-none
+        absolute
 
-      hidden
-      lg:block
+        top-0
+        right-0
 
-      w-[82%]
-      max-w-none
+        z-0
 
-      object-contain
-      select-none
+        hidden
+        lg:block
+
+        h-full
+        w-auto
+
+        max-w-none
+
+        object-cover
+        object-right-top
+
+        select-none
     "
-  />
+/>
 
   {/* Fade MUITO discreto */}
 
