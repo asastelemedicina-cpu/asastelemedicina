@@ -779,7 +779,7 @@ function InvernoAsas() {
           ))}
 
         </div>
-
+        </div>
       </section>
 
       {/* ================= NOSSO MANIFESTO ================= */}
