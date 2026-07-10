@@ -1,6 +1,11 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 
 import winterHero from "@/assets/winter-hero.webp";
+
+import winterHeroDesktop from "@/assets/winter-hero-desktop.webp";
+import winterHeroMobile from "@/assets/winter-hero-mobile.webp";
+
+
 import winterLogo from "@/assets/asas-logo-winter.webp";
 
 import {
@@ -245,13 +250,31 @@ function InvernoAsas() {
   "
 >
 
-  {/* ================= HERO IMAGE ================= */}
+ {/* ================= HERO IMAGE ================= */}
+
+<picture>
+
+  {/* MOBILE */}
+
+  <source
+    media="(max-width: 768px)"
+    srcSet={winterHeroMobile}
+  />
+
+  {/* DESKTOP */}
+
+  <source
+    media="(min-width: 769px)"
+    srcSet={winterHeroDesktop}
+  />
 
   <img
-    src={winterHero}
+    src={winterHeroDesktop}
     alt=""
     aria-hidden="true"
     draggable={false}
+    fetchPriority="high"
+    decoding="async"
     className="
       absolute
       inset-0
@@ -268,6 +291,8 @@ function InvernoAsas() {
       z-0
     "
   />
+
+</picture>
 
   {/* ================= LIGHT OVERLAY ================= */}
 
