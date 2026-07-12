@@ -201,6 +201,7 @@ export const Route = createFileRoute("/psiquiatria-online")({
           "@context": "https://schema.org",
           "@type": "Article",
           headline: TITLE,
+          url: CANONICAL,
           description: DESCRIPTION,
           datePublished: PUBLISHED,
           dateModified: UPDATED,
