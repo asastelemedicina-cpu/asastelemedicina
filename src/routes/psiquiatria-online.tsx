@@ -189,7 +189,7 @@ export const Route = createFileRoute("/psiquiatria-online")({
         href: CANONICAL,
       },
       {
-        rel: "icon"
+        rel: "icon",
         href: "/favicon.ico",
       },
     ],
