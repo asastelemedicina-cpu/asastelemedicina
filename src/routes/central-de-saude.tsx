@@ -22,7 +22,7 @@ const posts = [
   {
     slug: "psiquiatria",
     category: "Psiquiatria",
-    readTime: "12 min",
+    readTime: "9 min",
     title: "Psiquiatria Online",
     excerpt:
       "Quando procurar um psiquiatra? Como funciona uma consulta online? Em quais situações ela é indicada?",
