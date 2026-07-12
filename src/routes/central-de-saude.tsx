@@ -187,24 +187,39 @@ if (currentArticle === "psiquiatria") {
                 {post.excerpt}
               </p>
 
+
+              
               <div className="mt-6">
                 {post.published ? (
-                <button
-                  type="button"
-                  //onClick={() => setShowArticle(true)}
-                  onClick={() => setCurrentArticle(post.slug as any)}
-                  className="inline-flex items-center gap-2 text-sm font-medium text-azure-deep transition group-hover:gap-3"
-                >
-                  Ler artigo
-                  <ArrowRight className="h-4 w-4" />
-                </button>
-
+                  <>
+                    <button
+                      type="button"
+                      onClick={() => setCurrentArticle(post.slug as any)}
+                      className="inline-flex items-center gap-2 text-sm font-medium text-azure-deep transition group-hover:gap-3"
+                    >
+                      Ler artigo
+                      <ArrowRight className="h-4 w-4" />
+                    </button>
+              
+                    {post.slug === "psiquiatria" && (
+                      <div className="mt-2">
+                        <Link
+                          to="/psiquiatria-online"
+                          className="text-xs text-muted-foreground underline hover:text-azure-deep"
+                        >
+                          Abrir como página pública →
+                        </Link>
+                      </div>
+                    )}
+                  </>
                 ) : (
                   <span className="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground">
                     Em breve
                   </span>
                 )}
               </div>
+
+              
             </article>
           ))}
         </div>
