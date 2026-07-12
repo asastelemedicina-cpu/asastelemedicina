@@ -192,14 +192,7 @@ if (currentArticle === "psiquiatria") {
               <div className="mt-6">
                 {post.published ? (
                   <>
-                    <button
-                      type="button"
-                      onClick={() => setCurrentArticle(post.slug as any)}
-                      className="inline-flex items-center gap-2 text-sm font-medium text-azure-deep transition group-hover:gap-3"
-                    >
-                      Ler artigo
-                      <ArrowRight className="h-4 w-4" />
-                    </button>
+
               
                     {post.slug === "psiquiatria" && (
                       <div className="mt-2">
@@ -207,7 +200,7 @@ if (currentArticle === "psiquiatria") {
                           to="/psiquiatria-online"
                           className="text-xs text-muted-foreground underline hover:text-azure-deep"
                         >
-                          Abrir como página pública →
+                          Ler artigo Psiquiatria Online →
                         </Link>
                       </div>
                     )}
