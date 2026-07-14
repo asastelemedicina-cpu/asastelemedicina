@@ -28,32 +28,37 @@ import {
 const CONSULTA_PRECO = 39;
 
 export const Route = createFileRoute("/")({
-head: () => ({
-meta: [
-  { title: `Clínica Popular Asas Telemedicina — Teleconsulta a partir de R$ ${CONSULTA_PRECO},00`,
-  {
-  name: "description",
-  content: `Teleconsulta médica com psiquiatria, clínica geral, ginecologia, pediatria, emagrecimento e mais. Atestados, afastamentos, laudos e relatórios médicos. A partir de R$ ${CONSULTA_PRECO},00.`,
-  },
-  { property: "og:title", content: "Clínica Popular Asas Telemedicina — Cuidado médico online" },
-  {
-  property: "og:description",
-  content: `Consultas médicas online. Atestados, laudos e relatórios. A partir de R$ ${CONSULTA_PRECO},00.`,
-  },
-  ],
-  links: [
-  {
-  rel: "canonical",
-  href: "https://www.asastelemedicina.com.br/",
-  },
-  {
-    rel: "shortcut icon",
-    href: "/favicon.ico",
-  },
-],
-}),
-component: Index,
-}); 
+  head: () => ({
+    meta: [
+      {
+        title: `Clínica Popular Asas Telemedicina — Teleconsulta a partir de R$ ${CONSULTA_PRECO},00`,
+      },
+      {
+        name: "description",
+        content: `Teleconsulta médica com psiquiatria, clínica geral, ginecologia, pediatria, emagrecimento e mais. Atestados, afastamentos, laudos e relatórios médicos. A partir de R$ ${CONSULTA_PRECO},00.`,
+      },
+      {
+        property: "og:title",
+        content: "Clínica Popular Asas Telemedicina — Cuidado médico online",
+      },
+      {
+        property: "og:description",
+        content: `Consultas médicas online. Atestados, laudos e relatórios. A partir de R$ ${CONSULTA_PRECO},00.`,
+      },
+    ],
+    links: [
+      {
+        rel: "canonical",
+        href: "https://www.asastelemedicina.com.br/",
+      },
+      {
+        rel: "shortcut icon",
+        href: "/favicon.ico",
+      },
+    ],
+  }),
+  component: Index,
+});
 
 
 const WHATSAPP_URL = "https://wa.me/5545920018284";
