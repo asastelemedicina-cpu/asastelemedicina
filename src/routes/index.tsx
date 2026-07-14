@@ -25,27 +25,27 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
+const CONSULTA_PRECO = 39;
+
 export const Route = createFileRoute("/")({
 head: () => ({
 meta: [
-{ title: "Clínica Popular Asas Telemedicina — Teleconsulta a partir de R$ 119" },
-{
-name: "description",
-content:
-"Teleconsulta médica com psiquiatria, clínica geral, ginecologia, pediatria, emagrecimento e mais. Atestados, afastamentos, laudos e relatórios médicos. A partir de R$ 119.",
-},
-{ property: "og:title", content: "Clínica Popular Asas Telemedicina — Cuidado médico online" },
-{
-property: "og:description",
-content:
-"Consultas médicas online. Atestados, laudos e relatórios. A partir de R$ 119.",
-},
-],
-links: [
-{
-rel: "canonical",
-href: "https://www.asastelemedicina.com.br/",
-},
+  { title: `Clínica Popular Asas Telemedicina — Teleconsulta a partir de R$ ${CONSULTA_PRECO},00`,
+  {
+  name: "description",
+  content: `Teleconsulta médica com psiquiatria, clínica geral, ginecologia, pediatria, emagrecimento e mais. Atestados, afastamentos, laudos e relatórios médicos. A partir de R$ ${CONSULTA_PRECO},00.`,
+  },
+  { property: "og:title", content: "Clínica Popular Asas Telemedicina — Cuidado médico online" },
+  {
+  property: "og:description",
+  content: `Consultas médicas online. Atestados, laudos e relatórios. A partir de R$ ${CONSULTA_PRECO},00.`,
+  },
+  ],
+  links: [
+  {
+  rel: "canonical",
+  href: "https://www.asastelemedicina.com.br/",
+  },
   {
     rel: "shortcut icon",
     href: "/favicon.ico",
@@ -57,8 +57,6 @@ component: Index,
 
 
 const WHATSAPP_URL = "https://wa.me/5545920018284";
-
-const CONSULTA_PRECO = 39;
 
 const specialties = [
   { icon: Brain, title: "Psiquiatria", desc: "Acompanhamento para ansiedade, depressão, insônia e saúde mental." },
@@ -174,43 +172,7 @@ const testimonials = [
 function Index() {
   return (
     <div className="min-h-screen bg-background text-foreground">
-      {/* NAV */}
-      {/*<header className="absolute top-0 left-0 right-0 z-20">*/}
-
-      {/*
-      <header className="fixed top-0 left-0 right-0 z-50 border-b border-white/10 bg-background/70 backdrop-blur-xl supports-[backdrop-filter]:bg-background/60">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-6">
-          <a href="#top" className="flex items-center gap-2">
-            <img
-              src={asasLogo}
-              alt="Asas Telemedicina"
-              className="h-11 w-11 rounded-full object-cover ring-1 ring-border"
-            />
-            <span className="font-display text-lg font-semibold tracking-tight">
-              Clínica Popular <span className="text-lilac">Asas Telemedicina</span>
-            </span>
-          </a>
-          <nav className="hidden gap-8 text-sm text-muted-foreground md:flex">
-            <Link to="/quem-somos" className="hover:text-foreground">Quem Somos</Link>
-            <a href="#especialidades" className="hover:text-foreground">Cuidados Oferecidos</a>
-            <a href="#como-funciona" className="hover:text-foreground">Como funciona</a>
-            <a href="#documentos" className="hover:text-foreground">Documentos</a>           
-            <Link to="/central-de-saude" className="hover:text-foreground">Artigos de Saúde</Link>
-            <a href="#faq" className="hover:text-foreground">FAQ</a>
-            <Link to="/faca-parte" className="hover:text-foreground">Faça parte</Link>
-          </nav>
-          <a
-            href={WHATSAPP_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hidden items-center gap-2 rounded-full bg-foreground px-5 py-2.5 text-sm font-medium text-background transition hover:bg-azure-deep md:inline-flex"
-          >
-            <MessageCircle className="h-4 w-4" /> Agendar pelo WhatsApp
-          </a>
-        </div>
-      </header>
-      */}
-
+  {/* HEADER */}       
   <header className="fixed inset-x-0 top-0 z-50 border-b border-border/40 bg-background/75 backdrop-blur-xl">
   <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
 
@@ -231,59 +193,60 @@ function Index() {
         </p>
       </div>
     </a>
-
-    <nav className="hidden items-center gap-8 text-sm text-muted-foreground lg:flex">
-
-      <Link
-        to="/quem-somos"
-        className="transition hover:text-foreground"
-      >
-        Quem Somos
-      </Link>
-
-      <a
-        href="#especialidades"
-        className="transition hover:text-foreground"
-      >
-        Especialidades
-      </a>
-
-      <a
-        href="#como-funciona"
-        className="transition hover:text-foreground"
-      >
-        Como funciona
-      </a>
-
-      <a
-        href="#documentos"
-        className="transition hover:text-foreground"
-      >
-        Documentos
-      </a>
-
-      <Link
-        to="/central-de-saude"
-        className="transition hover:text-foreground"
-      >
-        Artigos
-      </Link>
-
-      <a
-        href="#faq"
-        className="transition hover:text-foreground"
-      >
-        FAQ
-      </a>
-
-      <Link
-        to="/faca-parte"
-        className="transition hover:text-foreground"
-      >
-        Faça Parte
-      </Link>
-
-    </nav>
+    
+      {/* NAV */}  
+      <nav className="hidden items-center gap-8 text-sm text-muted-foreground lg:flex">
+  
+        <Link
+          to="/quem-somos"
+          className="transition hover:text-foreground"
+        >
+          Quem Somos
+        </Link>
+  
+        <a
+          href="#especialidades"
+          className="transition hover:text-foreground"
+        >
+          Especialidades
+        </a>
+  
+        <a
+          href="#como-funciona"
+          className="transition hover:text-foreground"
+        >
+          Como funciona
+        </a>
+  
+        <a
+          href="#documentos"
+          className="transition hover:text-foreground"
+        >
+          Documentos
+        </a>
+  
+        <Link
+          to="/central-de-saude"
+          className="transition hover:text-foreground"
+        >
+          Artigos
+        </Link>
+  
+        <a
+          href="#faq"
+          className="transition hover:text-foreground"
+        >
+          FAQ
+        </a>
+  
+        <Link
+          to="/faca-parte"
+          className="transition hover:text-foreground"
+        >
+          Faça Parte
+        </Link>
+  
+      </nav>
 
     <a
       href={WHATSAPP_URL}
