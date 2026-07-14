@@ -25,7 +25,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-const CONSULTA_PRECO = 39;
+const CONSULTA_PRECO = 79;
 
 export const Route = createFileRoute("/")({
   head: () => ({
