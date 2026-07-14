@@ -58,6 +58,13 @@ component: Index,
 
 const WHATSAPP_URL = "https://wa.me/5545920018284";
 
+const CONSULTA_PRECO = 119;
+const CONSULTA_PRECO_FORMATADO =
+  CONSULTA_PRECO.toLocaleString("pt-BR", {
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 2,
+  });
+
 const specialties = [
   { icon: Brain, title: "Psiquiatria", desc: "Acompanhamento para ansiedade, depressão, insônia e saúde mental." },
   { icon: Stethoscope, title: "Clínica Geral", desc: "Avaliação clínica, sintomas agudos e cuidados gerais de saúde." },
