@@ -59,11 +59,6 @@ component: Index,
 const WHATSAPP_URL = "https://wa.me/5545920018284";
 
 const CONSULTA_PRECO = 119;
-const CONSULTA_PRECO_FORMATADO =
-  CONSULTA_PRECO.toLocaleString("pt-BR", {
-    minimumFractionDigits: 2,
-    maximumFractionDigits: 2,
-  });
 
 const specialties = [
   { icon: Brain, title: "Psiquiatria", desc: "Acompanhamento para ansiedade, depressão, insônia e saúde mental." },
@@ -99,8 +94,8 @@ const faqs = [
     a: "Basta enviar uma mensagem no nosso WhatsApp. Nossa equipe te orienta sobre a área de saúde desejada, horários disponíveis e forma de pagamento.",
   },
   {
-    q: "Quanto custa a consulta com um médico?",
-    a: "As consultas médicas começam a partir de R$ 119,00. O valor pode variar conforme a área de cuidado e especialidade — a equipe informa todos os detalhes no WhatsApp antes do agendamento.",
+  q: "Quanto custa a consulta com um médico?",
+  a: `As consultas médicas começam a partir de R$ ${CONSULTA_PRECO}. O valor pode variar conforme a área de cuidado e especialidade — a equipe informa todos os detalhes no WhatsApp antes do agendamento.`,
   },
   {
     q: "Do que eu preciso para a consulta?",
