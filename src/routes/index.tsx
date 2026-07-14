@@ -143,8 +143,8 @@ const testimonials = [
   },
   {
     name: "Beatriz Nogueira",
-    city: "Joinville • SC",
-    text: "Equipe muito educada e plataforma extremamente simples de utilizar.",
+    city: "Manaus • AM",
+    text: "Muito melhor do que imaginei e com valores muito acessíveis. Amei!",
   },
   {
     name: "Ricardo P.",
@@ -427,9 +427,7 @@ function Index() {
         src={heroDoctor}
         alt="Médica realizando teleconsulta"
         className="relative z-20 aspect-square w-full rounded-[2rem] object-cover shadow-2xl shadow-black/20"
-      />
-
-      
+      />     
       
       {/* CARD INFERIOR */}
 
@@ -449,7 +447,7 @@ function Index() {
 
         <p className="mt-1 font-display text-5xl leading-none text-azure-deep">
 
-          R$ 119
+          R$ {CONSULTA_PRECO}
 
           <span className="text-2xl text-muted-foreground">
 
@@ -841,10 +839,11 @@ className="w-[330px] flex-shrink-0 rounded-3xl border border-border bg-card p-6 
           </div>
           <div className="rounded-3xl border border-background/10 bg-background/5 p-10 backdrop-blur">
             <p className="text-xs uppercase tracking-[0.2em] text-lilac">Consultas</p>
+            <p className="mt-2 text-sm text-background/60">A partir de</p>
             <p className="mt-4 font-display text-6xl text-background">
-              R$ 119<span className="text-2xl text-background/60">,00</span>
+              R$ {CONSULTA_PRECO}<span className="text-2xl text-background/60">,00</span>
             </p>
-            <p className="mt-2 text-sm text-background/60">valor inicial por consulta</p>
+            
             <div className="my-8 h-px bg-background/15" />
             <ul className="space-y-3 text-sm text-background/80">
               <li className="flex items-center gap-3"><Check className="h-4 w-4 text-lilac" /> Atendimento por vídeo</li>
