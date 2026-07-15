@@ -14,6 +14,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
+import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { ASAS } from "@/lib/config";
 
@@ -100,31 +101,11 @@ const WHATSAPP_URL = `https://wa.me/5545920018284?text=${WHATSAPP_MESSAGE}`;
 function FacaParte() {
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <header className="border-b border-border">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-6">
-          <Link to="/" className="flex items-center gap-2">
-            <img
-              src={asasLogo}
-              alt="Asas Telemedicina"
-              className="h-11 w-11 rounded-full object-cover ring-1 ring-border"
-            />
 
-            <span className="font-display text-lg font-semibold tracking-tight">
-              Clínica Popular{" "}
-              <span className="text-lilac">Asas Telemedicina</span>
-            </span>
-          </Link>
-
-          <Link
-            to="/"
-            className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground"
-          >
-            <ArrowLeft className="h-4 w-4" />
-            Voltar ao início
-          </Link>
-        </div>
-      </header>
-
+      
+      <header />
+      
+      
       <section className="relative overflow-hidden border-b border-border py-20 md:py-28">
         <div className="pointer-events-none absolute -top-24 -right-24 h-80 w-80 rounded-full bg-lilac-soft blur-3xl" />
 
