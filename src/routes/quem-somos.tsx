@@ -51,7 +51,7 @@ function QuemSomos() {
     <div className="min-h-screen bg-background text-foreground">
       <Header />
 
-      <section className="border-b border-border bg-card/40 py-20">
+      <section className="border-b border-border bg-card/40 section-default">
         <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 lg:grid-cols-2">
           <div>
             <p className="text-xs uppercase tracking-[0.2em] text-lilac">
@@ -125,7 +125,7 @@ function QuemSomos() {
         </div>
       </section>
 
-      <section className="py-20">
+      <section className="section-default">
         <div className="mx-auto max-w-6xl px-6">
 
           <div className="mx-auto max-w-4xl text-center">
@@ -187,7 +187,7 @@ function QuemSomos() {
         </div>
       </section>
 
-      <section className="border-t border-border bg-card/30 py-20">
+      <section className="border-t border-border bg-card/30 section-default">
         <div className="mx-auto max-w-6xl px-6">
 
           <div className="text-center">
@@ -254,7 +254,7 @@ function QuemSomos() {
         </div>
       </section>
 
-      <section className="py-20">
+      <section className="section-default">
         <div className="mx-auto max-w-6xl px-6">
 
           <div className="text-center">
@@ -285,7 +285,7 @@ function QuemSomos() {
         </div>
       </section>
 
-      <section className="border-t border-border bg-card/30 py-20">
+      <section className="border-t border-border bg-card/30 section-default">
         <div className="mx-auto max-w-6xl px-6">
 
           <div className="text-center">
@@ -329,7 +329,7 @@ function QuemSomos() {
         </div>
       </section>
 
-      <section className="py-20">
+      <section className="section-default">
         <div className="mx-auto max-w-6xl px-6">
 
           <div className="mx-auto max-w-4xl text-center">
@@ -370,7 +370,7 @@ function QuemSomos() {
       </section>
       
 
-      <section className="border-t border-border bg-card/30 py-20">
+      <section className="border-t border-border bg-card/30 section-default">
         <div className="mx-auto max-w-6xl px-6">
 
           <div className="mx-auto max-w-4xl text-center">
@@ -412,7 +412,7 @@ function QuemSomos() {
         </div>
       </section>
 
-      <section className="py-20">
+      <section className="section-default">
         <div className="mx-auto max-w-6xl px-6">
 
           <div className="mx-auto max-w-4xl text-center">
@@ -451,7 +451,7 @@ function QuemSomos() {
         </div>
       </section>
 
-      <section className="border-t border-border bg-card/30 py-20">
+      <section className="border-t border-border bg-card/30 section-default">
         <div className="mx-auto max-w-6xl px-6">
 
           <div className="text-center">
@@ -493,7 +493,7 @@ function QuemSomos() {
         </div>
       </section>
 
-      <section className="py-20">
+      <section className="section-default">
         <div className="mx-auto max-w-6xl px-6">
 
           <div className="mx-auto max-w-4xl text-center">
@@ -559,7 +559,7 @@ function QuemSomos() {
         </div>
       </section>
 
-      <section className="border-t border-border bg-foreground py-16 text-background">
+      <section className="border-t border-border bg-foreground section-default text-background">
         <div className="mx-auto flex max-w-6xl flex-col items-center gap-4 px-6 text-center">
 
           <p className="text-xs uppercase tracking-[0.2em] text-background/70">
