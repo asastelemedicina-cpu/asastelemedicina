@@ -3,6 +3,7 @@ import { Link } from "@tanstack/react-router";
 import heroDoctor1 from "@/assets/hero-doctor.jpg";
 import heroDoctor from "@/assets/hero-doctor1.png";
 import asasLogo from "@/assets/asas-logo.jpeg";
+import Footer from "@/components/layout/Footer";
 
 import {
   Brain,
