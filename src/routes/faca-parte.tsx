@@ -607,7 +607,6 @@ function FacaParte() {
         </div>
       </section>
 
-```tsx
       <section className="border-t border-border bg-foreground section-default text-background">
         <div className="mx-auto max-w-5xl px-6 text-center">
 
