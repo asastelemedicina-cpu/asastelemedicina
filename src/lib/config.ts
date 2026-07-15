@@ -11,7 +11,7 @@ export const ASAS = {
 
   precos: {
     renovacaoReceita: 79,
-    consulta: 59,
+    consulta: 79,
     envioReceita: 40,
     envioReceitaSedex: 80,
     laudo: 60,
