@@ -28,8 +28,6 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-const CONSULTA_PRECO = 79;
-
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
@@ -64,7 +62,6 @@ export const Route = createFileRoute("/")({
 });
 
 
-const WHATSAPP_URL = "https://wa.me/5545920018284";
 
 const specialties = [
   { icon: Brain, title: "Psiquiatria", desc: "Acompanhamento para ansiedade, depressão, insônia e saúde mental." },
@@ -257,7 +254,7 @@ function Index() {
       </nav>
 
     <a
-      href={WHATSAPP_URL}
+      href={ASAS.whatsapp}
       target="_blank"
       rel="noopener noreferrer"
       className="hidden items-center gap-2 rounded-full bg-foreground px-5 py-3 text-sm font-medium text-background transition-all duration-300 hover:-translate-y-0.5 hover:bg-azure-deep hover:shadow-lg lg:inline-flex"
@@ -318,7 +315,7 @@ function Index() {
       <div className="mt-10 flex flex-wrap gap-4">
 
         <a
-          href={WHATSAPP_URL}
+          href={ASAS.whatsapp}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 rounded-full bg-azure-deep px-7 py-4 text-sm font-medium text-primary-foreground shadow-xl shadow-azure-deep/20 transition-all duration-300 hover:-translate-y-0.5 hover:bg-foreground"
@@ -653,7 +650,7 @@ function Index() {
               </p>
             </div>
             <a
-              href={WHATSAPP_URL}
+              href={ASAS.whatsapp}
               target="_blank"
               rel="noopener noreferrer"
               className="mt-8 inline-flex items-center gap-2 rounded-full bg-foreground px-6 py-3.5 text-sm font-medium text-background transition hover:bg-azure-deep"
@@ -796,7 +793,7 @@ className="w-[330px] flex-shrink-0 rounded-3xl border border-border bg-card p-6 
               <li className="flex items-center gap-3"><Check className="h-4 w-4 text-lilac" /> Sigilo e segurança</li>
             </ul>
             <a
-              href={WHATSAPP_URL}
+              href={ASAS.whatsapp}
               target="_blank"
               rel="noopener noreferrer"
               className="mt-8 inline-flex w-full items-center justify-center gap-2 rounded-full bg-lilac px-6 py-3.5 text-sm font-medium text-foreground transition hover:bg-background hover:text-foreground"
@@ -822,7 +819,7 @@ className="w-[330px] flex-shrink-0 rounded-3xl border border-border bg-card p-6 
               nossa equipe no WhatsApp.
             </p>
             <a
-              href={WHATSAPP_URL}
+              href={ASAS.whatsapp}
               target="_blank"
               rel="noopener noreferrer"
               className="mt-8 inline-flex items-center gap-2 rounded-full bg-azure-deep px-6 py-3.5 text-sm font-medium text-primary-foreground shadow-lg shadow-azure-deep/20 transition hover:bg-foreground"
@@ -945,7 +942,7 @@ className="w-[330px] flex-shrink-0 rounded-3xl border border-border bg-card p-6 
 
       {/* Floating WhatsApp */}
       <a
-        href={WHATSAPP_URL}
+        href={ASAS.whatsapp}
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Conversar no WhatsApp"
