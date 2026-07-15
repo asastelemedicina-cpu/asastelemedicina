@@ -178,7 +178,7 @@ function Index() {
   return (
     <div className="min-h-screen bg-background text-foreground">
   {/* HEADER */}       
-  <header className="fixed inset-x-0 top-0 z-50 border-b border-border/40 bg-background/75 backdrop-blur-xl">
+  <header className="relative z-50 border-b border-border/40 bg-background/75 backdrop-blur-xl">
   <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
 
     <a href="#top" className="flex items-center gap-3 transition hover:opacity-90">
@@ -271,7 +271,7 @@ function Index() {
 
 <section
   id="top"
-  className="relative overflow-hidden pt-36 pb-24 md:pt-44 md:pb-32"
+  className="relative overflow-hidden pt-12 pb-24 md:pt-16 md:pb-32"
 >
 
   <div className="pointer-events-none absolute -right-40 -top-40 h-[520px] w-[520px] rounded-full bg-lilac/15 blur-3xl" />
