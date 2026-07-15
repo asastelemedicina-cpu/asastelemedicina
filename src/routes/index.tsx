@@ -391,7 +391,7 @@ function Index() {
 
       {/* TRUST CARDS */}
 {/* ===================== CONFIANÇA ===================== */}
-<section className="py-16 bg-background">
+<section className="section-default bg-background">
   <div className="mx-auto max-w-6xl px-6">
 
     <div className="mx-auto mb-12 max-w-3xl text-center">
@@ -506,7 +506,7 @@ function Index() {
       
 
       {/* SPECIALTIES */}
-      <section id="especialidades" className="border-t border-border bg-card/40 py-24">
+      <section id="especialidades" className="border-t border-border bg-card/40 section-default">
         <div className="mx-auto max-w-6xl px-6">
           <div className="max-w-2xl">
             <p className="text-xs uppercase tracking-[0.2em] text-lilac">Cuidados Oferecidos</p>
@@ -599,7 +599,7 @@ function Index() {
 
   {/* ===================== DEPOIMENTOS ===================== */}
 
-<section className="overflow-hidden py-20 bg-background">
+<section className="overflow-hidden section-default bg-background">
 
 <div className="mx-auto max-w-6xl px-6">
 
@@ -674,7 +674,7 @@ className="w-[330px] flex-shrink-0 rounded-3xl border border-border bg-card p-6 
   
 
       {/* DOCUMENTS / PRICING */}
-      <section id="documentos" className="bg-foreground py-24 text-background">
+      <section id="documentos" className="bg-foreground section-default text-background">
         <div className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-12 px-6 md:grid-cols-2">
           <div>
             <p className="text-xs uppercase tracking-[0.2em] text-lilac">Documentos médicos</p>
@@ -721,9 +721,9 @@ className="w-[330px] flex-shrink-0 rounded-3xl border border-border bg-card p-6 
         </div>
       </section>
       
-      {/* FOOTER */}
+      
       {/* FAQ */}
-      <section id="faq" className="border-t border-border bg-card/40 py-24">
+      <section id="faq" className="border-t border-border bg-card/40 section-default">
         <div className="mx-auto grid max-w-6xl grid-cols-1 gap-12 px-6 md:grid-cols-[1fr_1.4fr]">
           <div>
             <p className="text-xs uppercase tracking-[0.2em] text-lilac">FAQ</p>
@@ -763,7 +763,7 @@ className="w-[330px] flex-shrink-0 rounded-3xl border border-border bg-card p-6 
 
 
       {/* ARTIGOS DE SAÚDE */}
-      <section className="border-t border-border bg-card/30 py-20">
+      <section className="border-t border-border bg-card/30 section-default">
         <div className="mx-auto max-w-5xl px-6">
           <div className="rounded-3xl border border-border bg-background p-10 text-center shadow-sm">
             <span className="inline-flex items-center rounded-full bg-lilac/10 px-4 py-1 text-xs font-medium uppercase tracking-[0.2em] text-lilac">
@@ -792,7 +792,7 @@ className="w-[330px] flex-shrink-0 rounded-3xl border border-border bg-card p-6 
       </section>
 
       
-      <section className="border-t border-border bg-card/30 py-20">
+  <section className="border-t border-border bg-card/30 section-default">
   <div className="mx-auto max-w-5xl px-6">
 
     <div className="rounded-3xl border border-border bg-background p-10 text-center shadow-sm">
