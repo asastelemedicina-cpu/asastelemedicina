@@ -81,23 +81,24 @@ export default function Footer() {
 
           <div className="mt-4 flex flex-col gap-4 text-sm">
 
+
             <a
               href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 transition hover:text-lilac"
             >
-              <MessageCircle className="h-4 w-4" />
-              WhatsApp
+              <MessageCircle className="h-5 w-5 text-[#25D366]" />
+               WhatsApp: (45) 92001-8284
             </a>
-
+           
             <a
               href={INSTAGRAM_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 transition hover:text-lilac"
             >
-              <Instagram className="h-4 w-4" />
+              <Instagram className="h-5 w-5 text-pink-500" />
               @asastelemedicina
             </a>
 
