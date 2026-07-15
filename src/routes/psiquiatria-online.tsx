@@ -1,4 +1,8 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
+import Footer from "@/components/layout/Footer";
+import Header from "@/components/layout/Header";
+
+import { ASAS } from "@/lib/config";
 import {
   ArrowLeft,
   MessageCircle,
@@ -278,34 +282,7 @@ function PsiquiatriaOnline() {
   return (
     <div className="min-h-screen bg-background text-foreground">
 
-      <header className="border-b border-border">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-6">
-
-          <Link to="/" className="flex items-center gap-2">
-
-            <img
-              src={asasLogo}
-              alt="Asas Telemedicina"
-              className="h-11 w-11 rounded-full object-cover ring-1 ring-border"
-            />
-
-            <span className="font-display text-lg font-semibold tracking-tight">
-              Clínica Popular{" "}
-              <span className="text-lilac">Asas Telemedicina</span>
-            </span>
-
-          </Link>
-
-          <Link
-            to="/central-de-saude"
-            className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground"
-          >
-            <ArrowLeft className="h-4 w-4" />
-            Artigos de Saúde
-          </Link>
-
-        </div>
-      </header>
+      <Header />
 
       <article className="mx-auto max-w-3xl px-6 py-12">
 
@@ -1251,7 +1228,7 @@ function PsiquiatriaOnline() {
           </div>
 
 
-                    <section id="vantagens" className="scroll-mt-24">
+          <section id="vantagens" className="scroll-mt-24">
 
             <h2 className="font-display text-3xl mt-10">
               Quais são as vantagens da consulta online com um médico na área de
@@ -1555,7 +1532,7 @@ function PsiquiatriaOnline() {
 
       </article>
 
-      <section className="border-t border-border bg-foreground py-24 text-background">
+      <section className="border-t border-border bg-foreground section-default text-background">
 
         <div className="mx-auto max-w-5xl px-6 text-center">
 
@@ -1604,66 +1581,7 @@ function PsiquiatriaOnline() {
 
       </section>
 
-      <footer className="border-t border-border bg-background py-10">
-
-        <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-8 px-6 md:flex-row">
-
-          <div className="flex items-center gap-3">
-
-            <img
-              src={asasLogo}
-              alt="Asas Telemedicina"
-              className="h-12 w-12 rounded-full object-cover ring-1 ring-border"
-            />
-
-            <div>
-
-              <p className="font-display text-base text-foreground">
-                Clínica Popular Asas Telemedicina
-              </p>
-
-              <p className="text-xs">
-                A medicina que te dá liberdade.
-              </p>
-
-            </div>
-
-          </div>
-
-          <div className="flex flex-col items-center gap-2 text-sm md:items-end">
-
-            <Link
-              to="/central-de-saude"
-              className="hover:text-foreground"
-            >
-              Artigos de Saúde
-            </Link>
-
-            <Link
-              to="/faca-parte"
-              className="hover:text-foreground"
-            >
-              Faça parte da equipe
-            </Link>
-
-            <a
-              href={WHATSAPP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-foreground"
-            >
-              WhatsApp: (45) 92001-8284
-            </a>
-
-            <p className="text-xs">
-              © {new Date().getFullYear()} Todos os direitos reservados.
-            </p>
-
-          </div>
-
-        </div>
-
-      </footer>
+      <Footer />
 
       <a
         href={WHATSAPP_URL}
