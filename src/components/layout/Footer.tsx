@@ -100,8 +100,7 @@ export default function Footer() {
             >
               <Instagram className="h-5 w-5 text-pink-500" />
               @asastelemedicina
-            </a>
-             <p className="text-xs">© {new Date().getFullYear()} Todos os direitos reservados.</p>
+            </a>           
           </div>
         </div>
 
