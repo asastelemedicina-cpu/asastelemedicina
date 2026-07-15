@@ -72,7 +72,7 @@ export default function Footer() {
 
           {/* Contato */}
           <div>
-            <h4 className="font-display text-lg">
+            <h4 className="font-display text-lg text-lilac">
               Contato
             </h4>
 
