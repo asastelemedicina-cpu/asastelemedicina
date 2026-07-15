@@ -182,7 +182,7 @@ function FacaParte() {
         </div>
       </section>
 
-      <section className="py-24">
+      <section className="pt-10 pb-20">
         <div className="mx-auto max-w-6xl px-6">
           <div className="max-w-3xl">
             <p className="text-xs uppercase tracking-[0.2em] text-lilac">
@@ -302,7 +302,7 @@ function FacaParte() {
 
       <section
         id="profissionais"
-        className="border-t border-border bg-card/40 py-24"
+        className="border-t border-border bg-card/40 pt-10 pb-20"
       >
         <div className="mx-auto max-w-6xl px-6">
           <div className="max-w-3xl">
@@ -337,10 +337,8 @@ function FacaParte() {
               "Psicólogos",
               "Nutricionistas",
               "Fisioterapeutas",
-              "Enfermeiros",
               "Fonoaudiólogos",
               "Terapeutas Ocupacionais",
-              "Farmacêuticos",
               "Educadores Físicos",
               "Assistentes Sociais",
             ].map((item) => (
