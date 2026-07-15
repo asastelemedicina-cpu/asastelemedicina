@@ -4,6 +4,7 @@ import heroDoctor1 from "@/assets/hero-doctor.jpg";
 import heroDoctor from "@/assets/hero-doctor1.png";
 import asasLogo from "@/assets/asas-logo.jpeg";
 import Footer from "@/components/layout/Footer";
+import Header from "@/components/layout/Header";
 
 import { ASAS } from "@/lib/config";
 
@@ -177,6 +178,8 @@ const testimonials = [
 function Index() {
   return (
     <div className="min-h-screen bg-background text-foreground">
+
+      <Header />
   {/* HEADER */}       
   <header className="relative z-50 border-b border-border/40 bg-background/75 backdrop-blur-xl">
   <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
