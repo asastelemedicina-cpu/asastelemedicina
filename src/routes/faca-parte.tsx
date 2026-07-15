@@ -182,7 +182,7 @@ function FacaParte() {
         </div>
       </section>
 
-      <section className="pt-10 pb-20">
+      <section className="section-default">
         <div className="mx-auto max-w-6xl px-6">
           <div className="max-w-3xl">
             <p className="text-xs uppercase tracking-[0.2em] text-lilac">
@@ -302,7 +302,7 @@ function FacaParte() {
 
       <section
         id="profissionais"
-        className="border-t border-border bg-card/40 pt-10 pb-20"
+        className="border-t border-border bg-card/40 section-default"
       >
         <div className="mx-auto max-w-6xl px-6">
           <div className="max-w-3xl">
@@ -361,7 +361,7 @@ function FacaParte() {
         </div>
       </section>
 
-      <section className="py-24">
+      <section className="section-default">
         <div className="mx-auto max-w-6xl px-6">
           <div className="max-w-3xl">
             <p className="text-xs uppercase tracking-[0.2em] text-lilac">
@@ -410,7 +410,7 @@ function FacaParte() {
         </div>
       </section>
 
-      <section className="border-t border-border bg-card/40 py-24">
+      <section className="border-t border-border bg-card/40 section-default">
         <div className="mx-auto max-w-6xl px-6">
           <div className="max-w-3xl">
             <p className="text-xs uppercase tracking-[0.2em] text-lilac">
@@ -504,7 +504,7 @@ function FacaParte() {
         </div>
       </section>
 
-      <section className="border-t border-border bg-card/40 py-24">
+      <section className="border-t border-border bg-card/40 section-default">
         <div className="mx-auto grid max-w-6xl grid-cols-1 gap-12 px-6 md:grid-cols-[1fr_1.4fr]">
 
           <div>
@@ -608,7 +608,7 @@ function FacaParte() {
       </section>
 
 ```tsx
-      <section className="border-t border-border bg-foreground py-24 text-background">
+      <section className="border-t border-border bg-foreground section-default text-background">
         <div className="mx-auto max-w-5xl px-6 text-center">
 
           <p className="text-xs uppercase tracking-[0.2em] text-lilac">
