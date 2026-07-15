@@ -188,7 +188,7 @@ function Index() {
 
 <section
   id="top"
-  className="relative overflow-hidden pt-12 pb-24 md:pt-16 md:pb-32"
+  className="relative overflow-hidden pt-12 pb-12 md:pt-16 md:pb-32"
 >
 
   <div className="pointer-events-none absolute -right-40 -top-40 h-[520px] w-[520px] rounded-full bg-lilac/15 blur-3xl" />
