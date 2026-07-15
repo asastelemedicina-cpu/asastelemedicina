@@ -3,6 +3,10 @@ import { ArrowLeft, MessageCircle } from "lucide-react";
 import asasLogo from "@/assets/asas-logo.jpeg";
 import heroDoctor from "@/assets/hero-doctor.jpg";
 
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
+import { ASAS } from "@/lib/config";
+
 const WHATSAPP_URL = "https://wa.me/5545920018284";
 
 export const Route = createFileRoute("/quem-somos")({
@@ -45,30 +49,7 @@ export const Route = createFileRoute("/quem-somos")({
 function QuemSomos() {
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <header className="border-b border-border">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-6">
-          <Link to="/" className="flex items-center gap-2">
-            <img
-              src={asasLogo}
-              alt="ASAS Telemedicina"
-              className="h-11 w-11 rounded-full object-cover ring-1 ring-border"
-            />
-
-            <span className="font-display text-lg font-semibold tracking-tight">
-              Clínica Popular{" "}
-              <span className="text-lilac">ASAS Telemedicina</span>
-            </span>
-          </Link>
-
-          <Link
-            to="/"
-            className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground"
-          >
-            <ArrowLeft className="h-4 w-4" />
-            Voltar ao início
-          </Link>
-        </div>
-      </header>
+      <Header />
 
       <section className="border-b border-border bg-card/40 py-20">
         <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 lg:grid-cols-2">
@@ -617,45 +598,7 @@ function QuemSomos() {
         </div>
       </section>
 
-      <footer className="border-t border-border">
-        <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-6 px-6 py-10 md:flex-row">
-
-          <div>
-            <p className="font-display text-lg">
-              Clínica Popular <span className="text-lilac">ASAS Telemedicina</span>
-            </p>
-
-            <p className="text-sm text-muted-foreground">
-              Tecnologia que aproxima. Cuidado que transforma.
-            </p>
-          </div>
-
-          <div className="flex flex-col items-center gap-2 md:items-end">
-
-            <Link
-              to="/faca-parte"
-              className="font-medium text-lilac hover:text-foreground"
-            >
-              Faça parte da equipe
-            </Link>
-
-            <a
-              href={WHATSAPP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-foreground"
-            >
-              WhatsApp: (45) 92001-8284
-            </a>
-
-            <p className="text-xs text-muted-foreground">
-              © {new Date().getFullYear()} Todos os direitos reservados.
-            </p>
-
-          </div>
-
-        </div>
-      </footer>
+      <Footer />
 
     </div>
   );
