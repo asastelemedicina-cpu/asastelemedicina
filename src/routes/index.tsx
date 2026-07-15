@@ -5,6 +5,8 @@ import heroDoctor from "@/assets/hero-doctor1.png";
 import asasLogo from "@/assets/asas-logo.jpeg";
 import Footer from "@/components/layout/Footer";
 
+import { ASAS } from "@/lib/config";
+
 import {
   Brain,
   Stethoscope,
@@ -32,11 +34,11 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       {
-        title: `Clínica Popular Asas Telemedicina — Teleconsulta a partir de R$ ${CONSULTA_PRECO},00`,
+        title: `Clínica Popular Asas Telemedicina — Teleconsulta a partir de R$ ${ASAS.precos.consulta},00`,
       },
       {
         name: "description",
-        content: `Teleconsulta médica com psiquiatria, clínica geral, ginecologia, pediatria, emagrecimento e mais. Atestados, afastamentos, laudos e relatórios médicos. A partir de R$ ${CONSULTA_PRECO},00.`,
+        content: `Teleconsulta médica com psiquiatria, clínica geral, ginecologia, pediatria, emagrecimento e mais. Atestados, afastamentos, laudos e relatórios médicos. A partir de R$ ${ASAS.precos.consulta},00.`,
       },
       {
         property: "og:title",
@@ -44,7 +46,7 @@ export const Route = createFileRoute("/")({
       },
       {
         property: "og:description",
-        content: `Consultas médicas online. Atestados, laudos e relatórios. A partir de R$ ${CONSULTA_PRECO},00.`,
+        content: `Consultas médicas online. Atestados, laudos e relatórios. A partir de R$ ${ASAS.precos.consulta},00.`,
       },
     ],
     links: [
@@ -99,7 +101,7 @@ const faqs = [
   },
   {
   q: "Quanto custa a consulta com um médico?",
-  a: `As consultas médicas começam a partir de R$ ${CONSULTA_PRECO},00. O valor pode variar conforme a área de cuidado e especialidade — a equipe informa todos os detalhes no WhatsApp antes do agendamento.`,
+  a: `As consultas médicas começam a partir de R$ ${ASAS.precos.consulta},00. O valor pode variar conforme a área de cuidado e especialidade — a equipe informa todos os detalhes no WhatsApp antes do agendamento.`,
   },
   {
     q: "Do que eu preciso para a consulta?",
@@ -267,66 +269,7 @@ function Index() {
   </div>
 </header>
 
-      {/* HERO */}
-      {/*<section id="top" className="relative overflow-hidden pt-36 pb-24 md:pt-44 md:pb-32">
-        
-        <div className="pointer-events-none absolute -top-32 -right-32 h-96 w-96 rounded-full bg-lilac-soft blur-3xl" />
-        <div className="pointer-events-none absolute top-40 -left-20 h-72 w-72 rounded-full bg-secondary blur-3xl opacity-60" />
-        <div className="relative mx-auto grid max-w-6xl grid-cols-1 items-center gap-12 px-6 md:grid-cols-2">
-          <div>
-            <span className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-3 py-1 text-xs uppercase tracking-widest text-muted-foreground backdrop-blur">
-              <span className="h-1.5 w-1.5 rounded-full bg-lilac" />
-              Teleconsulta 100% online
-            </span>
-            <h1 className="mt-6 font-display text-5xl leading-[1.05] md:text-6xl">
-              Cuidado médico <em className="not-italic text-lilac">acessível</em>, no conforto da sua casa.
-            </h1>
-            <p className="mt-6 max-w-lg text-lg text-muted-foreground">
-              Atendimento por vídeo com profissionais de diversas especialidades e áreas de atuação. Consultas com médicos
-              <span className="font-medium text-foreground"> a partir de R$ 120,00</span>. Possibilidade de emissão de atestados, laudos e relatórios médicos emitidos online.
-            </p>
-            <div className="mt-8 flex flex-wrap gap-3">
-              <a
-                href={WHATSAPP_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-full bg-azure-deep px-6 py-3.5 text-sm font-medium text-primary-foreground shadow-lg shadow-azure-deep/20 transition hover:bg-foreground"
-              >
-                <MessageCircle className="h-4 w-4" /> Agendar pelo WhatsApp
-              </a>
-              <a
-                href="#especialidades"
-                className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-6 py-3.5 text-sm font-medium text-foreground transition hover:bg-secondary"
-              >
-                Ver Áreas de Atendimento
-              </a>
-            </div>
-            <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-3 text-sm text-muted-foreground">
-              <div className="flex items-center gap-2"><ShieldCheck className="h-4 w-4 text-lilac" /> Médicos registrados</div>
-              <div className="flex items-center gap-2"><Clock className="h-4 w-4 text-lilac" /> Atendimento ágil</div>
-              <div className="flex items-center gap-2"><FileText className="h-4 w-4 text-lilac" /> Documentos válidos</div>
-            </div>
-          </div>
-          <div className="relative">
-            <div className="absolute inset-0 -translate-x-4 translate-y-4 rounded-3xl bg-lilac/30" />
-            <img
-              src={heroDoctor}
-              alt="Médica em teleconsulta"
-              width={1536}
-              height={1536}
-              className="relative aspect-square w-full rounded-3xl object-cover shadow-2xl shadow-azure-deep/10"
-            />
-            <div className="absolute -top-5 -right-5 hidden h-24 w-24 items-center justify-center rounded-2xl border border-border bg-card p-2 shadow-xl md:flex">
-              <img src={asasLogo} alt="Logo Asas Telemedicina" className="h-full w-full object-contain" />
-            </div>
-            <div className="absolute -bottom-6 -left-6 hidden rounded-2xl border border-border bg-card p-4 shadow-xl md:block">
-              <p className="text-xs uppercase tracking-widest text-muted-foreground">Consultas médicas a partir de</p>
-              <p className="font-display text-3xl font-semibold text-azure-deep">R$ 120,00</p>
-            </div>
-          </div>
-        </div>
-      </section>*/}
-
+ 
 {/* ======================= HERO ======================= */}
 
 <section
@@ -448,7 +391,7 @@ function Index() {
 
         <p className="mt-1 font-display text-5xl leading-none text-azure-deep">
 
-          R$ {CONSULTA_PRECO}
+          R$ {ASAS.precos.consulta}
 
           <span className="text-2xl text-muted-foreground">
 
@@ -842,7 +785,7 @@ className="w-[330px] flex-shrink-0 rounded-3xl border border-border bg-card p-6 
             <p className="text-xs uppercase tracking-[0.2em] text-lilac">Consultas</p>
             <p className="mt-2 text-sm text-background/60">A partir de</p>
             <p className="mt-4 font-display text-6xl text-background">
-              R$ {CONSULTA_PRECO}<span className="text-2xl text-background/60">,00</span>
+              R$ {ASAS.precos.consulta}<span className="text-2xl text-background/60">,00</span>
             </p>
             
             <div className="my-8 h-px bg-background/15" />
