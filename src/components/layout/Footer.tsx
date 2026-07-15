@@ -55,7 +55,7 @@ export default function Footer() {
 
               <Link
                 to="/central-de-saude"
-                className="text-background/70 transition hover:text-lilac"
+                className="transition hover:text-lilac"
               >
                 Artigos de Saúde
               </Link>
