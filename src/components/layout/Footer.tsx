@@ -48,7 +48,7 @@ export default function Footer() {
 
               <Link
                 to="/quem-somos"
-                className="text-background/70 transition hover:text-lilac"
+                className="transition hover:text-lilac"
               >
                 Quem Somos
               </Link>
@@ -62,7 +62,7 @@ export default function Footer() {
 
               <Link
                 to="/faca-parte"
-                className="text-background/70 transition hover:text-lilac"
+                className="transition hover:text-lilac"
               >
                 Faça Parte
               </Link>
@@ -82,7 +82,7 @@ export default function Footer() {
                 href={ASAS.whatsapp}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-3 text-background/70 transition hover:text-lilac"
+                className="flex items-center gap-3 transition hover:text-lilac"
               >
                 <MessageCircle className="h-5 w-5 text-[#25D366]" />
                 {ASAS.telefone}
@@ -92,7 +92,7 @@ export default function Footer() {
                 href={ASAS.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-3 text-background/70 transition hover:text-lilac"
+                className="flex items-center gap-3 transition hover:text-lilac"
               >
                 <Instagram className="h-5 w-5 text-pink-500" />
                 @asastelemedicina
