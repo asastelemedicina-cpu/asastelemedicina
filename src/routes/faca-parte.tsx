@@ -103,7 +103,7 @@ function FacaParte() {
     <div className="min-h-screen bg-background text-foreground">
 
       
-      <header />
+      <Header />
       
       
       <section className="relative overflow-hidden border-b border-border py-20 md:py-28">
