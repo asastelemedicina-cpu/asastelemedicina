@@ -40,7 +40,7 @@ export default function Footer() {
 
           {/* Navegação */}
           <div>
-            <h4 className="font-display text-lg">
+            <h4 className="font-display text-lg text-lilac">
               Navegação
             </h4>
 
