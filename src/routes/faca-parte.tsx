@@ -14,6 +14,9 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
+import Footer from "@/components/layout/Footer";
+import { ASAS } from "@/lib/config";
+
 export const Route = createFileRoute("/faca-parte")({
   head: () => ({
     meta: [
@@ -669,60 +672,7 @@ function FacaParte() {
         </div>
       </section>
 
-      <footer className="border-t border-border bg-background py-10">
-        <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-8 px-6 md:flex-row">
-
-          <div className="flex items-center gap-3">
-            <img
-              src={asasLogo}
-              alt="Asas Telemedicina"
-              className="h-12 w-12 rounded-full object-cover ring-1 ring-border"
-            />
-
-            <div>
-              <p className="font-display text-base text-foreground">
-                Clínica Popular Asas Telemedicina
-              </p>
-
-              <p className="text-xs">
-                A medicina que te dá liberdade.
-              </p>
-            </div>
-          </div>
-
-          <div className="flex flex-col items-center gap-2 text-sm md:items-end">
-
-            <Link
-              to="/faca-parte"
-              className="font-medium text-lilac hover:underline"
-            >
-              Faça parte da equipe
-            </Link>
-
-            <Link
-              to="/central-de-saude"
-              className="hover:text-foreground"
-            >
-              Artigos de Saúde
-            </Link>
-
-            <a
-              href={WHATSAPP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-foreground"
-            >
-              WhatsApp: (45) 92001-8284
-            </a>
-
-            <p className="text-xs">
-              © {new Date().getFullYear()} Todos os direitos reservados.
-            </p>
-
-          </div>
-
-        </div>
-      </footer>
+      <Footer />
 
       <a
         href={WHATSAPP_URL}
