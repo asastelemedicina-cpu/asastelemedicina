@@ -6,7 +6,7 @@ import { ASAS } from "@/lib/config";
 
 export default function Footer() {
   return (
-    <footer className="border-t border-background/10 bg-foreground text-background">
+    <footer className="border-t border-background/10 bg-foreground text-background section-default">
       <div className="mx-auto max-w-6xl px-6 py-16">
 
         <div className="grid gap-12 md:grid-cols-3">
