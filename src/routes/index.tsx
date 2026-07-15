@@ -1022,6 +1022,8 @@ className="w-[330px] flex-shrink-0 rounded-3xl border border-border bg-card p-6 
         </div>
       </footer>
 
+      <Footer />
+
       {/* Floating WhatsApp */}
       <a
         href={WHATSAPP_URL}
