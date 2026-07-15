@@ -171,6 +171,19 @@
   }
 }
 
+@layer components {
+  .section-default {
+    @apply pt-10 pb-20;
+  }
+
+  .section-small {
+    @apply pt-6 pb-12;
+  }
+
+  .section-large {
+    @apply pt-16 pb-24;
+  }
+}
 
 /* ===========================================
    CARROSSEL DE DEPOIMENTOS
