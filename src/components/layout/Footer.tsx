@@ -103,7 +103,7 @@ export default function Footer() {
 
         </div>
 
-        <div className="my-10 h-px bg-background/10" />
+        <div className="my-6 h-px bg-background/10" />
 
         <p className="text-center text-sm text-background/50">
           © {new Date().getFullYear()} {ASAS.nome}. Todos os direitos reservados.
