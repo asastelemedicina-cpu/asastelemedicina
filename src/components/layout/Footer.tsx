@@ -7,7 +7,7 @@ import { ASAS } from "@/lib/config";
 export default function Footer() {
   return (
     <footer className="border-t border-background/10 bg-foreground text-background">
-      <div className="mx-auto max-w-6xl px-6 section-default">
+      <div className="mx-auto max-w-6xl px-6 section-default pb-4">
 
         <div className="grid gap-12 md:grid-cols-3">
 
@@ -103,7 +103,7 @@ export default function Footer() {
 
         </div>
 
-        <div className="my-2 h-px bg-background/10" />
+        <div className="my-10 h-px bg-background/10" />
 
         <p className="text-center text-sm text-background/50">
           © {new Date().getFullYear()} {ASAS.nome}. Todos os direitos reservados.
