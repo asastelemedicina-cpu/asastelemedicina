@@ -106,7 +106,7 @@ function FacaParte() {
       <Header />
       
       
-      <section className="relative overflow-hidden border-b border-border pt-10 pb-20 md:pt-12 md:pb-24">
+      <section className="relative overflow-hidden border-b border-border section-default md:pt-12 md:pb-24">
         <div className="pointer-events-none absolute -top-24 -right-24 h-80 w-80 rounded-full bg-lilac-soft blur-3xl" />
 
         <div className="pointer-events-none absolute bottom-0 left-0 h-72 w-72 rounded-full bg-secondary blur-3xl opacity-60" />
