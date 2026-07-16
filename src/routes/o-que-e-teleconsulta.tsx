@@ -2434,49 +2434,7 @@ function TeleconsultaOnline() {
 
 
 
-        {/* ==========================================================
-            AUTOR
-        ========================================================== */}
-
-        <section className="mt-20">
-
-          <div className="rounded-3xl border border-border bg-card p-8">
-
-            <div className="flex flex-col gap-6 md:flex-row md:items-center">
-
-              <img
-                src={asasLogo}
-                alt="Asas Telemedicina"
-                className="h-20 w-20 rounded-full object-cover ring-1 ring-border"
-              />
-
-              <div>
-
-                <p className="text-xs uppercase tracking-[0.25em] text-lilac">
-                  Conteúdo Institucional
-                </p>
-
-                <h2 className="mt-2 font-display text-3xl">
-                  ASAS Telemedicina
-                </h2>
-
-                <p className="mt-4 leading-8 text-muted-foreground">
-
-                  Este conteúdo foi elaborado pela equipe da ASAS
-                  Telemedicina com base em literatura médica, diretrizes
-                  nacionais e regulamentações vigentes da prática da
-                  telemedicina no Brasil.
-
-                </p>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </section>
-
+      
 
 
         {/* ==========================================================
