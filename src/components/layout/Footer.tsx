@@ -15,7 +15,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-3">
               <a
-                href="/#top"       
+                href="/"       
                 className="flex items-center gap-3 transition hover:opacity-90"
               >
               <img
