@@ -177,7 +177,7 @@ const testimonials = [
 
 function Index() {
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div id="top" className="min-h-screen bg-background text-foreground">
 
       
   {/* HEADER */}  
@@ -187,7 +187,7 @@ function Index() {
 {/* ======================= HERO ======================= */}
 
 <section
-  id="top"
+  
   className="relative overflow-hidden pt-12 pb-12 md:pt-16 md:pb-12"
 >
 
