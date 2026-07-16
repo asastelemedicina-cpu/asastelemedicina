@@ -580,7 +580,7 @@ function QuemSomos() {
               href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-full bg-lilac px-6 py-3.5 text-sm font-medium text-foreground transition hover:bg-background"
+              className="btn-primary"
             >
               <MessageCircle className="h-4 w-4" />
               Agendar Consulta
