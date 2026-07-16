@@ -152,8 +152,7 @@ function CentralDeSaude() {
                       <Link
                         to="/psiquiatria-online"
                         className="mt-8 inline-flex items-center gap-2 rounded-full bg-lilac px-6 py-3.5 text-sm font-medium text-foreground transition hover:bg-foreground hover:text-background">
-                        Ler artigo
-              
+                        Ler artigo              
                         <ArrowRight className="h-4 w-4" />
                       </Link>
                     )}
@@ -161,34 +160,8 @@ function CentralDeSaude() {
                     {post.slug === "o-que-e-teleconsulta" && (
                       <Link
                         to="/o-que-e-teleconsulta"
-                        className="
-                          inline-flex
-                          items-center
-                          gap-2
-              
-                          rounded-full
-              
-                          border
-                          border-border
-              
-                          bg-background
-              
-                          px-4
-                          py-2.5
-              
-                          text-sm
-                          font-medium
-              
-                          text-foreground
-              
-                          transition-colors
-              
-                          hover:border-lilac
-                          hover:text-azure-deep
-                        "
-                      >
-                        Ler artigo
-              
+                        className="mt-8 inline-flex items-center gap-2 rounded-full bg-lilac px-6 py-3.5 text-sm font-medium text-foreground transition hover:bg-foreground hover:text-background">
+                        Ler artigo              
                         <ArrowRight className="h-4 w-4" />
                       </Link>
                     )}
