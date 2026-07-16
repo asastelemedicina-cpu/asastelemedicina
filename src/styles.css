@@ -172,6 +172,8 @@
 }
 
 @layer components {
+
+  /* Espaços antes e depois de SECTIONS no ASAS */
   .section-default {
     @apply pt-10 pb-20;
   }
@@ -183,6 +185,86 @@
   .section-large {
     @apply pt-16 pb-24;
   }
+
+  /* Botão principal da ASAS */
+  .btn-primary {
+    @apply inline-flex
+      items-center
+      gap-2
+
+      rounded-full
+
+      bg-lilac
+
+      px-6
+      py-3.5
+
+      text-sm
+      font-medium
+
+      text-foreground
+
+      transition
+
+      hover:bg-foreground
+      hover:text-background;
+  }
+
+  /* Botão secundário */
+  .btn-secondary {
+    @apply inline-flex
+      items-center
+      gap-2
+
+      rounded-full
+
+      border
+      border-border
+
+      bg-background
+
+      px-6
+      py-3.5
+
+      text-sm
+      font-medium
+
+      text-foreground
+
+      transition
+
+      hover:border-lilac
+      hover:text-lilac;
+  }
+
+  /* Botão apenas com contorno */
+  .btn-outline {
+    @apply inline-flex
+      items-center
+      gap-2
+
+      rounded-full
+
+      border
+      border-lilac
+
+      px-6
+      py-3.5
+
+      text-sm
+      font-medium
+
+      text-lilac
+
+      transition
+
+      hover:bg-lilac
+      hover:text-white;
+  }
+
+}
+
+  
 }
 
 /* ===========================================
