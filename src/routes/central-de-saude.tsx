@@ -143,36 +143,107 @@ function CentralDeSaude() {
 
 
               
-              <div className="mt-6">
+              <div className="mt-auto pt-8">
+
                 {post.published ? (
+              
                   <>
                     {post.slug === "psiquiatria" && (
-                      <div className="mt-2">
-                        <Link
-                          to="/psiquiatria-online"
-                          className="text-xs text-muted-foreground underline hover:text-azure-deep"
-                        >
-                          Ler artigo Psiquiatria Online →
-                        </Link>
-                      </div>
+                      <Link
+                        to="/psiquiatria-online"
+                        className="
+                          inline-flex
+                          items-center
+                          gap-2
+              
+                          rounded-full
+              
+                          border
+                          border-border
+              
+                          bg-background
+              
+                          px-4
+                          py-2.5
+              
+                          text-sm
+                          font-medium
+              
+                          text-foreground
+              
+                          transition-colors
+              
+                          hover:border-lilac
+                          hover:text-azure-deep
+                        "
+                      >
+                        Ler artigo
+              
+                        <ArrowRight className="h-4 w-4" />
+                      </Link>
                     )}
               
                     {post.slug === "o-que-e-teleconsulta" && (
-                      <div className="mt-2">
-                        <Link
-                          to="/o-que-e-teleconsulta"
-                          className="text-xs text-muted-foreground underline hover:text-azure-deep"
-                        >
-                          Ler artigo O que é Teleconsulta →
-                        </Link>
-                      </div>
+                      <Link
+                        to="/o-que-e-teleconsulta"
+                        className="
+                          inline-flex
+                          items-center
+                          gap-2
+              
+                          rounded-full
+              
+                          border
+                          border-border
+              
+                          bg-background
+              
+                          px-4
+                          py-2.5
+              
+                          text-sm
+                          font-medium
+              
+                          text-foreground
+              
+                          transition-colors
+              
+                          hover:border-lilac
+                          hover:text-azure-deep
+                        "
+                      >
+                        Ler artigo
+              
+                        <ArrowRight className="h-4 w-4" />
+                      </Link>
                     )}
                   </>
+              
                 ) : (
-                  <span className="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground">
+              
+                  <span
+                    className="
+                      inline-flex
+                      items-center
+              
+                      rounded-full
+              
+                      bg-muted
+              
+                      px-4
+                      py-2
+              
+                      text-xs
+                      font-medium
+              
+                      text-muted-foreground
+                    "
+                  >
                     Em breve
                   </span>
+              
                 )}
+              
               </div>
 
               
