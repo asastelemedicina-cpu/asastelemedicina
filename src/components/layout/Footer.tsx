@@ -14,10 +14,7 @@ export default function Footer() {
           {/* Logo */}
           <div>
             <div className="flex items-center gap-3">
-              <a
-                href="/"
-                className="flex items-center gap-3 transition hover:opacity-90"
-              >
+              
               <img
                 src={asasLogo}
                 alt={ASAS.nome}
