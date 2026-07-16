@@ -95,11 +95,11 @@ export const Route = createFileRoute("/central-de-saude")({
 function CentralDeSaude() {
   
 
-const [currentArticle, setCurrentArticle] = useState<
+</*const [currentArticle, setCurrentArticle] = useState<
   "o-que-e-teleconsulta" | "psiquiatria" | null
 >(null);
 
-  </*if (currentArticle === "o-que-e-teleconsulta") {
+  if (currentArticle === "o-que-e-teleconsulta") {
   return (
     <Article
       onBack={() => setCurrentArticle(null)}
