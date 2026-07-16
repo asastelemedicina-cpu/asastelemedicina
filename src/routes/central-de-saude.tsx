@@ -161,20 +161,14 @@ function CentralDeSaude() {
                           border
                           border-border
               
-                          bg-background
-              
+                          bg-background              
                           px-4
-                          py-2.5
-              
+                          py-2.5              
                           text-sm
-                          font-medium
-              
-                          text-foreground
-              
-                          transition-colors
-              
-                          hover:border-lilac
-                          hover:text-azure-deep
+                          font-medium              
+                          text-foreground              
+                          transition-colors              
+                          hover:border-lilac hover:text-lilac hover:font-bold
                         "
                       >
                         Ler artigo
