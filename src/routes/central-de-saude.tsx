@@ -2,8 +2,8 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowLeft, ArrowRight, MessageCircle } from "lucide-react";
 import asasLogo from "@/assets/asas-logo.jpeg";
 
-import { Article } from "./central-de-saude.o-que-e-teleconsulta";
-import { ArticlePsiquiatria } from "./central-de-saude.psiquiatra-online";
+//import { Article } from "./central-de-saude.o-que-e-teleconsulta";
+//import { ArticlePsiquiatria } from "./central-de-saude.psiquiatra-online";
 
 import { useState } from "react";
 
@@ -94,17 +94,12 @@ export const Route = createFileRoute("/central-de-saude")({
 
 function CentralDeSaude() {
   
-  /*const [showArticle, setShowArticle] = useState(false);
-
-  if (showArticle) {
-    return <Article onBack={() => setShowArticle(false)} />;
-  }*/
 
 const [currentArticle, setCurrentArticle] = useState<
   "o-que-e-teleconsulta" | "psiquiatria" | null
 >(null);
 
-if (currentArticle === "o-que-e-teleconsulta") {
+  </*if (currentArticle === "o-que-e-teleconsulta") {
   return (
     <Article
       onBack={() => setCurrentArticle(null)}
@@ -118,7 +113,7 @@ if (currentArticle === "psiquiatria") {
       onBack={() => setCurrentArticle(null)}
     />
   );
-}
+}*/>
 
 
   
