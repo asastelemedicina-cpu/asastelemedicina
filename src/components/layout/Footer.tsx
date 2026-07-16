@@ -14,7 +14,10 @@ export default function Footer() {
           {/* Logo */}
           <div>
             <div className="flex items-center gap-3">
-              
+              <a
+                href="/"
+                className="flex items-center gap-3 transition hover:opacity-90"
+              >
               <img
                 src={asasLogo}
                 alt={ASAS.nome}
@@ -30,6 +33,7 @@ export default function Footer() {
                   ASAS Telemedicina
                 </p>
               </div>
+            </a>
             </div>
 
             <p className="mt-5 max-w-sm text-sm leading-7 text-background/70">
