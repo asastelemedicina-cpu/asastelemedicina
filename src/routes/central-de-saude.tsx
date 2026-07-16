@@ -174,8 +174,6 @@ if (currentArticle === "psiquiatria") {
               <div className="mt-6">
                 {post.published ? (
                   <>
-
-                                
                     {post.slug === "psiquiatria" && (
                       <div className="mt-2">
                         <Link
@@ -183,6 +181,17 @@ if (currentArticle === "psiquiatria") {
                           className="text-xs text-muted-foreground underline hover:text-azure-deep"
                         >
                           Ler artigo Psiquiatria Online →
+                        </Link>
+                      </div>
+                    )}
+              
+                    {post.slug === "o-que-e-teleconsulta" && (
+                      <div className="mt-2">
+                        <Link
+                          to="/o-que-e-teleconsulta"
+                          className="text-xs text-muted-foreground underline hover:text-azure-deep"
+                        >
+                          Ler artigo O que é Teleconsulta →
                         </Link>
                       </div>
                     )}
