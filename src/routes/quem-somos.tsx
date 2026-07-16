@@ -2,7 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowLeft, MessageCircle } from "lucide-react";
 import asasLogo from "@/assets/asas-logo.jpeg";
 import heroDoctor from "@/assets/hero-doctor.jpg";
-
+import FloatingWhatsApp from "@/components/layout/FloatingWhatsapp";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { ASAS } from "@/lib/config";
@@ -599,7 +599,7 @@ function QuemSomos() {
       </section>
 
       <Footer />
-
+      <FloatingWhatsApp />
     </div>
   );
 }
