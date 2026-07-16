@@ -5,7 +5,7 @@ import heroDoctor from "@/assets/hero-doctor1.png";
 import asasLogo from "@/assets/asas-logo.jpeg";
 import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
-
+import FloatingWhatsApp from "@/components/layout/FloatingWhatsApp";
 import { ASAS } from "@/lib/config";
 
 import {
