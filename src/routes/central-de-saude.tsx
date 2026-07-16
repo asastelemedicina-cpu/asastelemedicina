@@ -5,7 +5,7 @@ import asasLogo from "@/assets/asas-logo.jpeg";
 //import { Article } from "./central-de-saude.o-que-e-teleconsulta";
 //import { ArticlePsiquiatria } from "./central-de-saude.psiquiatra-online";
 
-import { useState } from "react";
+//import { useState } from "react";
 
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
@@ -93,30 +93,7 @@ export const Route = createFileRoute("/central-de-saude")({
 });
 
 function CentralDeSaude() {
-  
-
-/*const [currentArticle, setCurrentArticle] = useState<
-  "o-que-e-teleconsulta" | "psiquiatria" | null
->(null);
-
-  if (currentArticle === "o-que-e-teleconsulta") {
-  return (
-    <Article
-      onBack={() => setCurrentArticle(null)}
-    />
-  );
-}
-
-if (currentArticle === "psiquiatria") {
-  return (
-    <ArticlePsiquiatria
-      onBack={() => setCurrentArticle(null)}
-    />
-  );
-}*/
-
-
-  
+   
   return (
     <div className="min-h-screen bg-background text-foreground">
       <Header />
