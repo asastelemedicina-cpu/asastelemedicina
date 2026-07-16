@@ -151,7 +151,7 @@ function CentralDeSaude() {
                     {post.slug === "psiquiatria" && (
                       <Link
                         to="/psiquiatria-online"
-                        className="mt-8 inline-flex items-center gap-2 rounded-full bg-lilac px-6 py-3.5 text-sm font-medium text-foreground transition hover:bg-foreground hover:text-background">
+                        className="mt-8 btn-primary">
                         Ler artigo              
                         <ArrowRight className="h-4 w-4" />
                       </Link>
