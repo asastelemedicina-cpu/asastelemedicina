@@ -22,7 +22,7 @@ const posts = [
     title: "O que é Teleconsulta? Como funciona a consulta médica online",
     excerpt:
       "Entenda como funciona uma teleconsulta, quando ela é indicada, quais documentos podem ser emitidos e quais são suas vantagens.",
-    published: false,
+    published: true,
   },
   {
     slug: "psiquiatria",
