@@ -5,7 +5,7 @@ import heroDoctor from "@/assets/hero-doctor1.png";
 import asasLogo from "@/assets/asas-logo.jpeg";
 import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
-import FloatingWhatsApp from "@/components/layout/FloatingWhatsApp";
+import FloatingWhatsApp from "@/components/layout/FloatingWhatsapp";
 import { ASAS } from "@/lib/config";
 
 import {
@@ -857,7 +857,7 @@ className="w-[330px] flex-shrink-0 rounded-3xl border border-border bg-card p-6 
       {/* FOOTER */}
       <Footer />
 
-      <FloatingWhatsApp />
+      <FloatingWhatsapp />
     </div>
   );
 }
