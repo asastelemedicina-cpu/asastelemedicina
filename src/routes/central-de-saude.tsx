@@ -9,6 +9,7 @@ import { useState } from "react";
 
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import FloatingWhatsApp from "@/components/layout/FloatingWhatsapp";
 import { ASAS } from "@/lib/config";
 
 const WHATSAPP_URL = "https://wa.me/5545920018284";
@@ -222,6 +223,7 @@ if (currentArticle === "psiquiatria") {
         </div>
       </section>
       <Footer />
+      <FloatingWhatsApp />
     </div>
   );
 }
