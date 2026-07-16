@@ -5,7 +5,7 @@ import winterHero from "@/assets/winter-hero.webp";
 import winterHeroDesktop from "@/assets/winter-hero-desktop.webp";
 import winterHeroMobile from "@/assets/winter-hero-mobile.webp";
 
-
+import FloatingWhatsApp from "@/components/layout/FloatingWhatsapp";
 import winterLogo from "@/assets/asas-logo-winter.webp";
 
 import {
@@ -2023,19 +2023,7 @@ function InvernoAsas() {
   </div>
 </footer>
 
-      {/* Floating WhatsApp */}
-
-      <a
-        href={WHATSAPP_URL}
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="WhatsApp"
-        className="fixed bottom-6 right-6 z-50 flex h-16 w-16 items-center justify-center rounded-full bg-green-500 text-white shadow-2xl transition-all duration-300 hover:scale-110"
-      >
-
-        <MessageCircle className="h-8 w-8" />
-
-      </a>
+      <FloatingWhatsApp />
 
     </div>
 
