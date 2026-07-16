@@ -215,7 +215,7 @@ function CentralDeSaude() {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-8 btn-primary"
+            className="mt-2 btn-primary"
           >
             <MessageCircle className="h-4 w-4" />
             Falar no WhatsApp
