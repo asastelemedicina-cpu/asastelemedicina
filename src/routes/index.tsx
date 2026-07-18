@@ -33,11 +33,11 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       {
-        title: `Clínica Popular Asas Telemedicina — Teleconsulta a partir de R$ ${ASAS.precos.consulta},00`,
+        title: `Clínica Popular Asas Telemedicina — Teleconsulta a partir de R$ ${ASAS.precos.consulta},90`,
       },
       {
         name: "description",
-        content: `Teleconsulta médica com psiquiatria, clínica geral, ginecologia, pediatria, emagrecimento e mais. Atestados, afastamentos, laudos e relatórios médicos. A partir de R$ ${ASAS.precos.consulta},00.`,
+        content: `Teleconsulta médica com psiquiatria, clínica geral, ginecologia, pediatria, emagrecimento e mais. Atestados, afastamentos, laudos e relatórios médicos. A partir de R$ ${ASAS.precos.consulta},90.`,
       },
       {
         property: "og:title",
@@ -45,7 +45,7 @@ export const Route = createFileRoute("/")({
       },
       {
         property: "og:description",
-        content: `Consultas médicas online. Atestados, laudos e relatórios. A partir de R$ ${ASAS.precos.consulta},00.`,
+        content: `Consultas médicas online. Atestados, laudos e relatórios. A partir de R$ ${ASAS.precos.consulta},90.`,
       },
     ],
     links: [
@@ -99,7 +99,7 @@ const faqs = [
   },
   {
   q: "Quanto custa a consulta com um médico?",
-  a: `As consultas médicas começam a partir de R$ ${ASAS.precos.consulta},00. O valor pode variar conforme a área de cuidado e especialidade — a equipe informa todos os detalhes no WhatsApp antes do agendamento.`,
+  a: `As consultas médicas começam a partir de R$ ${ASAS.precos.consulta},90. O valor pode variar conforme a área de cuidado e especialidade — a equipe informa todos os detalhes no WhatsApp antes do agendamento.`,
   },
   {
     q: "Do que eu preciso para a consulta?",
@@ -309,7 +309,7 @@ function Index() {
 
           <span className="text-2xl text-muted-foreground">
 
-            ,00
+            ,90
 
           </span>
 
@@ -699,7 +699,7 @@ className="w-[330px] flex-shrink-0 rounded-3xl border border-border bg-card p-6 
             <p className="text-xs uppercase tracking-[0.2em] text-lilac">Consultas</p>
             <p className="mt-2 text-sm text-background/60">A partir de</p>
             <p className="mt-4 font-display text-6xl text-background">
-              R$ {ASAS.precos.consulta}<span className="text-2xl text-background/60">,00</span>
+              R$ {ASAS.precos.consulta}<span className="text-2xl text-background/60">,90</span>
             </p>
             
             <div className="my-8 h-px bg-background/15" />
