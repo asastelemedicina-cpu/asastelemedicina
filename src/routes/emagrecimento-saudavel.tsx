@@ -542,7 +542,7 @@ function EmagrecimentoSaudavel() {
               osteoartrose e alguns tipos de câncer.
 
             </p>
-
+<br />
             <p>
 
               Embora o <strong>Índice de Massa Corporal (IMC)</strong> seja uma
@@ -649,13 +649,12 @@ function EmagrecimentoSaudavel() {
             <p>
 
               O tratamento da obesidade é individualizado. Isso significa que
-              não existe uma estratégia única capaz de funcionar para todas as
-              as pessoas. Cada paciente possui características metabólicas,
+              não existe uma estratégia única capaz de funcionar para todas as pessoas. Cada paciente possui características metabólicas,
               hormonais, emocionais e comportamentais próprias que precisam ser
               consideradas durante a avaliação médica.
 
             </p>
-
+<br />
             <p>
 
               O objetivo do tratamento não é apenas reduzir o número mostrado
@@ -664,7 +663,7 @@ function EmagrecimentoSaudavel() {
               dos anos.
 
             </p>
-
+<br />
             <p>
 
               Durante a consulta médica são avaliados diversos fatores, como:
