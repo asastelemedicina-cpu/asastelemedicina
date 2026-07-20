@@ -531,7 +531,7 @@ function EmagrecimentoSaudavel() {
               sociedades científicas do mundo.
 
             </p>
-
+<br />
             <p>
 
               O excesso de gordura corporal favorece alterações hormonais,
