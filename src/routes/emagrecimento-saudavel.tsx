@@ -1305,7 +1305,7 @@ function EmagrecimentoSaudavel() {
               obesidade.
 
             </p>
-
+<br />
             <p>
 
               Diferentemente da semaglutida e da tirzepatida, a retatrutida atua
@@ -1314,7 +1314,7 @@ function EmagrecimentoSaudavel() {
               <strong> GIP</strong> e <strong>glucagon</strong>.
 
             </p>
-
+<br />
             <p>
 
               Essa combinação busca potencializar o controle do apetite,
@@ -1641,9 +1641,7 @@ function EmagrecimentoSaudavel() {
               Sim. A importação de medicamentos para uso próprio é permitida,
               desde que sejam observadas as normas sanitárias brasileiras. O
               procedimento é regulamentado pela Agência Nacional de Vigilância
-              Sanitária (Anvisa) e, em regra, exige prescrição médica compatível
-              com o tratamento indicado, além do cumprimento dos demais
-              requisitos legais aplicáveis.
+              Sanitária (Anvisa) e exige o cumprimento dos requisitos legais aplicáveis.
 
             </p>
 
@@ -1652,82 +1650,22 @@ function EmagrecimentoSaudavel() {
             <p>
 
               Um requisito essencial é a apresentação de receita médica emitida
-              por profissional legalmente habilitado. Entretanto, uma dúvida
-              bastante comum diz respeito aos prazos de <strong>90 dias</strong>
-              e <strong>180 dias</strong>, que possuem significados distintos na
-              legislação sanitária.
+              por profissional legalmente habilitado.
 
             </p>
 
-            <div className="mt-8 rounded-2xl border border-blue-200 bg-blue-50 p-6">
-
-              <h3 className="text-xl font-semibold text-blue-900">
-                Qual a diferença entre os prazos de 90 e 180 dias?
-              </h3>
-
-              <p className="mt-4 text-blue-800">
-
-                Embora muitas pessoas confundam esses prazos, eles tratam de
-                situações diferentes previstas em normas da Anvisa.
-
-              </p>
-
-              <ul className="mt-4 list-disc space-y-3 pl-6 text-blue-800">
-
-                <li>
-
-                  <strong>Validade da receita médica:</strong> a
-                  <strong> Instrução Normativa Anvisa nº 360/2025</strong>, em
-                  seu <strong>art. 2º, § 1º</strong>, estabelece que a receita
-                  médica é válida por <strong>90 (noventa) dias</strong>,
-                  contados da data de sua emissão.
-
-                </li>
-
-                <li>
-
-                  <strong>Período máximo de tratamento:</strong> a
-                  <strong> RDC Anvisa nº 81/2008</strong>, em seu
-                  <strong> Capítulo XXXVIII, item 4, alínea "b"</strong>, com
-                  redação dada pela <strong>RDC Anvisa nº 28/2011</strong>,
-                  prevê que, para medicamentos de uso contínuo, a prescrição
-                  pode abranger tratamento de até
-                  <strong> 180 (cento e oitenta) dias</strong>, limite máximo
-                  aceito para a importação destinada ao uso próprio.
-
-                </li>
-
-              </ul>
-
-              <div className="mt-5 rounded-xl bg-white/70 p-4 text-blue-900">
-
-                <strong>Em resumo:</strong>
-
-                <br />
-
-                • <strong>90 dias</strong> = validade da receita médica.
-
-                <br />
-
-                • <strong>180 dias</strong> = período máximo de tratamento que
-                pode constar na prescrição para fins de importação de
-                medicamento para uso próprio.
-
-              </div>
-
-            </div>
+           
 
             <br />
 
             <p>
 
-              Além dos prazos previstos na regulamentação, a prescrição deve
+              A prescrição deve
               conter a identificação do paciente, do prescritor, o nome do
               medicamento, a posologia, o modo de uso e as demais informações
               necessárias para individualizar o tratamento. A quantidade
               importada deve ser compatível com a duração do tratamento
-              prescrita pelo médico, observado o limite regulamentar de até
-              180 dias para medicamentos de uso contínuo.
+              prescrita pelo médico.
 
             </p>
 
@@ -1758,10 +1696,13 @@ function EmagrecimentoSaudavel() {
 
                 As regras sobre importação de medicamentos podem ser alteradas
                 pela Anvisa a qualquer momento. Antes de realizar uma compra
-                internacional, consulte sempre a regulamentação vigente e
-                obtenha orientação do seu médico para verificar se o tratamento
-                é indicado e se toda a documentação exigida está em conformidade
-                com a legislação aplicável.
+                internacional, consulte sempre a regulamentação vigente.
+
+              </p>
+<br />
+              <p className="mt-3 text-blue-800">
+
+                Não use medicamentos sem indicação médica. Sua saúde é muito preciosa!
 
               </p>
 
