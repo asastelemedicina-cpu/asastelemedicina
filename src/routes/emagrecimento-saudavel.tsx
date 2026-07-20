@@ -799,7 +799,7 @@ function EmagrecimentoSaudavel() {
               paciente e da resposta obtida durante o acompanhamento.
 
             </p>
-
+<br />
             <p>
 
               Em muitos casos, diferentes abordagens são utilizadas de forma
@@ -1057,7 +1057,7 @@ function EmagrecimentoSaudavel() {
               mudanças consistentes na alimentação e no estilo de vida.
 
             </p>
-
+<br />
             <p>
 
               Apesar disso, o exercício físico oferece benefícios que vão muito
@@ -1068,7 +1068,7 @@ function EmagrecimentoSaudavel() {
               perdido.
 
             </p>
-
+<br />
             <p>
 
               O ideal é escolher uma atividade que seja compatível com sua
@@ -1119,7 +1119,7 @@ function EmagrecimentoSaudavel() {
               participa do controle do apetite e da glicemia.
 
             </p>
-
+<br />
             <p>
 
               Esse medicamento pode aumentar a sensação de saciedade, reduzir a
@@ -1128,7 +1128,7 @@ function EmagrecimentoSaudavel() {
               ingeridos ao longo do dia.
 
             </p>
-
+<br />
             <p>
 
               Entretanto, a semaglutida não elimina a necessidade de mudanças
@@ -1208,7 +1208,7 @@ function EmagrecimentoSaudavel() {
                 </a>
 
                 <Link
-                  to="/consulta-online"
+                  to="/o-que-e-teleconsulta"
                   className="inline-flex items-center gap-2 rounded-xl border border-white/40 px-6 py-3 font-semibold text-white transition hover:bg-white/10"
                 >
 
@@ -1244,7 +1244,7 @@ function EmagrecimentoSaudavel() {
               saciedade e do metabolismo da glicose.
 
             </p>
-
+<br />
             <p>
 
               Essa ação pode reduzir significativamente a sensação de fome,
@@ -1254,7 +1254,7 @@ function EmagrecimentoSaudavel() {
               para pacientes com diabetes ou resistência à insulina.
 
             </p>
-
+<br />
             <p>
 
               Assim como ocorre com outros medicamentos para obesidade, a
@@ -1335,7 +1335,7 @@ function EmagrecimentoSaudavel() {
 
                 Como qualquer tecnologia em saúde, a disponibilidade da
                 retatrutida depende das aprovações regulatórias vigentes e da
-                avaliação médica individualizada.
+                avaliação médica individualizada e até a data do presente artigo, a substância ainda não foi aprovada para uso humano em nenhum país do mundo.
 
               </p>
 
@@ -1363,7 +1363,7 @@ function EmagrecimentoSaudavel() {
               diabetes, frequentemente necessita de acompanhamento contínuo.
 
             </p>
-
+<br />
             <p>
 
               Durante as consultas é possível avaliar resultados, identificar
@@ -1371,7 +1371,7 @@ function EmagrecimentoSaudavel() {
               adaptar o tratamento conforme a evolução clínica.
 
             </p>
-
+<br />
             <p>
 
               Em alguns momentos pode ser necessário intensificar mudanças no
@@ -1527,7 +1527,7 @@ function EmagrecimentoSaudavel() {
               para manter os resultados obtidos.
 
             </p>
-
+<br />
             <p>
 
               Entretanto, a velocidade da perda de peso varia conforme o
@@ -1536,7 +1536,7 @@ function EmagrecimentoSaudavel() {
               para todos os pacientes.
 
             </p>
-
+<br />
             <p>
 
               O objetivo do tratamento é promover uma redução de peso segura,
@@ -1585,7 +1585,7 @@ function EmagrecimentoSaudavel() {
               necessidade clínica de cada paciente.
 
             </p>
-
+<br />
             <p>
 
               O tratamento geralmente começa na Unidade Básica de Saúde (UBS),
@@ -1594,7 +1594,7 @@ function EmagrecimentoSaudavel() {
               encaminhamento para especialistas quando indicado.
 
             </p>
-
+<br />
             <p>
 
               Em situações específicas, pacientes que preenchem critérios
@@ -1631,39 +1631,122 @@ function EmagrecimentoSaudavel() {
               <ShieldCheck className="h-8 w-8 text-lilac" />
 
               <h2 className="font-display text-3xl">
-                Posso importar medicamentos para uso próprio?
+                Posso importar medicamentos do exterior para uso próprio?
               </h2>
 
             </div>
 
             <p>
 
-              A importação de medicamentos para uso próprio está sujeita às
-              normas sanitárias brasileiras e pode sofrer alterações conforme a
-              legislação vigente, as regras da Anvisa e as características do
-              medicamento.
+              Sim. A importação de medicamentos para uso próprio é permitida,
+              desde que sejam observadas as normas sanitárias brasileiras. O
+              procedimento é regulamentado pela Agência Nacional de Vigilância
+              Sanitária (Anvisa) e, em regra, exige prescrição médica compatível
+              com o tratamento indicado, além do cumprimento dos demais
+              requisitos legais aplicáveis.
 
             </p>
 
+            <br />
+
             <p>
 
-              Antes de adquirir medicamentos no exterior, é importante verificar
-              se existe autorização para importação, quais documentos são
-              necessários e quais restrições podem ser aplicáveis naquele
-              momento.
+              Um requisito essencial é a apresentação de receita médica emitida
+              por profissional legalmente habilitado. Entretanto, uma dúvida
+              bastante comum diz respeito aos prazos de <strong>90 dias</strong>
+              e <strong>180 dias</strong>, que possuem significados distintos na
+              legislação sanitária.
 
             </p>
 
+            <div className="mt-8 rounded-2xl border border-blue-200 bg-blue-50 p-6">
+
+              <h3 className="text-xl font-semibold text-blue-900">
+                Qual a diferença entre os prazos de 90 e 180 dias?
+              </h3>
+
+              <p className="mt-4 text-blue-800">
+
+                Embora muitas pessoas confundam esses prazos, eles tratam de
+                situações diferentes previstas em normas da Anvisa.
+
+              </p>
+
+              <ul className="mt-4 list-disc space-y-3 pl-6 text-blue-800">
+
+                <li>
+
+                  <strong>Validade da receita médica:</strong> a
+                  <strong> Instrução Normativa Anvisa nº 360/2025</strong>, em
+                  seu <strong>art. 2º, § 1º</strong>, estabelece que a receita
+                  médica é válida por <strong>90 (noventa) dias</strong>,
+                  contados da data de sua emissão.
+
+                </li>
+
+                <li>
+
+                  <strong>Período máximo de tratamento:</strong> a
+                  <strong> RDC Anvisa nº 81/2008</strong>, em seu
+                  <strong> Capítulo XXXVIII, item 4, alínea "b"</strong>, com
+                  redação dada pela <strong>RDC Anvisa nº 28/2011</strong>,
+                  prevê que, para medicamentos de uso contínuo, a prescrição
+                  pode abranger tratamento de até
+                  <strong> 180 (cento e oitenta) dias</strong>, limite máximo
+                  aceito para a importação destinada ao uso próprio.
+
+                </li>
+
+              </ul>
+
+              <div className="mt-5 rounded-xl bg-white/70 p-4 text-blue-900">
+
+                <strong>Em resumo:</strong>
+
+                <br />
+
+                • <strong>90 dias</strong> = validade da receita médica.
+
+                <br />
+
+                • <strong>180 dias</strong> = período máximo de tratamento que
+                pode constar na prescrição para fins de importação de
+                medicamento para uso próprio.
+
+              </div>
+
+            </div>
+
+            <br />
+
             <p>
 
-              Também é fundamental considerar aspectos relacionados ao
+              Além dos prazos previstos na regulamentação, a prescrição deve
+              conter a identificação do paciente, do prescritor, o nome do
+              medicamento, a posologia, o modo de uso e as demais informações
+              necessárias para individualizar o tratamento. A quantidade
+              importada deve ser compatível com a duração do tratamento
+              prescrita pelo médico, observado o limite regulamentar de até
+              180 dias para medicamentos de uso contínuo.
+
+            </p>
+
+            <br />
+
+            <p>
+
+              Antes de adquirir um medicamento no exterior, é importante
+              verificar se sua importação é permitida nas condições vigentes,
+              quais documentos são exigidos e quais restrições podem ser
+              aplicáveis. Também devem ser observados aspectos relacionados ao
               transporte, conservação, autenticidade do produto e segurança do
-              paciente. Medicamentos adquiridos por canais não autorizados podem
-              apresentar riscos importantes à saúde.
+              paciente. A aquisição por canais não autorizados ou sem a
+              documentação adequada pode resultar na retenção ou devolução da
+              mercadoria, além de representar riscos importantes à saúde.
 
             </p>
 
-            <div className="rounded-2xl border border-blue-200 bg-blue-50 p-6">
+            <div className="mt-8 rounded-2xl border border-blue-200 bg-blue-50 p-6">
 
               <h3 className="text-xl font-semibold text-blue-900">
 
@@ -1673,10 +1756,12 @@ function EmagrecimentoSaudavel() {
 
               <p className="mt-3 text-blue-800">
 
-                As regras sobre importação podem mudar ao longo do tempo. Antes
-                de realizar qualquer aquisição internacional, consulte as normas
-                sanitárias vigentes e busque orientação médica quando
-                necessário.
+                As regras sobre importação de medicamentos podem ser alteradas
+                pela Anvisa a qualquer momento. Antes de realizar uma compra
+                internacional, consulte sempre a regulamentação vigente e
+                obtenha orientação do seu médico para verificar se o tratamento
+                é indicado e se toda a documentação exigida está em conformidade
+                com a legislação aplicável.
 
               </p>
 
