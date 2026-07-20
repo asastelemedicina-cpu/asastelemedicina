@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
-import Header from "@/components/layout/FloatingWhatsapp";
+import FloatingWhatsapp from "@/components/layout/FloatingWhatsapp";
 import { ASAS } from "@/lib/config";
 
 import {
