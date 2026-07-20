@@ -34,6 +34,15 @@ const posts = [
     published: true,
   },
   {
+  slug: "emagrecimento-saudavel",
+  category: "Emagrecimento",
+  readTime: "12 min",
+  title: "Emagrecimento Saudável: Como Funciona o Tratamento da Obesidade?",
+  excerpt:
+    "Entenda como funciona o tratamento da obesidade, quando medicamentos podem ser indicados, o papel da alimentação, atividade física, telemedicina e tire suas principais dúvidas sobre emagrecimento saudável.",
+  published: true,
+  },
+  {
     slug: "receita-medica-digital",
     category: "Documentos Médicos",
     readTime: "Em breve",
@@ -165,6 +174,16 @@ function CentralDeSaude() {
                         <ArrowRight className="h-4 w-4" />
                       </Link>
                     )}
+
+                    {post.slug === "emagrecimento-saudavel" && (
+                      <Link
+                        to="/emagrecimento-saudavel"
+                        className="mt-8 btn-primary">
+                        Ler artigo              
+                        <ArrowRight className="h-4 w-4" />
+                      </Link>
+                    )}
+                    
                   </>
               
                 ) : (
