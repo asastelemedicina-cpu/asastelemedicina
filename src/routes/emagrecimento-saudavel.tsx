@@ -936,10 +936,12 @@ function EmagrecimentoSaudavel() {
 
               <p className="mt-5 text-lg leading-relaxed text-white/90">
 
-                O acompanhamento médico permite identificar dificuldades,
-                ajustar estratégias, solicitar exames quando necessário e
-                acompanhar a evolução de forma segura durante todo o processo de
-                emagrecimento.
+                O acompanhamento médico permite identificar dificuldades, ajustar estratégias,
+  solicitar exames quando necessário e acompanhar sua evolução de forma segura.
+  E o melhor: você pode fazer tudo isso sem sair de casa. Na ASAS Telemedicina,
+  a consulta é realizada por videochamada, diretamente pelo celular, tablet ou
+  computador, proporcionando praticidade, conforto e economia de tempo, onde
+  você estiver.
 
               </p>
 
@@ -959,11 +961,11 @@ function EmagrecimentoSaudavel() {
                 </a>
 
                 <Link
-                  to="/telemedicina"
+                  to="/o-que-e-teleconsulta"
                   className="inline-flex items-center gap-2 rounded-xl border border-white/40 px-6 py-3 font-semibold text-white transition hover:bg-white/10"
                 >
 
-                  Saiba como funciona
+                  Saiba como funciona uma teleconsulta
 
                 </Link>
 
@@ -992,7 +994,7 @@ function EmagrecimentoSaudavel() {
               restritivas ou eliminar completamente determinados alimentos.
 
             </p>
-
+<br />
             <p>
 
               O objetivo é construir um padrão alimentar que seja equilibrado,
@@ -1001,7 +1003,7 @@ function EmagrecimentoSaudavel() {
               porém apresentam maior risco de abandono e recuperação do peso.
 
             </p>
-
+<br />
             <p>
 
               Uma alimentação adequada normalmente prioriza alimentos in natura
