@@ -1890,7 +1890,7 @@ function EmagrecimentoSaudavel() {
               </Link>
 
               <Link
-                to="/telemedicina"
+                to="/o-que-e-teleconsulta"
                 className="group rounded-2xl border p-6 transition hover:border-lilac hover:shadow-lg"
               >
 
