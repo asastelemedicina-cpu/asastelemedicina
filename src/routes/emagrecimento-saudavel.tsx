@@ -445,7 +445,7 @@ function EmagrecimentoSaudavel() {
 
           </p>
 
-          <ol className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-2 list-decimal pl-5 text-sm">
+          <ol className="mt-4 space-y-3 text-sm">
 
             {toc.map((item) => (
 
