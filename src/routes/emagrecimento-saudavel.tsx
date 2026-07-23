@@ -67,16 +67,6 @@ const faqs = [
   },
 
   {
-    q: "Semaglutida emagrece?",
-    a: "A semaglutida pode fazer parte do tratamento da obesidade quando houver indicação médica, sempre associada a mudanças no estilo de vida.",
-  },
-
-  {
-    q: "Tirzepatida é melhor que semaglutida?",
-    a: "Os dois medicamentos possuem características diferentes. A escolha depende da avaliação individual de cada paciente.",
-  },
-
-  {
     q: "Quanto peso é saudável perder por mês?",
     a: "A velocidade da perda de peso varia entre as pessoas. Em geral, o objetivo é emagrecer de forma gradual e sustentável.",
   },
