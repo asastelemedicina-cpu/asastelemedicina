@@ -91,7 +91,7 @@ const faqs = [
   },
   {
     q: "Quais documentos posso receber?",
-    a: "Quando indicado pelo médico, emitimos atestados, afastamentos, relatórios médicos, laudos e receitas digitais, todos com validade legal e enviados por e-mail ou WhatsApp.",
+    a: "Quando indicado pelo médico, emitimos atestados, afastamentos, relatórios médicos, laudos e outros documentos digitais, todos com validade legal e enviados por e-mail ou WhatsApp.",
   },
   {
     q: "Como faço para agendar?",
@@ -107,7 +107,7 @@ const faqs = [
   },
   {
     q: "A receita digital é aceita em farmácias?",
-    a: "Sim. A receita é assinada digitalmente com certificado válido e aceita em farmácias de todo o Brasil.",
+    a: "Sim. A receita é assinada digitalmente com certificado válido e aceita todo o Brasil.",
   },
 ];
 
@@ -135,7 +135,7 @@ const testimonials = [
   {
     name: "Patrícia Rodrigues",
     city: "Teresina • PI",
-    text: "Recebi minha receita poucos minutos após a consulta. Tudo muito organizado.",
+    text: "Recebi meus documentos médicos poucos minutos após a consulta. Tudo muito organizado.",
   },
   {
     name: "Lucas T.",
@@ -225,7 +225,7 @@ function Index() {
 
       <p className="mt-7 max-w-xl text-lg leading-8 text-muted-foreground">
 
-        Consultas médicas online com profissionais qualificados em diversas áreas da saúde. Atendimento online com possibilidade de emissão e <strong>renovação de receitas</strong>, atestados, laudos e relatórios médicos quando indicados.
+        Consultas médicas online com profissionais qualificados em diversas áreas da saúde. Atendimento online com possibilidade de emissão atestados, laudos e relatórios médicos quando indicados.
 
       </p>
 
@@ -264,8 +264,6 @@ function Index() {
               ★★★★★ <div className="mt-1 text-sm font-medium text-foreground"> Mais de <strong>2.000 pacientes atendidos</strong> em todo o Brasil e exterior.</div>
 
           </div>
-
-                  
 
         </div>
 
@@ -331,7 +329,7 @@ function Index() {
 
             <Check className="h-4 w-4 text-lilac" />
 
-            Receita digital
+            Atendimento digital
 
           </div>
 
@@ -470,7 +468,7 @@ function Index() {
         </h3>
 
         <p className="mt-2 flex-1 text-sm leading-6 text-background/70">
-          Receitas, atestados, laudos e relatórios quando indicados pelo médico.
+          Atestados, laudos e relatórios quando indicados pelo médico.
         </p>
 
       </div>
@@ -502,8 +500,6 @@ function Index() {
 </section>
 
 
-
-      
 
       {/* SPECIALTIES */}
       <section id="especialidades" className="border-t border-border bg-card/40 section-default">
@@ -560,10 +556,9 @@ function Index() {
               <p className="mt-3 font-medium text-foreground">Como acessar seus documentos</p>
               <p className="mt-2">
                 Quando o médico indicar, <strong className="text-foreground">atestados, afastamentos, laudos,
-                relatórios e receitas</strong> são emitidos com assinatura digital válida em todo o Brasil e
+                relatórios</strong> são emitidos com assinatura digital válida em todo o Brasil e
                 enviados, em poucos minutos após a consulta, em PDF pelo seu <strong className="text-foreground">
-                WhatsApp</strong> e/ou <strong className="text-foreground">e-mail</strong>. Você pode imprimir,
-                encaminhar para a empresa ou apresentar em farmácias normalmente.
+                WhatsApp</strong> e/ou <strong className="text-foreground">e-mail</strong>.
               </p>
             </div>
             <a
@@ -581,7 +576,7 @@ function Index() {
               { n: "02", t: "Agende e faça o pagamento", d: "Escolha o horário que melhor se encaixa na sua rotina e realize o pagamento online por Pix ou cartão. A confirmação é imediata." },
               { n: "03", t: "Receba o link da sala virtual", d: "Pouco antes da consulta, enviamos pelo WhatsApp o link de acesso à sala de vídeo, junto com orientações simples para entrar." },
               { n: "04", t: "Consulta por vídeo com o médico", d: "No horário marcado, você entra na sala pelo celular ou computador e conversa por vídeo com o médico, com sigilo e privacidade." },
-              { n: "05", t: "Receba seus documentos", d: "Quando indicado, atestado, afastamento, relatório, laudo ou receita são assinados digitalmente e enviados em PDF pelo seu WhatsApp e e-mail." },
+              { n: "05", t: "Receba seus documentos", d: "Quando indicado, atestado, afastamento, relatório, laudo são assinados digitalmente e enviados em PDF pelo seu WhatsApp e e-mail." },
             ].map((s) => (
               <li key={s.n} className="flex gap-5 rounded-2xl border border-border bg-card p-6">
                 <span className="font-display text-3xl text-lilac">{s.n}</span>
@@ -697,7 +692,7 @@ className="w-[330px] flex-shrink-0 rounded-3xl border border-border bg-card p-6 
           </div>
           <div className="rounded-3xl border border-background/10 bg-background/5 p-10 backdrop-blur">
             <p className="text-xs uppercase tracking-[0.2em] text-lilac">Consultas</p>
-            <p className="mt-2 text-sm text-background/60">A partir de</p>
+            <p className="mt-2 text-sm text-background/60">A PARTIR DE: </p>
             <p className="mt-4 font-display text-6xl text-background">
               R$ {ASAS.precos.consulta}<span className="text-2xl text-background/60">,90</span>
             </p>
@@ -706,7 +701,7 @@ className="w-[330px] flex-shrink-0 rounded-3xl border border-border bg-card p-6 
             <ul className="space-y-3 text-sm text-background/80">
               <li className="flex items-center gap-3"><Check className="h-4 w-4 text-lilac" /> Atendimento por vídeo</li>
               <li className="flex items-center gap-3"><Check className="h-4 w-4 text-lilac" /> Documentos médicos digitais</li>
-              <li className="flex items-center gap-3"><Check className="h-4 w-4 text-lilac" /> Receita quando indicado</li>
+              <li className="flex items-center gap-3"><Check className="h-4 w-4 text-lilac" /> Tratamento quando indicado</li>
               <li className="flex items-center gap-3"><Check className="h-4 w-4 text-lilac" /> Sigilo e segurança</li>
             </ul>
             <a
@@ -762,36 +757,7 @@ className="w-[330px] flex-shrink-0 rounded-3xl border border-border bg-card p-6 
       </section>
 
 
-      {/* ARTIGOS DE SAÚDE */}
-      <section className="border-t border-border bg-card/30 section-default">
-        <div className="mx-auto max-w-5xl px-6">
-          <div className="rounded-3xl border border-border bg-background p-10 text-center shadow-sm">
-            <span className="inline-flex items-center rounded-full bg-lilac/10 px-4 py-1 text-xs font-medium uppercase tracking-[0.2em] text-lilac">
-              Artigos de Saúde
-            </span>
-      
-            <h2 className="mt-5 font-display text-3xl md:text-4xl">
-              Continue aprendendo sobre sua saúde
-            </h2>
-      
-           {/*  <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
-              Reunimos conteúdos médicos confiáveis sobre teleconsulta,
-              saúde mental, clínica geral, ginecologia, pediatria,
-              emagrecimento, documentos médicos e diversos outros temas
-              para ajudar você a tomar decisões com mais segurança.
-            </p> */}
-      
-            <Link
-              to="/central-de-saude"
-              className="mt-8 inline-flex items-center gap-2 rounded-full bg-azure-deep px-6 py-3.5 text-sm font-medium text-primary-foreground transition hover:bg-foreground"
-            >
-              📚 Explorar Artigos de Saúde
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      
+           
   <section className="border-t border-border bg-card/30 section-default">
   <div className="mx-auto max-w-5xl px-6">
 
@@ -825,14 +791,6 @@ className="w-[330px] flex-shrink-0 rounded-3xl border border-border bg-card p-6 
 
       <br />
 
-      {/* <p className="mx-auto max-w-3xl text-justify text-muted-foreground leading-8">
-        Acreditamos que consultas e acompanhamentos com médicos,
-        psicólogos, fisioterapeutas, nutricionistas e demais profissionais da
-        saúde podem ser mais acessíveis sem abrir mão da ética, da qualidade
-        técnica e do atendimento humanizado.
-      </p>
-
-      <br />  */}
 
       <p className="mx-auto max-w-3xl text-justify text-muted-foreground leading-8">
         Se você compartilha desses valores e deseja contribuir para ampliar o
