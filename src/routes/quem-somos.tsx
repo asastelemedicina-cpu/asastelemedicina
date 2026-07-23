@@ -354,14 +354,7 @@ function QuemSomos() {
           <br />
 
           <p className="mx-auto max-w-4xl text-justify leading-8 text-muted-foreground">
-            A{" "}
-            <Link
-              to="/central-de-saude"
-              className="font-medium text-lilac hover:underline"
-            >
-              teleconsulta
-            </Link>{" "}
-            representa uma importante ferramenta para aproximar pacientes de seus
+            A teleconsulta representa uma importante ferramenta para aproximar pacientes de seus
             profissionais de confiança, fortalecendo vínculos e facilitando a
             continuidade do cuidado.
           </p>
@@ -436,14 +429,7 @@ function QuemSomos() {
           <br />
 
           <p className="mx-auto max-w-4xl text-justify leading-8 text-muted-foreground">
-            Quando utilizada com responsabilidade, a{" "}
-            <Link
-              to="/central-de-saude"
-              className="font-medium text-lilac hover:underline"
-            >
-              telemedicina
-            </Link>{" "}
-            contribui para aproximar pacientes e profissionais, permitindo que
+            Quando utilizada com responsabilidade, a telemedicina contribui para aproximar pacientes e profissionais, permitindo que
             pessoas de diferentes regiões tenham acesso a cuidados de qualidade,
             independentemente da distância geográfica.
           </p>
