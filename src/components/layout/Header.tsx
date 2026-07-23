@@ -60,13 +60,6 @@ export default function Header() {
             Documentos
           </a>
 
-          <Link
-            to="/central-de-saude"
-            className="transition hover:text-foreground"
-          >
-            Artigos
-          </Link>
-
           <a
             href="/#faq"
             className="transition hover:text-foreground"
