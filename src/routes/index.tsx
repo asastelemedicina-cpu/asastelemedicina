@@ -37,7 +37,7 @@ export const Route = createFileRoute("/")({
       },
       {
         name: "description",
-        content: `Teleconsulta médica com psiquiatria, clínica geral, ginecologia, pediatria, emagrecimento e mais. Atestados, afastamentos, laudos e relatórios médicos. A partir de R$ ${ASAS.precos.consulta},90.`,
+        content: `Teleconsulta médica com psiquiatria, clínica geral, ginecologia, pediatria, emagrecimento e mais. Afastamentos, laudos e relatórios médicos. A partir de R$ ${ASAS.precos.consulta},90.`,
       },
       {
         property: "og:title",
@@ -45,7 +45,7 @@ export const Route = createFileRoute("/")({
       },
       {
         property: "og:description",
-        content: `Consultas médicas online. Atestados, laudos e relatórios. A partir de R$ ${ASAS.precos.consulta},90.`,
+        content: `Consultas médicas online. Laudos e relatórios. A partir de R$ ${ASAS.precos.consulta},90.`,
       },
     ],
     links: [
@@ -74,7 +74,6 @@ const specialties = [
 ];
 
 const documents = [
-  { icon: FileText, label: "Atestado médico" },
   { icon: FileText, label: "Afastamento" },
   { icon: FileText, label: "Relatórios médicos" },
   { icon: FileText, label: "Laudos" },
@@ -91,7 +90,7 @@ const faqs = [
   },
   {
     q: "Quais documentos posso receber?",
-    a: "Quando indicado pelo médico, emitimos atestados, afastamentos, relatórios médicos, laudos e outros documentos digitais, todos com validade legal e enviados por e-mail ou WhatsApp.",
+    a: "Quando indicado pelo médico, emitimos afastamentos, relatórios médicos, laudos e outros documentos médicos digitais, todos com validade legal e enviados por e-mail ou WhatsApp.",
   },
   {
     q: "Como faço para agendar?",
@@ -106,8 +105,8 @@ const faqs = [
     a: "Apenas um celular, tablet ou computador com câmera, microfone e conexão com a internet. Você recebe o link de acesso no horário marcado.",
   },
   {
-    q: "A receita digital é aceita em farmácias?",
-    a: "Sim. A receita é assinada digitalmente com certificado válido e aceita todo o Brasil.",
+    q: "Documentos médicos digitais são aceitos em farmácias?",
+    a: "Sim. São assinados digitalmente com certificado válido e aceitos em todo o Brasil.",
   },
 ];
 
@@ -225,7 +224,7 @@ function Index() {
 
       <p className="mt-7 max-w-xl text-lg leading-8 text-muted-foreground">
 
-        Consultas médicas online com profissionais qualificados em diversas áreas da saúde. Atendimento online com possibilidade de emissão atestados, laudos e relatórios médicos quando indicados.
+        Consultas médicas online com profissionais qualificados em diversas áreas da saúde. Atendimento online com possibilidade de emissão laudos, relatórios e outros documentos médicos quando indicados.
 
       </p>
 
@@ -468,7 +467,7 @@ function Index() {
         </h3>
 
         <p className="mt-2 flex-1 text-sm leading-6 text-background/70">
-          Atestados, laudos e relatórios quando indicados pelo médico.
+          Laudos e relatórios quando indicados pelo médico.
         </p>
 
       </div>
@@ -576,7 +575,7 @@ function Index() {
               { n: "02", t: "Agende e faça o pagamento", d: "Escolha o horário que melhor se encaixa na sua rotina e realize o pagamento online por Pix ou cartão. A confirmação é imediata." },
               { n: "03", t: "Receba o link da sala virtual", d: "Pouco antes da consulta, enviamos pelo WhatsApp o link de acesso à sala de vídeo, junto com orientações simples para entrar." },
               { n: "04", t: "Consulta por vídeo com o médico", d: "No horário marcado, você entra na sala pelo celular ou computador e conversa por vídeo com o médico, com sigilo e privacidade." },
-              { n: "05", t: "Receba seus documentos", d: "Quando indicado, atestado, afastamento, relatório, laudo são assinados digitalmente e enviados em PDF pelo seu WhatsApp e e-mail." },
+              { n: "05", t: "Receba seus documentos", d: "Quando indicado, afastamento, relatório, laudo e outros documentos médicos são assinados digitalmente e enviados em PDF pelo seu WhatsApp e e-mail." },
             ].map((s) => (
               <li key={s.n} className="flex gap-5 rounded-2xl border border-border bg-card p-6">
                 <span className="font-display text-3xl text-lilac">{s.n}</span>
@@ -674,7 +673,7 @@ className="w-[330px] flex-shrink-0 rounded-3xl border border-border bg-card p-6 
           <div>
             <p className="text-xs uppercase tracking-[0.2em] text-lilac">Documentos médicos</p>
             <h2 className="mt-3 font-display text-4xl md:text-5xl text-background">
-              Atestados, laudos e relatórios — emitidos online.
+              Laudos e relatórios — emitidos online.
             </h2>
             <p className="mt-5 text-background/70">
               Quando indicado pelo médico, fornecemos toda a documentação necessária com validade legal.
