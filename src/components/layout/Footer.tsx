@@ -26,11 +26,11 @@ export default function Footer() {
 
               <div>
                 <h3 className="font-display text-lg font-semibold">
-                  Clínica Popular
+                  Clínica Popular Virtual
                 </h3>
 
                 <p className="font-display text-lilac">
-                  ASAS Telemedicina
+                  ASAS
                 </p>
               </div>
             </a>
