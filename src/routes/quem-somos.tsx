@@ -14,26 +14,26 @@ export const Route = createFileRoute("/quem-somos")({
     meta: [
       {
         title:
-          "Quem Somos | ASAS Telemedicina | Saúde acessível, Telemedicina e Atendimento Humanizado",
+          "Quem Somos | ASAS | Saúde acessível, Medicina à Distância e Atendimento Humanizado",
       },
       {
         name: "description",
         content:
-          "Conheça a ASAS Telemedicina. Acreditamos que a tecnologia pode democratizar o acesso à saúde, aproximando pacientes e profissionais e incentivando um cuidado mais acessível, humano e contínuo.",
+          "Conheça a ASAS. Acreditamos que a tecnologia pode democratizar o acesso à saúde, aproximando pacientes e profissionais e incentivando um cuidado mais acessível, humano e contínuo.",
       },
       {
         name: "keywords",
         content:
-          "quem somos, asas telemedicina, telemedicina, teleconsulta, saúde acessível, atendimento humanizado, missão, visão, valores, democratização da saúde, saúde digital, prevenção, acompanhamento contínuo, médicos online, psicólogos online, fisioterapia online",
+          "quem somos, asas, saúde acessível, atendimento à distância, atendimento humanizado, missão, visão, valores, democratização da saúde, saúde digital, prevenção, acompanhamento contínuo, médicos online, psicólogos online, fisioterapia online",
       },
       {
         property: "og:title",
-        content: "Quem Somos | ASAS Telemedicina",
+        content: "Quem Somos | ASAS",
       },
       {
         property: "og:description",
         content:
-          "Conheça a missão, visão e valores da ASAS Telemedicina e descubra como acreditamos que a tecnologia pode aproximar pessoas e democratizar o acesso à saúde.",
+          "Conheça a missão, visão e valores da ASAS e descubra como acreditamos que a tecnologia pode aproximar pessoas e democratizar o acesso à saúde.",
       },
     ],
     links: [
@@ -65,7 +65,7 @@ function QuemSomos() {
             <br />
 
             <p className="text-justify leading-8 text-muted-foreground">
-              A ASAS Telemedicina acredita que a tecnologia deve aproximar
+              A ASAS acredita que a tecnologia deve aproximar
               pessoas, reduzir barreiras e tornar o acesso à saúde mais simples,
               humano e acessível.
             </p>
@@ -73,14 +73,7 @@ function QuemSomos() {
             <br />
 
             <p className="text-justify leading-8 text-muted-foreground">
-              Nossa missão é utilizar a{" "}
-              <Link
-                to="/central-de-saude"
-                className="font-medium text-lilac hover:underline"
-              >
-                telemedicina
-              </Link>{" "}
-              para aproximar pacientes e profissionais, contribuindo para
+              Nossa missão é utilizar a tecnologia para aproximar pacientes e profissionais, contribuindo para
               ampliar o acesso à saúde e incentivar um cuidado mais acessível,
               humano e contínuo.
             </p>
@@ -162,14 +155,7 @@ function QuemSomos() {
           <br />
 
           <p className="mx-auto max-w-4xl text-justify leading-8 text-muted-foreground">
-            A ASAS Telemedicina acredita que a{" "}
-            <Link
-              to="/central-de-saude"
-              className="font-medium text-lilac hover:underline"
-            >
-              telemedicina
-            </Link>{" "}
-            pode reduzir essas barreiras, aproximando pacientes e profissionais
+            A ASAS acredita que a tecnologia pode reduzir essas barreiras, aproximando pacientes e profissionais
             e ampliando o acesso aos cuidados em saúde com ética, qualidade e
             valores acessíveis.
           </p>
@@ -354,7 +340,7 @@ function QuemSomos() {
           <br />
 
           <p className="mx-auto max-w-4xl text-justify leading-8 text-muted-foreground">
-            A teleconsulta representa uma importante ferramenta para aproximar pacientes de seus
+            A consulta por vídeo representa uma importante ferramenta para aproximar pacientes de seus
             profissionais de confiança, fortalecendo vínculos e facilitando a
             continuidade do cuidado.
           </p>
@@ -421,7 +407,7 @@ function QuemSomos() {
           <br />
 
           <p className="mx-auto max-w-4xl text-justify leading-8 text-muted-foreground">
-            Na ASAS Telemedicina acreditamos que a tecnologia nunca substitui o
+            Na ASAS acreditamos que a tecnologia nunca substitui o
             cuidado humano. Ela existe para conectar pessoas, reduzir distâncias
             e ampliar as possibilidades de acesso aos cuidados em saúde.
           </p>
@@ -429,7 +415,7 @@ function QuemSomos() {
           <br />
 
           <p className="mx-auto max-w-4xl text-justify leading-8 text-muted-foreground">
-            Quando utilizada com responsabilidade, a telemedicina contribui para aproximar pacientes e profissionais, permitindo que
+            Quando utilizada com responsabilidade, a tecnologia contribui para aproximar pacientes e profissionais, permitindo que
             pessoas de diferentes regiões tenham acesso a cuidados de qualidade,
             independentemente da distância geográfica.
           </p>
