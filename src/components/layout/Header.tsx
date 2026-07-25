@@ -25,7 +25,7 @@ export default function Header() {
             </p>
 
             <p className="font-display text-lg leading-none text-lilac">
-              ASAS Telemedicina
+              ASAS
             </p>
           </div>
         </a>
