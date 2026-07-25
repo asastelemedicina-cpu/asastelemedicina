@@ -22,26 +22,26 @@ export const Route = createFileRoute("/faca-parte")({
   head: () => ({
     meta: [
       {
-        title: "Faça Parte da Equipe | ASAS Telemedicina",
+        title: "Faça Parte da Equipe | ASAS",
       },
       {
         name: "description",
         content:
-          "Faça parte da equipe da ASAS Telemedicina. Estamos ampliando nosso banco de profissionais parceiros e recebendo candidaturas de médicos, psicólogos, fisioterapeutas, nutricionistas, enfermeiros e outros profissionais habilitados para teleatendimento em todo o Brasil.",
+          "Faça parte da equipe da ASAS. Estamos ampliando nosso banco de profissionais parceiros e recebendo candidaturas de médicos, psicólogos, fisioterapeutas, nutricionistas, enfermeiros e outros profissionais habilitados para atendimento virtual em todo o Brasil.",
       },
       {
         name: "keywords",
         content:
-          "trabalhe conosco, carreiras, telemedicina, médico, psicólogo, fisioterapeuta, nutricionista, enfermeiro, fonoaudiólogo, terapeuta ocupacional, farmacêutico, educação física, atendimento online, vagas telemedicina, profissional da saúde, consulta online",
+          "trabalhe conosco, carreiras, médico, psicólogo, fisioterapeuta, nutricionista, fonoaudiólogo, terapeuta ocupacional, educação física, atendimento online, vagas, profissional da saúde, consulta online",
       },
       {
         property: "og:title",
-        content: "Faça Parte da Equipe | ASAS Telemedicina",
+        content: "Faça Parte da Equipe | ASAS",
       },
       {
         property: "og:description",
         content:
-          "Estamos ampliando nossa equipe de profissionais da saúde para atuação em teleatendimento em todo o Brasil.",
+          "Estamos ampliando nossa equipe de profissionais da saúde para atuação em atendimento virtual em todo o Brasil.",
       },
       {
         property: "og:type",
@@ -64,7 +64,7 @@ export const Route = createFileRoute("/faca-parte")({
 
 const WHATSAPP_MESSAGE = encodeURIComponent(`Olá!
 
-Gostaria de me candidatar para atuar na ASAS Telemedicina.
+Gostaria de me candidatar para atuar na ASAS.
 
 👤 Nome completo:
 
@@ -120,7 +120,7 @@ function FacaParte() {
 
             <h1 className="mt-6 font-display text-5xl leading-[1.05] md:text-6xl">
               Faça parte da{" "}
-              <span className="text-lilac">ASAS Telemedicina</span>.
+              <span className="text-lilac">ASAS</span>.
             </h1>
 
             <br />
@@ -165,7 +165,7 @@ function FacaParte() {
 
             <img
               src={heroDoctor}
-              alt="Profissional da saúde em teleconsulta"
+              alt="Profissional da saúde"
               className="relative aspect-square w-full rounded-3xl object-cover shadow-2xl shadow-azure-deep/10"
             />
 
@@ -197,7 +197,7 @@ function FacaParte() {
             <br />
 
             <p className="text-justify text-muted-foreground leading-8">
-              A ASAS Telemedicina nasceu com o propósito de ampliar o acesso à
+              A ASAS nasceu com o propósito de ampliar o acesso à
               saúde por meio da tecnologia, sempre valorizando o atendimento
               humanizado, a ética e o respeito aos pacientes.
             </p>
@@ -253,7 +253,7 @@ function FacaParte() {
               </h3>
 
               <p className="mt-4 text-justify text-muted-foreground leading-7">
-                Realize atendimentos por teleconsulta com praticidade, segurança
+                Realize atendimentos com praticidade, segurança
                 e flexibilidade para organizar sua agenda.
               </p>
             </article>
@@ -279,7 +279,7 @@ function FacaParte() {
               </h3>
 
               <p className="mt-4 text-justify text-muted-foreground leading-7">
-                Ajude pacientes de diferentes regiões do Brasil e do Mundo sem necessidade
+                Ajude pacientes de diferentes regiões do Brasil e do mundo sem necessidade
                 de deslocamentos.
               </p>
             </article>
@@ -319,7 +319,7 @@ function FacaParte() {
 
             <p className="text-justify text-muted-foreground leading-8">
               Recebemos candidaturas de profissionais habilitados para atuação
-              em teleatendimento, sempre respeitando a legislação vigente e as
+              em atendimento virtual, sempre respeitando a legislação vigente e as
               normas dos respectivos conselhos profissionais.
             </p>
 
@@ -376,7 +376,7 @@ function FacaParte() {
             <br />
 
             <p className="text-justify text-muted-foreground leading-8">
-              A ASAS Telemedicina acredita que o atendimento de excelência
+              A ASAS acredita que o atendimento de excelência
               depende não apenas do conhecimento técnico, mas também da empatia,
               ética e compromisso com cada paciente.
             </p>
@@ -488,8 +488,7 @@ function FacaParte() {
 
             <p className="text-justify text-muted-foreground leading-8">
               O envio das informações não representa contratação,
-              credenciamento ou garantia de futura parceria com a ASAS
-              Telemedicina.
+              credenciamento ou garantia de futura parceria com a ASAS.
             </p>
 
             <br />
@@ -556,7 +555,7 @@ function FacaParte() {
 
               <AccordionItem value="item-2">
                 <AccordionTrigger>
-                  Preciso ter experiência com telemedicina?
+                  Preciso ter experiência?
                 </AccordionTrigger>
 
                 <AccordionContent>
@@ -574,17 +573,6 @@ function FacaParte() {
                 <AccordionContent>
                   Sim. Desde que sua profissão e seu registro profissional
                   permitam atuação conforme a legislação vigente.
-                </AccordionContent>
-              </AccordionItem>
-
-              <AccordionItem value="item-4">
-                <AccordionTrigger>
-                  Minha profissão não está listada.
-                </AccordionTrigger>
-
-                <AccordionContent>
-                  Se sua profissão possuir regulamentação para teleatendimento,
-                  teremos satisfação em conhecer seu perfil profissional.
                 </AccordionContent>
               </AccordionItem>
 
@@ -623,7 +611,7 @@ function FacaParte() {
           <p className="mx-auto max-w-3xl text-justify text-background/80 leading-8">
             Estamos sempre em busca de profissionais comprometidos com a ética,
             a excelência técnica e o atendimento humanizado. Se você acredita
-            que pode contribuir para a missão da ASAS Telemedicina, teremos
+            que pode contribuir para a missão da ASAS, teremos
             satisfação em conhecer sua trajetória profissional.
           </p>
 
