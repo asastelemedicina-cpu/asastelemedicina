@@ -33,19 +33,19 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       {
-        title: `Clínica Popular Asas Telemedicina — Teleconsulta a partir de R$ ${ASAS.precos.consulta},90`,
+        title: `Clínica Popular ASAS — Consultas digitais a partir de R$ ${ASAS.precos.consulta},90`,
       },
       {
         name: "description",
-        content: `Teleconsulta médica com psiquiatria, clínica geral, ginecologia, pediatria, emagrecimento e mais. Afastamentos, laudos e relatórios médicos. A partir de R$ ${ASAS.precos.consulta},90.`,
+        content: `Consultas online - A partir de R$ ${ASAS.precos.consulta},90.`,
       },
       {
         property: "og:title",
-        content: "Clínica Popular Asas Telemedicina — Cuidado médico online",
+        content: "Clínica Popular ASAS — Cuidado médico online",
       },
       {
         property: "og:description",
-        content: `Consultas médicas online. Laudos e relatórios. A partir de R$ ${ASAS.precos.consulta},90.`,
+        content: `Consultas médicas online. A partir de R$ ${ASAS.precos.consulta},90.`,
       },
     ],
     links: [
@@ -73,24 +73,15 @@ const specialties = [
   { icon: Scale, title: "Emagrecimento", desc: "Plano personalizado com acompanhamento médico e suporte clínico." },
 ];
 
-const documents = [
-  { icon: FileText, label: "Afastamento" },
-  { icon: FileText, label: "Relatórios médicos" },
-  { icon: FileText, label: "Laudos" },
-];
 
 const faqs = [
   {
-    q: "O que é teleconsulta?",
+    q: "O que é consulta por vídeo?",
     a: "É uma consulta médica realizada totalmente por vídeo chamada, com a mesma validade de uma consulta presencial. Você conversa com o médico em tempo real, do conforto da sua casa.",
   },
   {
-    q: "A teleconsulta é segura e legalizada?",
-    a: "Sim. A telemedicina é regulamentada pelo Conselho Federal de Medicina (CFM) e todos os nossos profissionais possuem registro ativo, garantindo sigilo e segurança no atendimento.",
-  },
-  {
-    q: "Quais documentos posso receber?",
-    a: "Quando indicado pelo médico, emitimos afastamentos, relatórios médicos, laudos e outros documentos médicos digitais, todos com validade legal e enviados por e-mail ou WhatsApp.",
+    q: "A consulta por vídeo é segura e legalizada?",
+    a: "Sim. A medicina à distância é regulamentada pelo Conselho Federal de Medicina (CFM) e todos os nossos profissionais possuem registro ativo, garantindo sigilo e segurança no atendimento.",
   },
   {
     q: "Como faço para agendar?",
@@ -105,7 +96,7 @@ const faqs = [
     a: "Apenas um celular, tablet ou computador com câmera, microfone e conexão com a internet. Você recebe o link de acesso no horário marcado.",
   },
   {
-    q: "Documentos médicos digitais são aceitos em farmácias?",
+    q: "Documentos médicos digitais são aceitos?",
     a: "Sim. São assinados digitalmente com certificado válido e aceitos em todo o Brasil.",
   },
 ];
@@ -204,7 +195,7 @@ function Index() {
 
         <span className="h-2 w-2 rounded-full bg-lilac" />
 
-        Teleconsulta • Atendimento online
+        Consulta online • Atendimento online
 
       </span>
 
@@ -224,7 +215,7 @@ function Index() {
 
       <p className="mt-7 max-w-xl text-lg leading-8 text-muted-foreground">
 
-        Consultas médicas online com profissionais qualificados em diversas áreas da saúde. Atendimento online com possibilidade de emissão laudos, relatórios e outros documentos médicos quando indicados.
+        Consultas médicas à distância com profissionais qualificados em diversas áreas da saúde. Atendimento online com possibilidade de emissão de documentos médicos quando indicados.
 
       </p>
 
@@ -320,7 +311,7 @@ function Index() {
 
             <Check className="h-4 w-4 text-lilac" />
 
-            Atendimento por vídeo
+            Inclusão social
 
           </div>
 
@@ -403,7 +394,7 @@ function Index() {
 
       <p className="mt-4 text-muted-foreground">
         Mais de <strong className="text-foreground">2.000 pacientes</strong> já confiaram
-        na ASAS Telemedicina para cuidar da sua saúde.
+        na ASAS para cuidar da sua saúde.
       </p>
     </div>
 
@@ -465,11 +456,7 @@ function Index() {
         <h3 className="mt-3 text-xl font-semibold text-background">
           Digitais
         </h3>
-
-        <p className="mt-2 flex-1 text-sm leading-6 text-background/70">
-          Laudos e relatórios quando indicados pelo médico.
-        </p>
-
+        
       </div>
 
       {/* CARD 4 */}
@@ -506,7 +493,7 @@ function Index() {
           <div className="max-w-2xl">
             <p className="text-xs uppercase tracking-[0.2em] text-lilac">Cuidados Oferecidos</p>
             <h2 className="mt-3 font-display text-4xl md:text-5xl">
-              Atendimentos feitos por <em className="not-italic text-azure-deep">teleconsulta</em>.
+              Atendimentos feitos por <em className="not-italic text-azure-deep">à distância</em>.
             </h2>
             <p className="mt-4 text-muted-foreground">
               Você é atendido por vídeo, com privacidade e tranquilidade — do seu celular ou computador,
@@ -539,7 +526,7 @@ function Index() {
               Simples, humano e<br /> sem sair de casa.
             </h2>
             <p className="mt-5 text-muted-foreground">
-              Todos os atendimentos da Clínica Popular Asas Telemedicina são realizados <strong className="text-foreground">100% por teleconsulta</strong>,
+              Todos os atendimentos da Clínica Popular Asas são realizados <strong className="text-foreground">100% online</strong>,
               por vídeo chamada segura. Você fala diretamente com o médico, recebe orientação e, quando necessário,
               seus documentos chegam por e-mail ou WhatsApp.
             </p>
@@ -554,8 +541,7 @@ function Index() {
               </p>
               <p className="mt-3 font-medium text-foreground">Como acessar seus documentos</p>
               <p className="mt-2">
-                Quando o médico indicar, <strong className="text-foreground">atestados, afastamentos, laudos,
-                relatórios</strong> são emitidos com assinatura digital válida em todo o Brasil e
+                Quando o médico indicar, <strong className="text-foreground">documentos médicos</strong> são emitidos com assinatura digital válida em todo o Brasil e
                 enviados, em poucos minutos após a consulta, em PDF pelo seu <strong className="text-foreground">
                 WhatsApp</strong> e/ou <strong className="text-foreground">e-mail</strong>.
               </p>
@@ -575,7 +561,7 @@ function Index() {
               { n: "02", t: "Agende e faça o pagamento", d: "Escolha o horário que melhor se encaixa na sua rotina e realize o pagamento online por Pix ou cartão. A confirmação é imediata." },
               { n: "03", t: "Receba o link da sala virtual", d: "Pouco antes da consulta, enviamos pelo WhatsApp o link de acesso à sala de vídeo, junto com orientações simples para entrar." },
               { n: "04", t: "Consulta por vídeo com o médico", d: "No horário marcado, você entra na sala pelo celular ou computador e conversa por vídeo com o médico, com sigilo e privacidade." },
-              { n: "05", t: "Receba seus documentos", d: "Quando indicado, afastamento, relatório, laudo e outros documentos médicos são assinados digitalmente e enviados em PDF pelo seu WhatsApp e e-mail." },
+              { n: "05", t: "Receba seus documentos", d: "Quando indicado, documentos médicos são emitidos e assinados digitalmente e enviados em PDF pelo seu WhatsApp e e-mail." },
             ].map((s) => (
               <li key={s.n} className="flex gap-5 rounded-2xl border border-border bg-card p-6">
                 <span className="font-display text-3xl text-lilac">{s.n}</span>
@@ -673,21 +659,11 @@ className="w-[330px] flex-shrink-0 rounded-3xl border border-border bg-card p-6 
           <div>
             <p className="text-xs uppercase tracking-[0.2em] text-lilac">Documentos médicos</p>
             <h2 className="mt-3 font-display text-4xl md:text-5xl text-background">
-              Laudos e relatórios — emitidos online.
+              Documentos médicos — emitidos online.
             </h2>
             <p className="mt-5 text-background/70">
               Quando indicado pelo médico, fornecemos toda a documentação necessária com validade legal.
-            </p>
-            <ul className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-2">
-              {documents.map(({ label }) => (
-                <li key={label} className="flex items-center gap-3 text-background/90">
-                  <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-lilac/20 text-lilac">
-                    <Check className="h-4 w-4" />
-                  </span>
-                  {label}
-                </li>
-              ))}
-            </ul>
+            </p>           
           </div>
           <div className="rounded-3xl border border-background/10 bg-background/5 p-10 backdrop-blur">
             <p className="text-xs uppercase tracking-[0.2em] text-lilac">Consultas</p>
@@ -700,7 +676,6 @@ className="w-[330px] flex-shrink-0 rounded-3xl border border-border bg-card p-6 
             <ul className="space-y-3 text-sm text-background/80">
               <li className="flex items-center gap-3"><Check className="h-4 w-4 text-lilac" /> Atendimento por vídeo</li>
               <li className="flex items-center gap-3"><Check className="h-4 w-4 text-lilac" /> Documentos médicos digitais</li>
-              <li className="flex items-center gap-3"><Check className="h-4 w-4 text-lilac" /> Tratamento quando indicado</li>
               <li className="flex items-center gap-3"><Check className="h-4 w-4 text-lilac" /> Sigilo e segurança</li>
             </ul>
             <a
@@ -725,8 +700,7 @@ className="w-[330px] flex-shrink-0 rounded-3xl border border-border bg-card p-6 
               Perguntas <em className="not-italic text-azure-deep">frequentes</em>.
             </h2>
             <p className="mt-5 text-muted-foreground">
-              Tudo o que você precisa saber sobre telemedicina e teleconsulta. Caso
-              persista alguma dúvida, todas as informações também são passadas pela
+              Caso persista alguma dúvida, todas as informações também são passadas pela
               nossa equipe no WhatsApp.
             </p>
             <a
@@ -773,7 +747,7 @@ className="w-[330px] flex-shrink-0 rounded-3xl border border-border bg-card p-6 
       <br />
 
       <p className="mx-auto max-w-3xl text-justify text-muted-foreground leading-8">
-        A ASAS Telemedicina nasceu acreditando que o acesso à saúde de qualidade
+        A ASAS nasceu acreditando que o acesso à saúde de qualidade
         não deve ser um privilégio. Nossa missão é aproximar profissionais e
         pacientes por meio da tecnologia, contribuindo para a democratização do
         atendimento em saúde em todo o Brasil.
